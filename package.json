@@ -1,6 +1,7 @@
 {
   "name": "credencializacion-upem",
   "private": true,
+  "proxy": "proxy.js",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
