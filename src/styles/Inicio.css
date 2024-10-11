@@ -117,3 +117,14 @@ fieldset .form{
         width: 70%;
     }
 }
+@media (max-width: 385px){
+    .form-login-alumno input{
+        width: 100%;
+    }
+    .btn-login{
+        width: 100%;
+    }
+    .form-login-search{
+        width: 100%;
+    }
+}
