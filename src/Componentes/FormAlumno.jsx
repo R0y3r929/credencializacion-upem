@@ -47,7 +47,7 @@ const FormAlumno = () => {
                 alert(`🔸El alumno ${matricula} no existe o no ah tramitado, Contacte con Sistemas`);
                 setUser('')
                 setIsLogin(false)  
-                setMsj(`No exite tramite de credencializacion para: ${matricula}`);  
+                setMsj(`No exite tramite de credencializacion para: ${matricula} o no esta pendiente de tramite!!`);  
             }
         }else{
             alert(`🚫 Proporciona alguna matricula valida (9 digitos) para poder buscar!!`)
