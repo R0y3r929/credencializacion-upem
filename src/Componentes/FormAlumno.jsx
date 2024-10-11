@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import credenciales from '../files/credenciales'
-import Constantes from '../Constantes';
 import Notifs from './Notifs';
 const calculaVigencia=function(fecha){
     const arrayMonth=["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"];
@@ -31,13 +30,17 @@ const FormAlumno = () => {
             }) 
         }      
     }
-    const fetchDataAlumn = async (matricula) =>{
+    const filterUser = (matricula) => {
+        
+    };
+    const fetchDataAlumn = (matricula) =>{
         if(matricula!= '' && matricula.length===9){
-            const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
+            /*const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
             const peticion = await fetch(url)
-            const resp = await peticion.json()
-            if (Object.keys(resp).length > 0) {
-                setUser(resp)
+            const resp = await peticion.json()*/
+            const foundUser = alumnos.find(credencial => credencial.MATRÍCULA === matricula);
+            if (foundUser) {
+                setUser(foundUser)
                 setIsLogin(true)
                 setMsj('')
             }else{
@@ -77,15 +80,15 @@ const FormAlumno = () => {
                         <label>ALUMNO: </label>
                     </div>
                     <div className='values-data'>
-                        <span>{user[0].NOMBRE} {user[0].PATERNO} {user[0].MATERNO}</span>
+                        <span>{user.NOMBRE} {user.PATERNO} {user.MATERNO}</span>
                     </div>
                 </div>
                 <div className="match-credencial">
                     <div>
-                        <label>{user[0].NIVEL}: </label>
+                        <label>{user.NIVEL}: </label>
                     </div>
                     <div className='values-data'>
-                        <span>{user[0].carrera} | {user[0].modalidad}</span>
+                        <span>{user.carrera} | {user.modalidad}</span>
                     </div>
                 </div>
                 <div className="match-credencial">
@@ -93,7 +96,7 @@ const FormAlumno = () => {
                         <label>Vigencia: </label>
                     </div>
                     <div className='values-data'>
-                        <span>{calculaVigencia(user[0].vigencia)}</span>
+                        <span>{calculaVigencia(user.vigencia)}</span>
                     </div>
                 </div>
                 <div className="match-credencial">
@@ -101,12 +104,12 @@ const FormAlumno = () => {
                         <label>STATUS:</label> 
                     </div>
                     <div className='values-data'>
-                        <span>{user[0].status}</span>
+                        <span>{user.status}</span>
                     </div>
                 </div>
                 <div className='match-credencial'>
                     <div className='details-status'>
-                        <span>{(user[0].status === "GENERADA")? ` 🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa) !!`: (user[0].status === "IMPRESA") ? `🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`: `✅ Esta credencial ya se Entrego`}</span>
+                        <span>{(user.status === "GENERADA")? ` 🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa) !!`: (user.status === "IMPRESA") ? `🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`: `✅ Esta credencial ya se Entrego`}</span>
                     </div>
                 </div>
             </div>
