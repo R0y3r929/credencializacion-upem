@@ -1,0 +1,68 @@
+:root{
+	--gris:#F5EEEE;;
+	--fondo:#141414;
+    --principal:#273481 ;
+}
+body{
+	font-size: 15px;
+}
+ul, li{
+	text-decoration: none;
+}
+.navbar{
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 80px;
+}
+.container-fluid{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	margin:0px auto;
+	/*position: fixed;*/
+}
+.bg-personal{
+ background-color: var(--principal);
+}
+.logotipo{
+    font-family: 'Bebas Neue', 'Arial';
+	padding-top: 10px;
+	margin-right: 15px;
+	font-weight: normal;
+	color: var(--gris);
+	font-size: 19px;
+    text-align: start;
+    margin-left: 2em;
+	text-decoration: none;
+}
+.text-logo{/*Clase de Texto Logo U.P.E.M. | PLANTEL TEXCOCO*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: .9em;
+	/*font-weight: bolder;*/
+	padding-top: 10px;
+	padding-bottom: 5px;		
+}
+.titulo{
+	padding-bottom: 8px;
+}
+
+.text-logo:hover{
+	color: beige;
+}
+.text-logo div{
+	margin-bottom: -8px;
+}
+.navbar-item{
+	color: #F5EEEE;
+	padding-top: 10px;
+	font-size: 1.3em;
+	list-style: none;
+}
+.nav-link{
+	color: #F5EEEE;
+	text-decoration: none;
+}
