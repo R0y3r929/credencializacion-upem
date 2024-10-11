@@ -10,9 +10,11 @@ ul, li{
 	text-decoration: none;
 }
 .navbar{
+	display: flex;
 	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
+	padding: 0;
 	height: 80px;
 }
 .container-fluid{
