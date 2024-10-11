@@ -127,4 +127,8 @@ fieldset .form{
     .form-login-search{
         width: 100%;
     }
+    .content-text-descript{
+        width: 80%;
+        font-size: .7em;
+    }
 }
