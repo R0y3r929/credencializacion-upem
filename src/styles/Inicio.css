@@ -131,4 +131,7 @@ fieldset .form{
         width: 80%;
         font-size: .7em;
     }
+    .notif-noMatchs{
+        font-size: 1em;
+    }
 }
