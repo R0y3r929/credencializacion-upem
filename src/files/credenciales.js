@@ -15,6 +15,21 @@ export default[
 		"fecha": "2024-10-12T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "231280010",
+		"PATERNO": "MENDOZA",
+		"MATERNO": "TORRES",
+		"NOMBRE": "ALONDRA YULIET",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "231280010",
+		"fecha": "2024-10-12T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "231280008",
 		"PATERNO": "GARCIA",
 		"MATERNO": "JIMENEZ",
@@ -375,6 +390,21 @@ export default[
 		"fecha": "2024-10-12T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "241140014",
+		"PATERNO": "ARREDONDO",
+		"MATERNO": "DUANA",
+		"NOMBRE": "ALAN RAYMUNDO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURIA PUBLICA",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "241140014",
+		"fecha": "2024-10-12T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "241140006",
 		"PATERNO": "VILLAFUERTE",
 		"MATERNO": "FRANCO",
@@ -462,6 +492,21 @@ export default[
 		"repociciones": 1,
 		"status": "GENERADA",
 		"folio": "241310005",
+		"fecha": "2024-10-12T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "241310015",
+		"PATERNO": "LINARES",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "JOSE REY",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO OP",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "241310015",
 		"fecha": "2024-10-12T06:00:00.000Z"
 	},
 	{
@@ -597,6 +642,21 @@ export default[
 		"repociciones": 1,
 		"status": "GENERADA",
 		"folio": "241140019",
+		"fecha": "2024-10-12T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "241140020",
+		"PATERNO": "ROSALES",
+		"MATERNO": "CAMPERO",
+		"NOMBRE": "RENE EDUARDO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURIA PUBLICA",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "241140020",
 		"fecha": "2024-10-12T06:00:00.000Z"
 	},
 	{
@@ -1410,21 +1470,6 @@ export default[
 		"fecha": "2024-10-11T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "231280002",
-		"PATERNO": "RODRIGUEZ",
-		"MATERNO": "OLVERA",
-		"NOMBRE": "JANET",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "SABATINA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231280002",
-		"fecha": "2024-10-11T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "231280017",
 		"PATERNO": "DE LA ROSA",
 		"MATERNO": "SALAS",
@@ -1482,21 +1527,6 @@ export default[
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "231150015",
-		"fecha": "2024-10-11T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "231280035",
-		"PATERNO": "BARRERA",
-		"MATERNO": "VAZQUEZ",
-		"NOMBRE": "BEATRIZ",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "SABATINA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231280035",
 		"fecha": "2024-10-11T06:00:00.000Z"
 	},
 	{
@@ -1647,21 +1677,6 @@ export default[
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "241120008",
-		"fecha": "2024-10-11T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241120010",
-		"PATERNO": "RODRIGUEZ",
-		"MATERNO": "BALCAZAR",
-		"NOMBRE": "YECTLI ITZEL",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PSICOPEDAGOGIA",
-		"modalidad": "SABATINA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241120010",
 		"fecha": "2024-10-11T06:00:00.000Z"
 	},
 	{
