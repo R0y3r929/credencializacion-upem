@@ -9,6 +9,18 @@ const calculaVigencia=function(fecha){
     const mesLetra=arrayMonth[digito];
     return mesLetra+" de "+ano;
 };
+const notifs={
+    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa) !!`,
+    msgImpresa:`🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`,
+    msg2Impresa: `🟠 En caso de haber dejado copia, Sera necesario recuerdes el dia en que iniciaste tramite para agilizar la busqueda del mismo`,
+    msgEntregada: `✅ Esta credencial ya se Entrego!!`
+};
+const NotifImpresa = () => (
+    <div className='notif-impresa'>
+        <span>{notifs.msgImpresa}</span>
+        <span><b><u>{notifs.msg2Impresa}</u></b></span>
+    </div>
+);
 const FormAlumno = () => {
     const [alumnos, setAlumnos] = useState(credenciales);
     const initialForm = {matricula:''}
@@ -30,9 +42,6 @@ const FormAlumno = () => {
             }) 
         }      
     }
-    const filterUser = (matricula) => {
-        
-    };
     const fetchDataAlumn = (matricula) =>{
         if(matricula!= '' && matricula.length===9){
             /*const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
@@ -57,6 +66,7 @@ const FormAlumno = () => {
         e.preventDefault()
         fetchDataAlumn(inputs.matricula)
     }
+    
   return (
     <div className='form-login-search'>
       <fieldset>
@@ -109,7 +119,7 @@ const FormAlumno = () => {
                 </div>
                 <div className='match-credencial'>
                     <div className='details-status'>
-                        <span>{(user.status === "GENERADA")? ` 🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa) !!`: (user.status === "IMPRESA") ? `🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`: `✅ Esta credencial ya se Entrego`}</span>
+                        <span>{(user.status === "GENERADA")? `${notifs.msgGenerada}`: (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
                     </div>
                 </div>
             </div>

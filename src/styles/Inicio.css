@@ -97,7 +97,11 @@ fieldset .form{
     color: red;
     font-size: 1.5em;
 }
-
+.notif-impresa{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
 @media (min-width: 769px){
     .form-login-alumno input{
         width: 370px;
