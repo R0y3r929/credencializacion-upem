@@ -133,12 +133,18 @@ fieldset .form{
 }
 @media (max-width: 385px){
     .form-login-alumno input{
+        font-size: 1em;
+        border-radius: 10px;
         width: 100%;
     }
     .btn-login{
         width: 100%;
     }
+    .form-login-alumno label{
+        font-size: small;
+    }     
     .form-login-search{
+        margin-top: 4px;
         width: 100%;
     }
     .content-text-descript{
@@ -147,5 +153,21 @@ fieldset .form{
     }
     .notif-noMatchs{
         font-size: 1em;
+    }
+}
+@media (max-width: 221px){
+    .btn-login{
+        width: 150px;
+    }
+    .content-text-descript{
+        width: 100%;
+        padding: 15px;
+        margin: 5px auto;
+    }   
+    
+    .header{
+        margin-left: 13px;
+        text-align: center;
+        font-size: smaller;
     }
 }

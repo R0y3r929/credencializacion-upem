@@ -6,7 +6,7 @@ const Inicio = () => {
   return (
     <>
         <div className='header'>
-            <h1>Bienvenido Alumn@</h1>
+          <h1>Bienvenido Alumn@</h1>
         </div>
         <div className='content-text-descript'>
           <span className='text-descript'>🔸Aqui podras consultar el status de tu credencial recuerda tener a la mano tu matricula</span>

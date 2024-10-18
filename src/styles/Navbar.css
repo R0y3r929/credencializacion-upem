@@ -13,7 +13,7 @@ ul, li{
 	display: flex;
 	margin-top: -10px;
 	margin-left: -10px;
-	margin-right: -10px;
+	margin-right: -50px;
 	padding: 0;
 	height: 80px;
 }
@@ -67,4 +67,9 @@ ul, li{
 .nav-link{
 	color: #F5EEEE;
 	text-decoration: none;
+}
+@media (min-width: 122px){
+    .logotipo{
+		font-size: 1em;
+	}
 }
