@@ -10,18 +10,22 @@ h1{
 .content-text-descript{
     display: flex;
     flex-direction: column;
-    margin: 0px auto;
-    width: 50%;
+    margin: 30px auto;
+    width: 60%;
     /*border: 1px solid black;*/
+}
+.content-text-descript span{
+    margin-bottom: 4px;
 }
 .text-descript{
     color: gray;
 }
 .form-login-search{
-    margin: 90px auto;
+    margin: 75px auto;
     width: 60%;
     border: 2px solid '#ff0000';
-    padding: 10px;
+    /*background-color: aliceblue;*/
+    padding: 20px;
 }
 fieldset .form{
     border: 2px solid '#ff0000';
@@ -101,6 +105,12 @@ fieldset .form{
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
+}
+.notif-generada{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: center;
 }
 @media (min-width: 769px){
     .form-login-alumno input{

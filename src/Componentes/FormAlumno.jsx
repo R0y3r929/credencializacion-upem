@@ -10,7 +10,8 @@ const calculaVigencia=function(fecha){
     return mesLetra+" de "+ano;
 };
 const notifs={
-    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa), ¡¡ Mantente al pendiente por si el status cambia !!`,
+    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa)`,
+    msg2Generada: `¡¡ Mantente al pendiente por si el status cambia !!`,
     msgImpresa:`🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`,
     msg2Impresa: `🟠 En caso de haber dejado copia, Sera necesario recuerdes el dia en que iniciaste tramite para agilizar la busqueda del mismo`,
     msgEntregada: `✅ Esta credencial ya se Entrego!!`
@@ -21,6 +22,12 @@ const NotifImpresa = () => (
         <span><b><u>{notifs.msg2Impresa}</u></b></span>
     </div>
 );
+const NotifGenerada = () => (
+    <div className='notif-generada'>
+        <span>{notifs.msgGenerada}</span>
+        <span><b><u>{notifs.msg2Generada}</u></b></span>
+    </div>
+)
 const FormAlumno = () => {
     const [alumnos, setAlumnos] = useState(credenciales);
     const initialForm = {matricula:''}
@@ -119,7 +126,7 @@ const FormAlumno = () => {
                 </div>
                 <div className='match-credencial'>
                     <div className='details-status'>
-                        <span>{(user.status === "GENERADA")? `${notifs.msgGenerada}`: (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
+                        <span>{(user.status === "GENERADA")? <NotifGenerada/> : (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
                     </div>
                 </div>
             </div>
