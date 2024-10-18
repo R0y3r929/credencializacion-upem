@@ -10,7 +10,7 @@ const calculaVigencia=function(fecha){
     return mesLetra+" de "+ano;
 };
 const notifs={
-    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa) !!`,
+    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa), ¡¡ Mantente al pendiente por si el status cambia !!`,
     msgImpresa:`🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`,
     msg2Impresa: `🟠 En caso de haber dejado copia, Sera necesario recuerdes el dia en que iniciaste tramite para agilizar la busqueda del mismo`,
     msgEntregada: `✅ Esta credencial ya se Entrego!!`
