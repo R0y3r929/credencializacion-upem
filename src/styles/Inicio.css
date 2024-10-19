@@ -133,8 +133,9 @@ fieldset .form{
 }
 @media (max-width: 385px){
     .form-login-alumno input{
-        font-size: 1em;
+        font-size: .9em;
         border-radius: 10px;
+        padding: 15px;
         width: 100%;
     }
     .btn-login{
@@ -146,6 +147,7 @@ fieldset .form{
     .form-login-search{
         margin-top: 4px;
         width: 100%;
+        padding: 0%;
     }
     .content-text-descript{
         width: 80%;
