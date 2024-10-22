@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import credenciales from '../files/credenciales'
 import Notifs from './Notifs';
+import { Modal } from './Modal';
+
 const calculaVigencia=function(fecha){
     const arrayMonth=["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"];
     const pDig=fecha.substring(0, 2);
@@ -10,8 +12,8 @@ const calculaVigencia=function(fecha){
     return mesLetra+" de "+ano;
 };
 const notifs={
-    msgGenerada: `🔸La credencial ya se tramito pero aun no esta lista, (aun no se encuentra impresa)`,
-    msg2Generada: `¡¡ Mantente al pendiente por si el status cambia !!`,
+    msgGenerada: `🔸"La credencial ya se tramitó, pero aún no está lista (aún no se encuentra impresa).`,
+    msg2Generada: `¡¡ Mantente al pendiente por si el status cambia. !!`,
     msgImpresa:`🟢 La credencial se encuentra impresa, ya puedes pasar a recoger no olvides llevar copia de tu recibo de pago  y pluma para firmar!!`,
     msg2Impresa: `🟠 En caso de haber dejado copia, Sera necesario recuerdes el dia en que iniciaste tramite para agilizar la busqueda del mismo`,
     msgEntregada: `✅ Esta credencial ya se Entrego!!`
@@ -28,6 +30,49 @@ const NotifGenerada = () => (
         <span><b><u>{notifs.msg2Generada}</u></b></span>
     </div>
 )
+const CardMatch = ({user}) => {
+    return(
+        <div className='detail-credencial'>
+            <div className='match-credencial'>
+                <div>
+                    <label>ALUMNO: </label>
+                </div>
+                <div className='values-data'>
+                    <span>{user.NOMBRE} {user.PATERNO} {user.MATERNO}</span>
+                </div>
+            </div>
+            <div className="match-credencial">
+                <div>
+                    <label>{user.NIVEL}: </label>
+                </div>
+                <div className='values-data'>
+                    <span>{user.carrera} | {user.modalidad}</span>
+                </div>
+            </div>
+            <div className="match-credencial">
+                <div>
+                    <label>Vigencia: </label>
+                </div>
+                <div className='values-data'>
+                    <span>{calculaVigencia(user.vigencia)}</span>
+                </div>
+            </div>
+            <div className="match-credencial">
+                <div>
+                    <label>STATUS:</label> 
+                </div>
+                <div className='values-data'>
+                    <span>{user.status}</span>
+                </div>
+            </div>
+            <div className='match-credencial'>
+                <div className='details-status'>
+                    <span>{(user.status === "GENERADA")? <NotifGenerada/> : (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
+                </div>
+            </div>
+        </div>
+    )
+}
 const FormAlumno = () => {
     const [alumnos, setAlumnos] = useState(credenciales);
     const initialForm = {matricula:''}
@@ -35,6 +80,10 @@ const FormAlumno = () => {
     const [isLogin, setIsLogin] = useState(false);
     const [user, setUser] = useState('')
     const [msj, setMsj] = useState('')
+    const cerrarModal = ()=>{
+        setIsLogin(false);
+        setInputs({matricula:''})
+    }
     const onChange=(e)=>{// al detectar cambios en los inputs password y email se setean en cada uno
         const {name, value} = e.target;
         if (e.target.type !== "file") {
@@ -63,7 +112,7 @@ const FormAlumno = () => {
                 alert(`🔸El alumno ${matricula} no existe o no ah tramitado, Contacte con Sistemas`);
                 setUser('')
                 setIsLogin(false)  
-                setMsj(`No existe tramite de credencializacion para: ${matricula} o ya realizo el tramite y esta entregada para mas informacion Contacta a sistemas!!`);  
+                setMsj(`¡¡No existe trámite de credencialización para: ${matricula} o ya realizó el trámite y está entregada. Para más información, contacta a sistemas.!!`);  
             }
         }else{
             alert(`🚫 Proporciona alguna matricula valida (9 digitos) para poder buscar!!`)
@@ -83,7 +132,7 @@ const FormAlumno = () => {
                 <label htmlFor="matricula">Matricula:</label>
             </div>
             <div>
-                <input type="search" onChange={onChange} placeholder='Matricula' id='matricula' name='matricula'/>                
+                <input type="search" onChange={onChange} placeholder='Matricula' id='matricula' name='matricula' value={inputs.matricula}/>                
             </div>
             <div>
                 <button onClick={getAccess} className='btn-login'>Buscar</button>
@@ -91,45 +140,11 @@ const FormAlumno = () => {
         </form>
       </fieldset>
         {isLogin ?(
-            <div className='detail-credencial'>
-                <div className='match-credencial'>
-                    <div>
-                        <label>ALUMNO: </label>
-                    </div>
-                    <div className='values-data'>
-                        <span>{user.NOMBRE} {user.PATERNO} {user.MATERNO}</span>
-                    </div>
-                </div>
-                <div className="match-credencial">
-                    <div>
-                        <label>{user.NIVEL}: </label>
-                    </div>
-                    <div className='values-data'>
-                        <span>{user.carrera} | {user.modalidad}</span>
-                    </div>
-                </div>
-                <div className="match-credencial">
-                    <div>
-                        <label>Vigencia: </label>
-                    </div>
-                    <div className='values-data'>
-                        <span>{calculaVigencia(user.vigencia)}</span>
-                    </div>
-                </div>
-                <div className="match-credencial">
-                    <div>
-                        <label>STATUS:</label> 
-                    </div>
-                    <div className='values-data'>
-                        <span>{user.status}</span>
-                    </div>
-                </div>
-                <div className='match-credencial'>
-                    <div className='details-status'>
-                        <span>{(user.status === "GENERADA")? <NotifGenerada/> : (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
-                    </div>
-                </div>
-            </div>
+            <Modal onClose={cerrarModal}>
+                <CardMatch
+                    user={user}
+                />
+            </Modal>
         ): (msj!='')? (<Notifs msj={msj}/>):''}
     </div>
   )

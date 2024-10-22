@@ -1,0 +1,83 @@
+.bgventana{
+	position:fixed;
+	background:rgba(0,0,0,0.5);
+	opacity:1;
+	width:100%;
+	height:100%;		
+	top:0px;
+	left:0px;
+	z-index:5000;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scroll{
+	width:200px;
+	height:100px;
+	overflow: auto;
+	border:1px solid #000000; /* Solo lo puse para que se vea el cuadro*/
+}
+.modal-header{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1.3rem;
+}
+.modal-content{
+	margin-bottom: 2rem;
+}
+.modal-footer{
+	display: flex;
+	justify-content: center;
+}
+.ventana{
+	/*position:absolute;*/
+	width: 80%;
+	height: 50%;
+	overflow-y: scroll;
+	background-color: #FFF;
+	border:solid #666 5px;
+	top:30%;
+	left:50%;
+	padding: 2rem;
+}
+.modal_boton{
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+}
+.modal_pdf_boton{
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	right: 40px;
+	top: 10px;
+}
+.modal_barcode_boton{
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	right: 70px;
+	top: 10px;
+}
+.hideModal{
+  display: none;
+}
+.ventana span{
+	color: #666;
+	font-style: italic;
+	margin-bottom: 1.5em;
+}
+.ventana font{
+	cursor: pointer;
+}

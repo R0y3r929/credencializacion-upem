@@ -31,11 +31,12 @@ fieldset .form{
     border: 2px solid '#ff0000';
 }
 .detail-credencial{
-    border: 2px solid black;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    padding-left: 8px;
+    width: 70%;
+    margin: 100px auto;
+    border: 2px solid black;    
+    padding-left: 10px;
 }
 .form-login-alumno{
     display: flex;
@@ -104,12 +105,12 @@ fieldset .form{
 .notif-impresa{
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
 }
 .notif-generada{
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
     text-align: center;
 }
 @media (min-width: 769px){
@@ -129,6 +130,9 @@ fieldset .form{
     }
     .form-login-search{
         width: 70%;
+    }
+    .detail-credencial{
+        width: 100%;
     }
 }
 @media (max-width: 385px){
@@ -155,6 +159,12 @@ fieldset .form{
     }
     .notif-noMatchs{
         font-size: 1em;
+    }
+    .detail-credencial{
+        font-size: .7em;
+    }
+    .match-credencial{        
+        flex-direction: column;
     }
 }
 @media (max-width: 221px){
