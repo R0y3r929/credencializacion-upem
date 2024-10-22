@@ -144,6 +144,9 @@ const FormAlumno = () => {
                 <CardMatch
                     user={user}
                 />
+                <div className='option-modals'>
+                    <button className='btn-login' onClick={cerrarModal}>Cerrar</button>
+                </div>
             </Modal>
         ): (msj!='')? (<Notifs msj={msj}/>):''}
     </div>

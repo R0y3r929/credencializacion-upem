@@ -113,6 +113,12 @@ fieldset .form{
     margin-bottom: -10px;
     text-align: center;
 }
+.option-modals{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
 @media (min-width: 769px){
     .form-login-alumno input{
         width: 370px;
