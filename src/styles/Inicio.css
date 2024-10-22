@@ -139,6 +139,7 @@ fieldset .form{
     }
     .detail-credencial{
         width: 100%;
+        margin: 28px auto;
     }
 }
 @media (max-width: 385px){

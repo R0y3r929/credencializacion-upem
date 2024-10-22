@@ -81,3 +81,9 @@
 .ventana font{
 	cursor: pointer;
 }
+@media (max-width: 768px){
+    .ventana{
+		height: 80%;
+		margin-bottom: .3em;
+	}
+}
