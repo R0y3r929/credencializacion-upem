@@ -186,6 +186,7 @@ fieldset .form{
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 5px;
+    text-align: center;
 }
 .tab-status-cred-alumns{
 	padding: 3px 10px;
@@ -225,6 +226,19 @@ fieldset .form{
         width: 100%;
         margin: 28px auto;
     }
+    .regs-match-filtro{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .chips {
+        font-size: .7em;
+    }
+    .tableMatchs{
+        font-size: .7em;
+    }
+    .tableMatchs tr td {
+        padding: 2px;
+    }
 }
 @media (max-width: 385px){
     .form-login-alumno input{
@@ -256,6 +270,15 @@ fieldset .form{
     }
     .match-credencial{        
         flex-direction: column;
+    }
+    .chips {
+        font-size: .5em;
+    }
+    .tableMatchs{
+        font-size: .5em;
+    }
+    .tableMatchs tr td {
+        padding: 1px;
     }
 }
 @media (max-width: 221px){
