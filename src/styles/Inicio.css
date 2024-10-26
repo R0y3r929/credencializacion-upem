@@ -7,6 +7,45 @@ h1{
     justify-content: center;
     margin-top: 2em;
 }
+.form-NuevoIngreso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -10px auto;
+    /*border: 1px solid black;*/
+}
+.content-chips-carreras{
+    border: 1px solid rgb(219, 217, 217);
+}
+.box-chips{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.chips{
+    background-color: #b80816;
+    font-size: .9em;
+    font-style:normal;
+    margin: 5px;
+    padding: 5px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chips:hover{
+    cursor: pointer;
+}
+.chips > .status-chips{
+    color: rgb(253, 253, 253);
+}
+.activo{
+    font-weight: bolder;
+}
 .content-text-descript{
     display: flex;
     flex-direction: column;
@@ -58,6 +97,13 @@ fieldset .form{
     font-size: 1.3em;
     padding: 15px;
     border-radius: 10px;
+}
+.btn-nuevoIngreso{
+    padding: 5px;
+    background-color: #e97a12;
+    color: aliceblue;
+    font-size: small;
+    margin: 15px;
 }
 .btn-login{
     width: 550px;
@@ -118,6 +164,44 @@ fieldset .form{
     flex-direction: row;
     text-align: center;
     justify-content: center;
+}
+.regs-match-filtro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+.tableMatchs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.tableMatchs tr td {
+    border-bottom: 1px solid #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+}
+.tab-status-cred-alumns{
+	padding: 3px 10px;
+	font-size: smaller;
+	font-weight: bold;
+	color: #f8f6f6;	
+	border-radius: 5%;
+}
+.generada{
+	background-color: #eb6f0a;
+}
+.impresa{
+	background-color: #a80815;
+}
+.entregada{
+    background-color: #51eb0a;
 }
 @media (min-width: 769px){
     .form-login-alumno input{

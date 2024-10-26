@@ -2,7 +2,10 @@ import React from 'react'
 import { Link, NavLink } from "react-router-dom"
 import '../styles/Navbar.css'
 
-const NavbarPersonal = () => {
+const NavbarPersonal = ({modal, setModal}) => { 
+    const verFormNuevoIngreso = () =>{
+        setModal(true)
+    } 
   return (
     <> 
         <nav className="navbar navbar-expand-lg bg-personal border-bottom border-body fixed-top" data-bs-theme="dark">
@@ -17,10 +20,10 @@ const NavbarPersonal = () => {
                         </div>
                     </div>
                 </Link>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-item">
-                    </ul>
-                </div>
+                
+            </div>
+            <div className="collapse navbar-collapse" id="navbarNav">                                        
+                <button className='btn-nuevoIngreso' onClick={verFormNuevoIngreso}>Soy de Nuevo Ingreso</button>               
             </div>
         </nav>  
     </>

@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Inicio.css'
 import FormAlumno from '../Componentes/FormAlumno'
+import { Modal } from '../Componentes/Modal'
+import ChipsCarreras from '../Componentes/ChipsCarreras'
+import TableNi from '../Componentes/TableNi'
 
-const Inicio = () => {
+const Inicio = ({formNi, closeForm}) => {
+  const [selectedCarrera, setSelectedCarrera] = useState(null);
+  const [filtroNi, setFiltroNi] = useState([])
   return (
     <>
         <div className='header'>
@@ -18,6 +23,27 @@ const Inicio = () => {
         <div className='content-form'>
           <FormAlumno/>
         </div>
+        {formNi ? (
+          <Modal onClose={closeForm}>
+            <div className='form-NuevoIngreso'>
+              <h2>Formulario Busqueda Nuevo Ingreso</h2>
+              <div className='content-chips-carreras'>
+                <ChipsCarreras selectedCarrera={selectedCarrera} setSelectedCarrera={setSelectedCarrera} setFiltroNi={setFiltroNi}/>
+              </div>
+              <div className="regs-match-filtro">                
+                {
+                  (selectedCarrera != null) ? (
+                    <fieldset>
+                      <legend>Mostrando: {filtroNi.length} credenciales tramitadas de "{selectedCarrera}"</legend> 
+                      <TableNi alumnos={filtroNi}/>
+                    </fieldset>
+                  )
+                  : ''
+                } 
+              </div>
+            </div>
+          </Modal>
+        ):''}
     </>
     
   )
