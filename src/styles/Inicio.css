@@ -230,6 +230,9 @@ fieldset .form{
         width: 100%;
         overflow-x: auto;
     }
+    legend {
+        font-size: .5em;
+    }
     .chips {
         font-size: .7em;
     }
