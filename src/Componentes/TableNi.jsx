@@ -13,7 +13,6 @@ const TableNi = ({alumnos}) => {
             <tr>
                 <th>Matricula</th>
                 <th>Nombre</th>
-                <th>Carrera</th>
                 <th>Modalidad</th>
                 <th>Status</th>
             </tr>
@@ -23,7 +22,6 @@ const TableNi = ({alumnos}) => {
                 <tr>
                     <td>{alumno.MATRÍCULA}</td>
                     <td>{alumno.NOMBRE} {alumno.PATERNO} {alumno.MATERNO}</td>
-                    <td>{alumno.carrera} </td>
                     <td>{alumno.modalidad} </td>
                     <td><PillsStatus status={alumno.status}/></td>
                 </tr>
