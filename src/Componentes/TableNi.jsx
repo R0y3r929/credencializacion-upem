@@ -22,7 +22,7 @@ const TableNi = ({alumnos}) => {
                 <tr>
                     <td>{alumno.MATRÍCULA}</td>
                     <td>{alumno.NOMBRE} {alumno.PATERNO} {alumno.MATERNO}</td>
-                    <td>{alumno.modalidad} </td>
+                    <td className='modalidad-ni'>{alumno.modalidad}</td>
                     <td><PillsStatus status={alumno.status}/></td>
                 </tr>
             ))}

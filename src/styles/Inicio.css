@@ -204,6 +204,11 @@ fieldset .form{
 .entregada{
     background-color: #51eb0a;
 }
+.modalidad-ni{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 @media (min-width: 769px){
     .form-login-alumno input{
         width: 370px;
@@ -213,6 +218,9 @@ fieldset .form{
     }
 }
 @media (max-width: 768px){
+    .form-NuevoIngreso > h2{
+        font-size: 1.1em;
+    }
     .form-login-alumno input{
         width: 300px;
     }
@@ -234,13 +242,19 @@ fieldset .form{
         font-size: .5em;
     }
     .chips {
-        font-size: .7em;
+        font-size: .5em;
     }
     .tableMatchs{
-        font-size: .7em;
+        font-size: .4rem;
     }
     .tableMatchs tr td {
         padding: 2px;
+    }
+    .modalidad-ni{
+        max-width: 5px;
+    }
+    .tab-status-cred-alumns {
+        padding: 0px;
     }
 }
 @media (max-width: 385px){

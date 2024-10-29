@@ -26,7 +26,7 @@ const Inicio = ({formNi, closeForm}) => {
         {formNi ? (
           <Modal onClose={closeForm}>
             <div className='form-NuevoIngreso'>
-              <h2>Formulario Busqueda Nuevo Ingreso</h2>
+              <h2>Credenciales Nuevo Ingreso</h2>
               <div className='content-chips-carreras'>
                 <ChipsCarreras selectedCarrera={selectedCarrera} setSelectedCarrera={setSelectedCarrera} setFiltroNi={setFiltroNi}/>
               </div>
