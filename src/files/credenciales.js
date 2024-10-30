@@ -2773,5 +2773,5 @@ export default [
 		"status": "IMPRESA",
 		"folio": "243M06002",
 		"fecha": "2024-08-28T06:00:00.000Z"
-	}
+	},
 ]
