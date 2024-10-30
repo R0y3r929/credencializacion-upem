@@ -1710,6 +1710,21 @@ export default [
 		"fecha": "2024-10-02T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251300032",
+		"PATERNO": "MANCILLA",
+		"MATERNO": "GABRIEL",
+		"NOMBRE": "ALONDRA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251300032",
+		"fecha": "2024-10-29T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251300031",
 		"PATERNO": "LOPEZ",
 		"MATERNO": "PONCE",
@@ -5800,9 +5815,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190022",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190020",
