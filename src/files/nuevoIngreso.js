@@ -430,9 +430,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310058",
-		"fecha": "2024-10-28T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310057",
@@ -685,9 +685,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310035",
-		"fecha": "2024-10-28T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310034",
@@ -1720,9 +1720,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251300032",
-		"fecha": "2024-10-29T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300031",
@@ -2965,9 +2965,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251270114",
-		"fecha": "2024-10-29T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270113",
@@ -5275,9 +5275,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251210023",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210022",
@@ -11785,9 +11785,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251050015",
-		"fecha": "2024-10-28T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050013",
@@ -11815,9 +11815,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251050012",
-		"fecha": "2024-10-28T06:00:00.000Z"
+		"fecha": "2024-10-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050011",
