@@ -1735,9 +1735,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251300032",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300031",
@@ -2580,6 +2580,21 @@ export default [
 		"fecha": "2024-10-21T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251280034",
+		"PATERNO": "MARTINEZ ",
+		"MATERNO": "ROLDAN ",
+		"NOMBRE": "KARLA BRENDA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251280034",
+		"fecha": "2024-11-01T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251280033",
 		"PATERNO": "LUNA",
 		"MATERNO": "MENDOZA",
@@ -2758,6 +2773,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251280017",
 		"fecha": "2024-10-14T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251280016",
+		"PATERNO": "MIRANDA ",
+		"MATERNO": "VELEZ ",
+		"NOMBRE": "JOSE MIGUEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251280016",
+		"fecha": "2024-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280015",
@@ -6028,6 +6058,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251190007",
 		"fecha": "2024-10-21T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251190005",
+		"PATERNO": "BALTAZAR ",
+		"MATERNO": "GOMEZ ",
+		"NOMBRE": "SANDRA ELIZABETH ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251190005",
+		"fecha": "2024-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190004",
