@@ -1110,6 +1110,21 @@ export default [
 		"fecha": "2024-10-14T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251300077",
+		"PATERNO": "GARCIA ",
+		"MATERNO": "RAMOS ",
+		"NOMBRE": "ANGEL GABRIEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251300077",
+		"fecha": "2024-10-31T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251300076",
 		"PATERNO": "MORENO",
 		"MATERNO": "VICTORIA",
@@ -2965,9 +2980,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251270114",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-10-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270113",
@@ -3415,9 +3430,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251270080",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-10-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270079",
@@ -5275,9 +5290,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251210023",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-10-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210022",
@@ -5293,6 +5308,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251210022",
 		"fecha": "2024-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251210021",
+		"PATERNO": "CAMPOS",
+		"MATERNO": "MEJIA",
+		"NOMBRE": "FELIPE ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251210021",
+		"fecha": "2024-10-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210019",
