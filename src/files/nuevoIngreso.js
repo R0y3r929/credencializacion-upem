@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "251M05016",
+		"PATERNO": "CONDE ",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "LUIS RAZZIEL",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M05016",
+		"fecha": "2024-11-04T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251D01003",
 		"PATERNO": "VILLANUEVA",
 		"MATERNO": "GUTIERREZ",
@@ -430,9 +445,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251310058",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-11-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310057",
@@ -6145,9 +6160,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180147",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-11-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180146",
@@ -9400,9 +9415,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251140009",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251140008",
@@ -9907,12 +9922,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PSICOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251110055",
-		"fecha": "2024-10-16T06:00:00.000Z"
+		"fecha": "2024-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110054",
@@ -11860,9 +11875,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251050015",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-11-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050013",
@@ -11890,9 +11905,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251050012",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-11-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050011",
