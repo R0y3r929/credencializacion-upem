@@ -525,6 +525,21 @@ export default [
 		"fecha": "2024-10-21T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251310053",
+		"PATERNO": "CASTILLO ",
+		"MATERNO": "CHAPARRO ",
+		"NOMBRE": "IGNACIO ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251310053",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251310052",
 		"PATERNO": "CONDE ",
 		"MATERNO": "HERNANDEZ ",
@@ -1468,6 +1483,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251300055",
 		"fecha": "2024-09-27T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251300054",
+		"PATERNO": "ALEMAN",
+		"MATERNO": "ALVARADO",
+		"NOMBRE": "CAMILA QUETZALLI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251300054",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300053",
@@ -2895,6 +2925,21 @@ export default [
 		"fecha": "2024-09-27T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251280007",
+		"PATERNO": "NOPALTITLA",
+		"MATERNO": "PORTUGUEZ",
+		"NOMBRE": "CINTIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251280007",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251280006",
 		"PATERNO": "OLIVARES",
 		"MATERNO": "RAMIREZ",
@@ -3180,6 +3225,21 @@ export default [
 		"fecha": "2024-09-25T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251270102",
+		"PATERNO": "MATA",
+		"MATERNO": "CARRASCO",
+		"NOMBRE": "VALERIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251270102",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251270101",
 		"PATERNO": "CRUZ",
 		"MATERNO": "BARBOSA",
@@ -3418,6 +3478,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251270086",
 		"fecha": "2024-09-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251270085",
+		"PATERNO": "YEPEZ",
+		"MATERNO": "GALVAN",
+		"NOMBRE": "ESTRELLA LIZETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251270085",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270084",
@@ -6100,9 +6175,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190005",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190004",
@@ -6205,9 +6280,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180145",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180144",
@@ -9150,6 +9225,21 @@ export default [
 		"fecha": "2024-10-14T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251150009",
+		"PATERNO": "REYES",
+		"MATERNO": "RAMIREZ",
+		"NOMBRE": "MARICRUZ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NEGOCIOS INTERNACIONALES",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251150009",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251150008",
 		"PATERNO": "ESTRADA",
 		"MATERNO": "PEREZ",
@@ -9225,6 +9315,21 @@ export default [
 		"fecha": "2024-10-07T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251140032",
+		"PATERNO": "SANCHEZ",
+		"MATERNO": "MUÑOZ",
+		"NOMBRE": "ELIZABETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251140032",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251140031",
 		"PATERNO": "GARCIA",
 		"MATERNO": "HERRERA",
@@ -9253,6 +9358,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251140029",
 		"fecha": "2024-10-14T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251140028",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "JUAREZ",
+		"NOMBRE": "LUIS ALBERTO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251140028",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251140027",
@@ -9585,6 +9705,21 @@ export default [
 		"fecha": "2024-10-16T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251120004",
+		"PATERNO": "ROBLES",
+		"MATERNO": "ALVAREZ",
+		"NOMBRE": "ANA CECILIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOPEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251120004",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251120003",
 		"PATERNO": "SANTAMARIA",
 		"MATERNO": "ROJAS",
@@ -9628,6 +9763,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251110081",
 		"fecha": "2024-10-07T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251110080",
+		"PATERNO": "LIRA",
+		"MATERNO": "LOPEZ",
+		"NOMBRE": "MONICA CITLALI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251110080",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110079",
@@ -9847,12 +9997,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PSICOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251110063",
-		"fecha": "2024-09-27T06:00:00.000Z"
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110062",
@@ -11818,6 +11968,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251070010",
 		"fecha": "2024-09-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251070009",
+		"PATERNO": "ROJAS ",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "ANGEL GUADALUPE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO GRÁFICO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251070009",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251070008",
