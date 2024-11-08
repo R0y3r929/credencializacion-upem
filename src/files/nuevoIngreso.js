@@ -10,9 +10,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251M05016",
-		"fecha": "2024-11-04T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251D01003",
@@ -28,6 +28,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251D01003",
 		"fecha": "2024-10-19T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251320059",
+		"PATERNO": "ANGELES",
+		"MATERNO": "RAMIREZ",
+		"NOMBRE": "EDER DE JESUS",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ARQUITECTURA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251320059",
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251320058",
@@ -1135,9 +1150,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251300077",
-		"fecha": "2024-10-31T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300076",
@@ -2605,9 +2620,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251280034",
-		"fecha": "2024-11-01T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280033",
@@ -2800,9 +2815,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251280016",
-		"fecha": "2024-11-01T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280015",
@@ -5365,9 +5380,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251210021",
-		"fecha": "2024-10-31T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210019",
@@ -6085,9 +6100,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251190005",
-		"fecha": "2024-11-01T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190004",
@@ -6175,9 +6190,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180146",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180145",
@@ -8085,6 +8100,21 @@ export default [
 		"fecha": "2024-10-14T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251180003",
+		"PATERNO": "MENDEZ",
+		"MATERNO": "JUAREZ",
+		"NOMBRE": "JUANA JOSELIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251180003",
+		"fecha": "2024-11-07T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251180002",
 		"PATERNO": "AVILA",
 		"MATERNO": "DIAZ",
@@ -8983,6 +9013,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251150023",
 		"fecha": "2024-10-14T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251150022",
+		"PATERNO": "ALTAMIRANO",
+		"MATERNO": "MILLAN",
+		"NOMBRE": "DIRA LEILANI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NEGOCIOS INTERNACIONALES",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251150022",
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251150021",
@@ -9925,9 +9970,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251110055",
-		"fecha": "2024-11-05T06:00:00.000Z"
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110054",
@@ -10648,6 +10693,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251110001",
 		"fecha": "2024-10-07T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251100033",
+		"PATERNO": "MEDINA",
+		"MATERNO": "MENDEZ",
+		"NOMBRE": "BERENICE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251100033",
+		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251100032",
