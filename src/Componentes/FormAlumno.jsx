@@ -30,6 +30,11 @@ const NotifGenerada = () => (
         <span><b><u>{notifs.msg2Generada}</u></b></span>
     </div>
 )
+const EtiquetaGenerada = () => (
+    <>
+        <span>"EN TRAMITE" | La credencial aun no esta IMPRESA!!</span>
+    </>
+);
 const CardMatch = ({user}) => {
     return(
         <div className='detail-credencial'>
@@ -62,7 +67,7 @@ const CardMatch = ({user}) => {
                     <label>STATUS:</label> 
                 </div>
                 <div className='values-data'>
-                    <span>{user.status}</span>
+                    <span>{(user.status==="GENERADA")? <EtiquetaGenerada/> : user.status}</span>
                 </div>
             </div>
             <div className='match-credencial'>

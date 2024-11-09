@@ -10,9 +10,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M05016",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251D01003",
@@ -535,7 +535,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310053",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -1495,7 +1495,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251300054",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -2935,7 +2935,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251280007",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -3235,7 +3235,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251270102",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -3490,7 +3490,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251270085",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -4843,6 +4843,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251240008",
 		"fecha": "2024-10-16T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251240007",
+		"PATERNO": "VELEZ",
+		"MATERNO": "SALAZAR ",
+		"NOMBRE": "VANIA GUADALUPE ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251240007",
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251240006",
@@ -9235,7 +9250,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251150009",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -9325,7 +9340,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251140032",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -9370,7 +9385,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251140028",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -9715,7 +9730,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251120004",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -9775,7 +9790,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251110080",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -10000,7 +10015,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251110063",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -10120,9 +10135,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251110055",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110054",
@@ -11980,7 +11995,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251070009",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},

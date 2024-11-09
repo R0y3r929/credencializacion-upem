@@ -10,7 +10,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "221090012",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -25,7 +25,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "231140021",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -40,7 +40,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241300005",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -55,7 +55,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241100002",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -70,7 +70,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241140023",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -85,7 +85,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241M06003",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -100,7 +100,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251070009",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -115,7 +115,7 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251110063",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -130,7 +130,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251120004",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -145,8 +145,23 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251150009",
+		"fecha": "2024-11-08T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251240007",
+		"PATERNO": "VELEZ",
+		"MATERNO": "SALAZAR ",
+		"NOMBRE": "VANIA GUADALUPE ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251240007",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
 	{
@@ -160,7 +175,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251270085",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -175,7 +190,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251280007",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -190,7 +205,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251300054",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -205,7 +220,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251110080",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -220,7 +235,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251140028",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -235,7 +250,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251270102",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -250,7 +265,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310053",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -265,7 +280,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251140032",
 		"fecha": "2024-11-08T06:00:00.000Z"
 	},
@@ -525,21 +540,6 @@ export default [
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "231100028",
-		"PATERNO": "MARTINEZ",
-		"MATERNO": "ROSAS",
-		"NOMBRE": "KAREN GISELLE",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231100028",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "231170031",
 		"PATERNO": "ABASCAL",
 		"MATERNO": "LEON",
@@ -795,36 +795,6 @@ export default [
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "241100009",
-		"PATERNO": "GAYOSSO",
-		"MATERNO": "TOLENTINO",
-		"NOMBRE": "ERNESTO",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241100009",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241100008",
-		"PATERNO": "URIBE",
-		"MATERNO": "SANCHEZ",
-		"NOMBRE": "MARIA FERNANDA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241100008",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "241170023",
 		"PATERNO": "ALVAREZ",
 		"MATERNO": "SALDAÑA",
@@ -1005,21 +975,6 @@ export default [
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "251110055",
-		"PATERNO": "CRUZ ",
-		"MATERNO": "HERNANDEZ ",
-		"NOMBRE": "REBECA XIMENA ",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PSICOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251110055",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "251180003",
 		"PATERNO": "MENDEZ",
 		"MATERNO": "JUAREZ",
@@ -1122,21 +1077,6 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251100033",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251M05016",
-		"PATERNO": "CONDE ",
-		"MATERNO": "SANCHEZ",
-		"NOMBRE": "LUIS RAZZIEL",
-		"NIVEL": "MAESTRÍA",
-		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
-		"modalidad": "SABATINA",
-		"recibo": "007",
-		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "IMPRESA",
-		"folio": "251M05016",
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
@@ -1620,36 +1560,6 @@ export default [
 		"fecha": "2024-10-25T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "241180071",
-		"PATERNO": "GOMEZ",
-		"MATERNO": "CUEVAS",
-		"NOMBRE": "ALONDRA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241180071",
-		"fecha": "2024-10-25T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241180057",
-		"PATERNO": "VAZQUEZ",
-		"MATERNO": "GOMEZ",
-		"NOMBRE": "KEILA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241180057",
-		"fecha": "2024-10-25T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "241180096",
 		"PATERNO": "RODRIGUEZ",
 		"MATERNO": "LOPEZ",
@@ -1857,21 +1767,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "231310043",
-		"fecha": "2024-10-21T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241140028",
-		"PATERNO": "ESPINOZA",
-		"MATERNO": "ALVA",
-		"NOMBRE": "DIANA BELEM",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "CONTADURIA PUBLICA",
-		"modalidad": "SABATINA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241140028",
 		"fecha": "2024-10-21T06:00:00.000Z"
 	},
 	{
