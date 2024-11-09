@@ -2650,9 +2650,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251280034",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280033",
@@ -2845,9 +2845,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251280016",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280015",
@@ -4855,9 +4855,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251240007",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251240006",
@@ -6670,9 +6670,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180118",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180117",
@@ -9358,6 +9358,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251140031",
 		"fecha": "2024-10-07T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251140030",
+		"PATERNO": "VAZQUEZ",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "ELIZABETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251140030",
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251140029",
