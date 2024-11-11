@@ -30,6 +30,21 @@ export default [
 		"fecha": "2024-10-19T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251D01001",
+		"PATERNO": "ZUÑIGA",
+		"MATERNO": "REYES",
+		"NOMBRE": "FERNANDO",
+		"NIVEL": "DOCTORADO",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251D01001",
+		"fecha": "2024-11-11T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251320059",
 		"PATERNO": "ANGELES",
 		"MATERNO": "RAMIREZ",
@@ -730,9 +745,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251310035",
-		"fecha": "2024-10-30T06:00:00.000Z"
+		"fecha": "2024-11-09T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310034",
@@ -1495,9 +1510,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251300054",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2024-11-11T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300053",
