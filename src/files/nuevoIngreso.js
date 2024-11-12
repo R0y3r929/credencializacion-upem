@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "251M10006",
+		"PATERNO": "BUENDIA",
+		"MATERNO": "BOJORGES",
+		"NOMBRE": "ROSA EMILIA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "ADMINISTRACIÓN DE LA SALUD",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M10006",
+		"fecha": "2024-11-12T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M05016",
 		"PATERNO": "CONDE ",
 		"MATERNO": "SANCHEZ",
@@ -40,9 +55,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251D01001",
-		"fecha": "2024-11-11T06:00:00.000Z"
+		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251320059",
@@ -1180,9 +1195,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251300077",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300076",
@@ -9385,9 +9400,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251140030",
-		"fecha": "2024-11-09T06:00:00.000Z"
+		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251140029",
@@ -11587,12 +11602,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CIENCIAS DE LA COMUNICACIÓN",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251080007",
-		"fecha": "2024-10-03T06:00:00.000Z"
+		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251080005",
@@ -12148,6 +12163,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251050015",
 		"fecha": "2024-11-04T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251050014",
+		"PATERNO": "VELAZQUEZ",
+		"MATERNO": "GAMERO",
+		"NOMBRE": "MARIO FABIAN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251050014",
+		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050013",
