@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "231180059",
+		"PATERNO": "ALVA",
+		"MATERNO": "AMBRIZ",
+		"NOMBRE": "KARLA CITLALI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "231180059",
+		"fecha": "2024-11-13T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "221150001",
 		"PATERNO": "HERNANDEZ",
 		"MATERNO": "SANTILLAN",
@@ -330,6 +345,21 @@ export default [
 		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "241180025",
+		"PATERNO": "ALFARO",
+		"MATERNO": "MENDOZA",
+		"NOMBRE": "INGRID HUITZILIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "241180025",
+		"fecha": "2024-11-12T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "241240006",
 		"PATERNO": "DE LA CRUZ",
 		"MATERNO": "TORRES",
@@ -462,6 +492,51 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251050014",
+		"fecha": "2024-11-12T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06011",
+		"PATERNO": "ROLDAN",
+		"MATERNO": "PONCE",
+		"NOMBRE": "SHARON DENISSE",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06011",
+		"fecha": "2024-11-12T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M10003",
+		"PATERNO": "ROMERO",
+		"MATERNO": "VALENCIA",
+		"NOMBRE": "VALERIA ",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "ADMINISTRACIÓN DE LA SALUD",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M10003",
+		"fecha": "2024-11-12T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M10004",
+		"PATERNO": "ROMERO",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "HARIM",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "ADMINISTRACIÓN DE LA SALUD",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M10004",
 		"fecha": "2024-11-12T06:00:00.000Z"
 	},
 	{
@@ -750,21 +825,6 @@ export default [
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "231100022",
-		"PATERNO": "ORTEGA",
-		"MATERNO": "VELAZQUEZ",
-		"NOMBRE": "ESMERALDA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231100022",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "231170031",
 		"PATERNO": "ABASCAL",
 		"MATERNO": "LEON",
@@ -840,21 +900,6 @@ export default [
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "231100041",
-		"PATERNO": "SANCHEZ",
-		"MATERNO": "HERNANDEZ",
-		"NOMBRE": "ALINE MONSERRAT",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231100041",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "231170054",
 		"PATERNO": "MORALES",
 		"MATERNO": "FLORES",
@@ -867,21 +912,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "231170054",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "231100044",
-		"PATERNO": "ZAVALA",
-		"MATERNO": "ALMERAYA",
-		"NOMBRE": "DIANA GABRIELA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231100044",
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
@@ -912,21 +942,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "232270003",
-		"fecha": "2024-11-07T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "232300017",
-		"PATERNO": "URIBE",
-		"MATERNO": "DIAZ",
-		"NOMBRE": "YULIANA MONSERRAT",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "DERECHO OP",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "232300017",
 		"fecha": "2024-11-07T06:00:00.000Z"
 	},
 	{
