@@ -135,6 +135,21 @@ export default [
 		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M06019",
+		"PATERNO": "GARCIA",
+		"MATERNO": "GARCIA",
+		"NOMBRE": "ROCIO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06019",
+		"fecha": "2024-11-25T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M06017",
 		"PATERNO": "QUINTANA",
 		"MATERNO": "LUCAS",
@@ -148,6 +163,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M06017",
 		"fecha": "2024-11-20T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06015",
+		"PATERNO": "MANRIQUE",
+		"MATERNO": "GAYOSSO",
+		"NOMBRE": "JESUS IVAN",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06015",
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M06014",
@@ -205,9 +235,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M06009",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M06008",
@@ -225,6 +255,36 @@ export default [
 		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M06007",
+		"PATERNO": "GARCIA",
+		"MATERNO": "GALLEGOS",
+		"NOMBRE": "SELENE",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06007",
+		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06006",
+		"PATERNO": "GARCIA",
+		"MATERNO": "JARAMILLO",
+		"NOMBRE": "ALMA ROSA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06006",
+		"fecha": "2024-11-25T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M06004",
 		"PATERNO": "RAMIREZ",
 		"MATERNO": "ALBA",
@@ -238,6 +298,36 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M06004",
 		"fecha": "2024-11-20T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06003",
+		"PATERNO": "PINEDA",
+		"MATERNO": "LANDON",
+		"NOMBRE": "ELIDETH",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06003",
+		"fecha": "2024-11-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06001",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "IGLESIAS",
+		"NOMBRE": "MONTSERRAT ",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06001",
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M05022",
@@ -328,6 +418,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M05014",
 		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M05012",
+		"PATERNO": "MENESES",
+		"MATERNO": "COLON",
+		"NOMBRE": "DENISSE YAMILET",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M05012",
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M05011",
@@ -430,9 +535,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M05001",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M04021",
@@ -775,9 +880,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M01056",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01048",
@@ -870,6 +975,21 @@ export default [
 		"fecha": "2024-11-20T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M01037",
+		"PATERNO": "VELAZQUEZ",
+		"MATERNO": "NAVA",
+		"NOMBRE": "TERESA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M01037",
+		"fecha": "2024-11-25T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M01036",
 		"PATERNO": "SANCHEZ",
 		"MATERNO": "MIRANDA",
@@ -912,6 +1032,21 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251M01033",
+		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M01028",
+		"PATERNO": "VERGARA ",
+		"MATERNO": "BARRERA",
+		"NOMBRE": "DAPHNE ARIEL",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M01028",
 		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
@@ -985,7 +1120,7 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M01015",
 		"fecha": "2024-11-23T06:00:00.000Z"
 	},
@@ -1002,6 +1137,21 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251M01014",
+		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M01009",
+		"PATERNO": "OLALDE",
+		"MATERNO": "VIRRUETA",
+		"NOMBRE": "CARLOS HUMBERTO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M01009",
 		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
@@ -3025,9 +3175,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251300023",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300022",
@@ -10240,9 +10390,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251150022",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251150021",
@@ -10705,9 +10855,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251140013",
-		"fecha": "2024-11-20T06:00:00.000Z"
+		"fecha": "2024-11-23T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251140012",
@@ -10957,12 +11107,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PSICOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251110079",
-		"fecha": "2024-09-27T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110078",
@@ -13147,12 +13297,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DISEÑO GRÁFICO",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251070010",
-		"fecha": "2024-09-25T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251070009",
