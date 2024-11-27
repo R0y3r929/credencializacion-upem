@@ -10,9 +10,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M10015",
-		"fecha": "2024-11-20T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M10010",
@@ -55,9 +55,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M10006",
-		"fecha": "2024-11-12T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M10004",
@@ -133,6 +133,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M06022",
 		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M06021",
+		"PATERNO": "ROMERO",
+		"MATERNO": "OLIVER",
+		"NOMBRE": "JOEL OCTAVIO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M06021",
+		"fecha": "2024-11-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M06019",
@@ -820,9 +835,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M03010",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M03009",
@@ -1000,9 +1015,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M01036",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01035",
@@ -1075,9 +1090,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M01019",
-		"fecha": "2024-11-20T06:00:00.000Z"
+		"fecha": "2024-11-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01017",
@@ -1210,9 +1225,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251M01003",
-		"fecha": "2024-11-23T06:00:00.000Z"
+		"fecha": "2024-11-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01002",
@@ -1270,9 +1285,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251D01001",
-		"fecha": "2024-11-12T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251320060",
@@ -8790,6 +8805,21 @@ export default [
 		"fecha": "2024-10-07T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251180056",
+		"PATERNO": "RUIZ",
+		"MATERNO": "FLORES",
+		"NOMBRE": "ALEJANDRA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251180056",
+		"fecha": "2024-11-26T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251180055",
 		"PATERNO": "BAZAN",
 		"MATERNO": "AVILA",
@@ -9475,9 +9505,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180003",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180002",
@@ -11097,7 +11127,7 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251110080",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110079",
@@ -12192,7 +12222,7 @@ export default [
 		"repociciones": 0,
 		"status": "IMPRESA",
 		"folio": "251100033",
-		"fecha": "2024-11-07T06:00:00.000Z"
+		"fecha": "2024-11-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251100032",
@@ -13709,4 +13739,4 @@ export default [
 		"folio": "251030001",
 		"fecha": "2024-10-08T06:00:00.000Z"
 	}
-];
+]
