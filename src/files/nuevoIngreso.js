@@ -675,6 +675,36 @@ export default [
 		"fecha": "2024-12-02T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M04017",
+		"PATERNO": "MENDIETA",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "MARCELINO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO FISCAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M04017",
+		"fecha": "2024-12-04T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M04016",
+		"PATERNO": "HERNANDEZ",
+		"MATERNO": "ORDAZ",
+		"NOMBRE": "BRIGIDO ROBERTO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO FISCAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M04016",
+		"fecha": "2024-12-04T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M04013",
 		"PATERNO": "FONSECA",
 		"MATERNO": "MENDIZABAL",
@@ -4645,9 +4675,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251270102",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270101",
@@ -4900,9 +4930,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251270085",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270084",
@@ -6982,12 +7012,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CRIMINOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251210013",
-		"fecha": "2024-10-07T06:00:00.000Z"
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210012",
@@ -7432,12 +7462,27 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
 		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251190020",
+		"fecha": "2024-12-04T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251190019",
+		"PATERNO": "MIRANDA",
+		"MATERNO": "BAUTISTA",
+		"NOMBRE": "JOSE DE JESUS",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "ENTREGADA",
-		"folio": "251190020",
-		"fecha": "2024-10-07T06:00:00.000Z"
+		"status": "IMPRESA",
+		"folio": "251190019",
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190018",
@@ -7660,9 +7705,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190002",
-		"fecha": "2024-11-19T06:00:00.000Z"
+		"fecha": "2024-12-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190001",
@@ -7765,9 +7810,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180141",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180140",
@@ -8620,9 +8665,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180079",
-		"fecha": "2024-10-25T06:00:00.000Z"
+		"fecha": "2024-12-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180078",
@@ -9673,6 +9718,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251180001",
 		"fecha": "2024-10-14T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251170048",
+		"PATERNO": "HERRERA",
+		"MATERNO": "GARCIA",
+		"NOMBRE": "ERIKA JANET",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251170048",
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170047",
@@ -11275,9 +11335,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251110079",
-		"fecha": "2024-11-27T06:00:00.000Z"
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251110078",
