@@ -1,5 +1,50 @@
 export default [
 	{
+		"MATRÍCULA": "241100037",
+		"PATERNO": "ESPINOSA",
+		"MATERNO": "CORTES",
+		"NOMBRE": "YARELI GRISEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "241100037",
+		"fecha": "2024-12-05T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "242M05011",
+		"PATERNO": "PEÑA",
+		"MATERNO": "MARTINEZ",
+		"NOMBRE": "KATHERIN MICHELLE",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
+		"modalidad": "MAESTRIA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "242M05011",
+		"fecha": "2024-12-05T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M01024",
+		"PATERNO": "ESPINOSA",
+		"MATERNO": "RODRIGUEZ",
+		"NOMBRE": "ALEXANDRA NAOMI",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M01024",
+		"fecha": "2024-12-05T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "231100005",
 		"PATERNO": "SERVIN",
 		"MATERNO": "GUADARRAMA",
@@ -90,18 +135,18 @@ export default [
 		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "251190019",
-		"PATERNO": "MIRANDA",
-		"MATERNO": "BAUTISTA",
-		"NOMBRE": "JOSE DE JESUS",
+		"MATRÍCULA": "251170011",
+		"PATERNO": "DIAZ",
+		"MATERNO": "CORIA",
+		"NOMBRE": "DAARON JOSAFAT",
 		"NIVEL": "LICENCIATURA",
-		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"carrera": "NUTRICIÓN",
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
-		"folio": "251190019",
+		"status": "GENERADA",
+		"folio": "251170011",
 		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
@@ -192,21 +237,6 @@ export default [
 		"repociciones": 2,
 		"status": "IMPRESA",
 		"folio": "232110004",
-		"fecha": "2024-12-02T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241180039",
-		"PATERNO": "ANGELES",
-		"MATERNO": "BARRIOS",
-		"NOMBRE": "EVELYN",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241180039",
 		"fecha": "2024-12-02T06:00:00.000Z"
 	},
 	{
@@ -627,21 +657,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251070010",
-		"fecha": "2024-11-27T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251180056",
-		"PATERNO": "RUIZ",
-		"MATERNO": "FLORES",
-		"NOMBRE": "ALEJANDRA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
-		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "IMPRESA",
-		"folio": "251180056",
 		"fecha": "2024-11-27T06:00:00.000Z"
 	},
 	{

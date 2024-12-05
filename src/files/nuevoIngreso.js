@@ -1245,6 +1245,21 @@ export default [
 		"fecha": "2024-11-22T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M01024",
+		"PATERNO": "ESPINOSA",
+		"MATERNO": "RODRIGUEZ",
+		"NOMBRE": "ALEXANDRA NAOMI",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251M01024",
+		"fecha": "2024-12-05T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M01019",
 		"PATERNO": "ESPEJEL",
 		"MATERNO": "RODRIGUEZ",
@@ -7480,9 +7495,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190019",
-		"fecha": "2024-12-04T06:00:00.000Z"
+		"fecha": "2024-12-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190018",
@@ -8995,9 +9010,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180056",
-		"fecha": "2024-11-27T06:00:00.000Z"
+		"fecha": "2024-12-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180055",
@@ -10243,6 +10258,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251170012",
 		"fecha": "2024-10-07T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251170011",
+		"PATERNO": "DIAZ",
+		"MATERNO": "CORIA",
+		"NOMBRE": "DAARON JOSAFAT",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251170011",
+		"fecha": "2024-12-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170010",
