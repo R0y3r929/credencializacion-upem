@@ -625,9 +625,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251M05005",
-		"fecha": "2024-12-12T06:00:00.000Z"
+		"fecha": "2024-12-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M05003",
@@ -1183,6 +1183,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M01048",
 		"fecha": "2024-11-23T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M01047",
+		"PATERNO": "VELASCO",
+		"MATERNO": "DURAN",
+		"NOMBRE": "ARTURO",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M01047",
+		"fecha": "2024-12-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01046",
@@ -7825,9 +7840,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251190007",
-		"fecha": "2024-12-09T06:00:00.000Z"
+		"fecha": "2024-12-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190005",
@@ -10090,9 +10105,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251170036",
-		"fecha": "2024-12-11T06:00:00.000Z"
+		"fecha": "2024-12-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170035",
