@@ -209,6 +209,19 @@ fieldset .form{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.content-avisos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-avisos h3{
+    color: #b80816;
+    font-size: 2em;
+}
+.box-items-aviso ul li{
+    /*border: 1px solid gray;*/
+    margin-bottom: 10px;
+}
 @media (min-width: 769px){
     .form-login-alumno input{
         width: 370px;

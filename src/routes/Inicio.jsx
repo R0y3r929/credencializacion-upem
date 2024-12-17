@@ -44,6 +44,15 @@ const Inicio = ({formNi, closeForm}) => {
             </div>
           </Modal>
         ):''}
+        <div className='content-avisos'>
+          <h3>AVISOS</h3>
+          <div className="box-items-aviso">
+            <ul>
+              <li><u>El periodo de tramite de credenciales termino</u> mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              <li>El ultimo dia que tienes para recoger si aun no lo has hecho es el 15 de enero del 2025.</li>
+            </ul>
+          </div>
+        </div>
     </>
     
   )
