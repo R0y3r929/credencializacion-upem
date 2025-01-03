@@ -249,6 +249,9 @@ fieldset .form{
     .form-login-search{
         width: 70%;
     }
+    .content-avisos{
+        width: 70%;
+    }
     .detail-credencial{
         width: 100%;
         margin: 28px auto;
@@ -293,6 +296,9 @@ fieldset .form{
         margin-top: 4px;
         width: 100%;
         padding: 0%;
+    }
+    .content-avisos{
+        width: 100%;
     }
     .content-text-descript{
         width: 80%;
