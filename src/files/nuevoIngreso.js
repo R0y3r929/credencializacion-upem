@@ -1125,6 +1125,21 @@ export default [
 		"fecha": "2024-12-07T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M01058",
+		"PATERNO": "MATEOS",
+		"MATERNO": "ESPEJEL",
+		"NOMBRE": "ASTRID YOLOTZIN",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M01058",
+		"fecha": "2025-01-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M01057",
 		"PATERNO": "SANCHEZ",
 		"MATERNO": "GONZALEZ",
@@ -3367,12 +3382,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DERECHO",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251300034",
-		"fecha": "2024-10-02T06:00:00.000Z"
+		"fecha": "2025-01-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300033",
@@ -7522,12 +7537,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "INGENIERÍA INDUSTRIAL",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251200003",
-		"fecha": "2024-09-27T06:00:00.000Z"
+		"fecha": "2025-01-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251200001",
@@ -9415,9 +9430,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180035",
-		"fecha": "2024-12-09T06:00:00.000Z"
+		"fecha": "2024-12-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180034",
@@ -10105,9 +10120,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251170036",
-		"fecha": "2024-12-14T06:00:00.000Z"
+		"fecha": "2025-01-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170035",
@@ -10555,9 +10570,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251170002",
-		"fecha": "2024-12-09T06:00:00.000Z"
+		"fecha": "2025-01-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170001",
@@ -13897,12 +13912,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CONTADURÍA PÚBLICA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251050013",
-		"fecha": "2024-09-25T06:00:00.000Z"
+		"fecha": "2025-01-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050012",

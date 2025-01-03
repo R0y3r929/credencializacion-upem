@@ -60,7 +60,7 @@ h1{
     color: gray;
 }
 .form-login-search{
-    margin: 75px auto;
+    margin: 75px auto 5px auto;
     width: 60%;
     border: 2px solid '#ff0000';
     /*background-color: aliceblue;*/
@@ -213,6 +213,12 @@ fieldset .form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 35px;
+    border: 2px solid red;
+    background-color: #1b1c7031;
+    border-radius: 5px;
 }
 .content-avisos h3{
     color: #b80816;
