@@ -1735,9 +1735,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251320050",
-		"fecha": "2025-01-10T06:00:00.000Z"
+		"fecha": "2025-01-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251320049",
@@ -2080,9 +2080,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251310063",
-		"fecha": "2025-01-14T06:00:00.000Z"
+		"fecha": "2025-01-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310059",
@@ -2650,9 +2650,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310014",
-		"fecha": "2025-01-14T06:00:00.000Z"
+		"fecha": "2025-01-15T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310013",
@@ -2845,9 +2845,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251300076",
-		"fecha": "2025-01-13T06:00:00.000Z"
+		"fecha": "2025-01-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300075",
@@ -3595,9 +3595,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251300022",
-		"fecha": "2025-01-13T06:00:00.000Z"
+		"fecha": "2025-01-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300021",
@@ -3655,9 +3655,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251300018",
-		"fecha": "2025-01-13T06:00:00.000Z"
+		"fecha": "2025-01-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300017",
@@ -4687,12 +4687,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PEDAGOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251270118",
-		"fecha": "2024-10-21T06:00:00.000Z"
+		"fecha": "2025-01-16T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270117",
@@ -7510,9 +7510,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251200011",
-		"fecha": "2025-01-13T06:00:00.000Z"
+		"fecha": "2025-01-15T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251200010",
@@ -13927,12 +13927,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DISEÑO GRÁFICO",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251070001",
-		"fecha": "2024-10-14T06:00:00.000Z"
+		"fecha": "2025-01-21T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050015",
