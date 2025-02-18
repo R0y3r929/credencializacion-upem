@@ -135,6 +135,21 @@ export default [
 		"fecha": "2025-01-06T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251M06023",
+		"PATERNO": "SANCHEZ",
+		"MATERNO": "ALVARADO",
+		"NOMBRE": "NAYELY",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251M06023",
+		"fecha": "2025-01-27T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251M06022",
 		"PATERNO": "YESCAS",
 		"MATERNO": "AGUILAR",
@@ -913,6 +928,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251M03029",
 		"fecha": "2025-01-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251M03027",
+		"PATERNO": "BARRIOS",
+		"MATERNO": "CUEVAS",
+		"NOMBRE": "PRISCILA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "ADMINISTRACIÓN DE NEGOCIOS",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "ENTREGADA",
+		"folio": "251M03027",
+		"fecha": "2025-02-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M03024",
@@ -2002,12 +2032,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "ARQUITECTURA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251320014",
-		"fecha": "2024-09-25T06:00:00.000Z"
+		"fecha": "2025-02-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251320013",
@@ -2185,9 +2215,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251310053",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2025-01-23T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310052",
@@ -2767,12 +2797,27 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DERECHO",
 		"modalidad": "SABATINA",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251310003",
-		"fecha": "2024-10-21T06:00:00.000Z"
+		"fecha": "2025-01-27T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251310002",
+		"PATERNO": "AGUIRRE",
+		"MATERNO": "ESPINOSA",
+		"NOMBRE": "ANDREA CAROLINA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251310002",
+		"fecha": "2025-02-15T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310001",
@@ -3873,7 +3918,7 @@ export default [
 		"MATRÍCULA": "251300001",
 		"PATERNO": "ESCUDERO",
 		"MATERNO": "LAZCANO",
-		"NOMBRE": "MARELNE YAMILEE",
+		"NOMBRE": "MARELNE YAMILE",
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DERECHO",
 		"modalidad": "CUATRIMESTRAL",
@@ -4600,9 +4645,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251280007",
-		"fecha": "2024-11-08T06:00:00.000Z"
+		"fecha": "2025-01-23T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251280006",
@@ -4623,7 +4668,7 @@ export default [
 		"MATRÍCULA": "251280005",
 		"PATERNO": "GODINEZ",
 		"MATERNO": "HERRERA",
-		"NOMBRE": "MIZLI AKETZALI",
+		"NOMBRE": "MIZTLI AKETZALI",
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PEDAGOGÍA",
 		"modalidad": "SABATINA",
@@ -5722,12 +5767,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "PEDAGOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251270045",
-		"fecha": "2024-10-07T06:00:00.000Z"
+		"fecha": "2025-02-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251270044",
@@ -6982,12 +7027,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DISEÑO DE MODAS",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251220003",
-		"fecha": "2024-10-14T06:00:00.000Z"
+		"fecha": "2025-02-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251220002",
@@ -7087,12 +7132,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CRIMINOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251210025",
-		"fecha": "2024-10-07T06:00:00.000Z"
+		"fecha": "2025-01-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210024",
@@ -7177,12 +7222,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CRIMINOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251210018",
-		"fecha": "2024-10-03T06:00:00.000Z"
+		"fecha": "2025-01-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210017",
@@ -7584,10 +7629,10 @@ export default [
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 1,
+		"repociciones": 2,
 		"status": "ENTREGADA",
 		"folio": "251200003",
-		"fecha": "2025-01-06T06:00:00.000Z"
+		"fecha": "2025-01-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251200001",
@@ -7618,6 +7663,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251190031",
 		"fecha": "2025-01-10T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251190030",
+		"PATERNO": "CASTILLO",
+		"MATERNO": "MARTINEZ",
+		"NOMBRE": "JARED ISAI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "251190030",
+		"fecha": "2025-02-18T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190029",
@@ -7663,6 +7723,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251190027",
 		"fecha": "2024-10-21T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251190025",
+		"PATERNO": "NAJERA",
+		"MATERNO": "MARTINEZ",
+		"NOMBRE": "JOSE ANGEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251190025",
+		"fecha": "2025-02-14T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190024",
@@ -8917,12 +8992,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "ODONTOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251180079",
-		"fecha": "2024-12-02T06:00:00.000Z"
+		"fecha": "2025-01-28T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180078",
@@ -10360,9 +10435,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251170022",
-		"fecha": "2025-01-10T06:00:00.000Z"
+		"fecha": "2025-02-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251170021",
@@ -13930,9 +14005,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251070001",
-		"fecha": "2025-01-21T06:00:00.000Z"
+		"fecha": "2025-02-11T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050015",
