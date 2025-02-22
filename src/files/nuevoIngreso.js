@@ -2815,9 +2815,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251310002",
-		"fecha": "2025-02-15T06:00:00.000Z"
+		"fecha": "2025-02-21T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310001",
@@ -7675,9 +7675,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251190030",
-		"fecha": "2025-02-18T06:00:00.000Z"
+		"fecha": "2025-02-21T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190029",
@@ -7725,6 +7725,21 @@ export default [
 		"fecha": "2024-10-21T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "251190026",
+		"PATERNO": "JUAREZ ",
+		"MATERNO": "CORTES ",
+		"NOMBRE": "LESLY CITLALI ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251190026",
+		"fecha": "2025-02-21T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251190025",
 		"PATERNO": "NAJERA",
 		"MATERNO": "MARTINEZ",
@@ -7735,9 +7750,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190025",
-		"fecha": "2025-02-14T06:00:00.000Z"
+		"fecha": "2025-02-19T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190024",
@@ -8512,12 +8527,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "ODONTOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251180114",
-		"fecha": "2024-10-14T06:00:00.000Z"
+		"fecha": "2025-02-21T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180113",
