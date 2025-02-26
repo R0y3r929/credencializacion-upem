@@ -2542,12 +2542,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DERECHO",
 		"modalidad": "SABATINA",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251310023",
-		"fecha": "2024-10-07T06:00:00.000Z"
+		"fecha": "2025-02-24T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310022",
@@ -2815,9 +2815,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251310002",
-		"fecha": "2025-02-21T06:00:00.000Z"
+		"fecha": "2025-02-22T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310001",
@@ -7735,9 +7735,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190026",
-		"fecha": "2025-02-21T06:00:00.000Z"
+		"fecha": "2025-02-22T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190025",
@@ -11038,6 +11038,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251150019",
 		"fecha": "2024-10-07T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251150018",
+		"PATERNO": "RUIZ",
+		"MATERNO": "ALEJO",
+		"NOMBRE": "GIOVANNY",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NEGOCIOS INTERNACIONALES",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "ENTREGADA",
+		"folio": "251150018",
+		"fecha": "2025-02-22T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251150017",
