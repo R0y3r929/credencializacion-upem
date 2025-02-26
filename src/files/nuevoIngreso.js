@@ -7675,9 +7675,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251190030",
-		"fecha": "2025-02-21T06:00:00.000Z"
+		"fecha": "2025-02-26T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190029",

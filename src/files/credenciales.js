@@ -1,5 +1,35 @@
 export default [
 	{
+		"MATRÍCULA": "231070003",
+		"PATERNO": "ESPINOZA",
+		"MATERNO": "MENDEZ",
+		"NOMBRE": "RAMON",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO GRAFICO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "231070003",
+		"fecha": "2025-02-26T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "231070029",
+		"PATERNO": "DIAZ",
+		"MATERNO": "TELLEZ",
+		"NOMBRE": "MARIA FERNANDA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO GRAFICO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "231070029",
+		"fecha": "2025-02-26T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "221270038",
 		"PATERNO": "COLIN",
 		"MATERNO": "HERNANDEZ",
@@ -132,21 +162,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251180114",
-		"fecha": "2025-02-21T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251190030",
-		"PATERNO": "CASTILLO",
-		"MATERNO": "MARTINEZ",
-		"NOMBRE": "JARED ISAI",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "IMPRESA",
-		"folio": "251190030",
 		"fecha": "2025-02-21T06:00:00.000Z"
 	},
 	{
