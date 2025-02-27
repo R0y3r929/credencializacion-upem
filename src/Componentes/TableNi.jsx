@@ -11,6 +11,7 @@ const TableNi = ({alumnos}) => {
       <table className="tableMatchs">
         <thead>
             <tr>
+                <th>#</th>
                 <th>Matricula</th>
                 <th>Nombre</th>
                 <th>Modalidad</th>
@@ -18,12 +19,13 @@ const TableNi = ({alumnos}) => {
             </tr>
         </thead>
         <tbody>
-            {alumnos.map(alumno=>(
+            {alumnos.map((alumno, index)=>(
                 <tr>
-                    <td>{alumno.MATRÍCULA}</td>
-                    <td>{alumno.NOMBRE} {alumno.PATERNO} {alumno.MATERNO}</td>
-                    <td className='modalidad-ni'>{alumno.modalidad}</td>
-                    <td><PillsStatus status={alumno.status}/></td>
+                  <td><font className="numb-reg">{index+1}</font></td>
+                  <td>{alumno.MATRÍCULA}</td>
+                  <td>{alumno.NOMBRE} {alumno.PATERNO} {alumno.MATERNO}</td>
+                  <td className='modalidad-ni'>{alumno.modalidad}</td>
+                  <td><PillsStatus status={alumno.status}/></td>
                 </tr>
             ))}
         </tbody>

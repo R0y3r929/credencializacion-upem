@@ -1,7 +1,11 @@
 import React from 'react'
+
+
 const TabsStatus = ({ status, carrer, onClick}) => {  
   return (
-    <span className={`status-chips ${status && 'activo'}`} onClick={onClick}>{status && '🟢'}{carrer}</span>
+    <>
+      <span className={`status-chips ${status && 'activo'}`} onClick={onClick}>{status && '🟢'}{carrer}</span>
+    </>
   );
 };
 

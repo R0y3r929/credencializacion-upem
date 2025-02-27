@@ -29,13 +29,15 @@ h1{
     font-size: .9em;
     font-style:normal;
     margin: 5px;
-    padding: 5px;
+    padding: 2px;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 251, 251);
+    font-weight: bolder;
 }
 .chips:hover{
     cursor: pointer;
@@ -165,6 +167,10 @@ fieldset .form{
     text-align: center;
     justify-content: center;
 }
+.fieldset-table-ni{
+    width: 80%;
+    padding: 35px;
+}
 .regs-match-filtro{
     display: flex;
     flex-direction: row;
@@ -209,6 +215,9 @@ fieldset .form{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.numb-reg{
+    font-weight: bold;
+}
 .content-avisos{
     display: flex;
     flex-direction: column;
@@ -227,6 +236,12 @@ fieldset .form{
 .box-items-aviso ul li{
     /*border: 1px solid gray;*/
     margin-bottom: 10px;
+}
+.count-carrer{
+    background-color: rgba(9, 59, 151, 0.623);
+    border-radius: 40%;
+    margin-left: 5px;
+    padding: 1px;
 }
 @media (min-width: 769px){
     .form-login-alumno input{
@@ -267,7 +282,7 @@ fieldset .form{
         font-size: .5em;
     }
     .tableMatchs{
-        font-size: .4rem;
+        font-size: .5rem;
     }
     .tableMatchs tr td {
         padding: 2px;

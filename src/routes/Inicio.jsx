@@ -33,7 +33,7 @@ const Inicio = ({formNi, closeForm}) => {
               <div className="regs-match-filtro">                
                 {
                   (selectedCarrera != null) ? (
-                    <fieldset>
+                    <fieldset className='fieldset-table-ni'>
                       <legend>Mostrando: {filtroNi.length} credenciales tramitadas de "{selectedCarrera}"</legend> 
                       <TableNi alumnos={filtroNi}/>
                     </fieldset>
