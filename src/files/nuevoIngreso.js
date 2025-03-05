@@ -1597,12 +1597,12 @@ export default [
 		"NIVEL": "MAESTRÍA",
 		"carrera": "DERECHO PENAL",
 		"modalidad": "SABATINA",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "251M01003",
-		"fecha": "2024-11-26T06:00:00.000Z"
+		"fecha": "2025-03-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01002",
@@ -2545,9 +2545,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251310023",
-		"fecha": "2025-02-24T06:00:00.000Z"
+		"fecha": "2025-02-28T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310022",
@@ -3613,6 +3613,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251300025",
 		"fecha": "2024-10-14T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251300024",
+		"PATERNO": "PEREZ ",
+		"MATERNO": "COVA ",
+		"NOMBRE": "ALEXA ESTEFANIA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "ENTREGADA",
+		"folio": "251300024",
+		"fecha": "2025-03-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251300023",
@@ -7644,10 +7659,10 @@ export default [
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "ENTREGADA",
+		"repociciones": 2,
+		"status": "GENERADA",
 		"folio": "251200001",
-		"fecha": "2024-10-03T06:00:00.000Z"
+		"fecha": "2025-03-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190031",
@@ -8530,9 +8545,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251180114",
-		"fecha": "2025-02-21T06:00:00.000Z"
+		"fecha": "2025-03-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251180113",
@@ -12805,9 +12820,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251100033",
-		"fecha": "2024-11-25T06:00:00.000Z"
+		"fecha": "2025-02-28T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251100032",
