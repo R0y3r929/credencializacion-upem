@@ -1600,9 +1600,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251M01003",
-		"fecha": "2025-03-04T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251M01002",
@@ -2113,6 +2113,36 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "251310063",
 		"fecha": "2025-01-16T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251310062",
+		"PATERNO": "TORRES",
+		"MATERNO": "ESPINOZA",
+		"NOMBRE": "BRUNO ALEXIS ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251310062",
+		"fecha": "2025-03-08T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251310061",
+		"PATERNO": "REYES",
+		"MATERNO": "MONTALVO",
+		"NOMBRE": "ABIGAIL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "251310061",
+		"fecha": "2025-03-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310059",
@@ -2680,9 +2710,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "251310014",
-		"fecha": "2025-01-15T06:00:00.000Z"
+		"fecha": "2025-03-08T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251310013",
@@ -6772,12 +6802,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "TURISMO",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "067",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 2,
 		"status": "ENTREGADA",
 		"folio": "251230003",
-		"fecha": "2024-09-25T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251230002",
@@ -7357,12 +7387,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CRIMINOLOGÍA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251210008",
-		"fecha": "2024-10-03T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251210007",
@@ -7660,9 +7690,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "ENTREGADA",
 		"folio": "251200001",
-		"fecha": "2025-03-05T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251190031",
@@ -12877,12 +12907,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "GASTRONOMIA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "067",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 3,
 		"status": "ENTREGADA",
 		"folio": "251100028",
-		"fecha": "2024-09-27T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251100027",
@@ -13972,12 +14002,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "DISEÑO GRÁFICO",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
+		"repociciones": 1,
 		"status": "ENTREGADA",
 		"folio": "251070007",
-		"fecha": "2024-10-03T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251070006",
@@ -14167,12 +14197,12 @@ export default [
 		"NIVEL": "LICENCIATURA",
 		"carrera": "CONTADURÍA PÚBLICA",
 		"modalidad": "CUATRIMESTRAL",
-		"recibo": "007",
+		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "IMPRESA",
 		"folio": "251050007",
-		"fecha": "2024-09-25T06:00:00.000Z"
+		"fecha": "2025-03-07T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251050006",
