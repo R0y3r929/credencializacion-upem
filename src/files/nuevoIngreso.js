@@ -120,6 +120,21 @@ export default [
 		"fecha": "2025-03-12T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "252M06011",
+		"PATERNO": "CARRILLO",
+		"MATERNO": "JUAREZ",
+		"NOMBRE": "PAOLA KETZALLI",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "252M06011",
+		"fecha": "2025-04-01T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "252M06008",
 		"PATERNO": "MADRID",
 		"MATERNO": "RODRIGUEZ",
@@ -433,6 +448,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "252M03005",
 		"fecha": "2025-03-28T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "252M01015",
+		"PATERNO": "MORALES",
+		"MATERNO": "ARREDONDO",
+		"NOMBRE": "ANAI ALIDI",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "DERECHO PENAL",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "252M01015",
+		"fecha": "2025-03-31T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M01010",
