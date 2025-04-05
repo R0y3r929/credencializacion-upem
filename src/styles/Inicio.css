@@ -1,356 +1,376 @@
-h1{
-    font-size: 1.8em;
+h1 {
+  font-size: 1.8em;
 }
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2em;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
 }
-.form-NuevoIngreso{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: -10px auto;
-    /*border: 1px solid black;*/
+.title-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
 }
-.content-chips-carreras{
-    border: 1px solid rgb(219, 217, 217);
+.title-page-container hr {
+  width: 80%;
+  height: 2px;
+  background-color: #6b6a6a;
+  border: none;
+  margin-top: -10px;
 }
-.box-chips{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
+.title-page {
+  font-size: 2em;
+  color: #b80816;
+  font-weight: bold;
+  text-align: center;
 }
-.chips{
-    background-color: #b80816;
-    font-size: .9em;
-    font-style:normal;
-    margin: 5px;
-    padding: 2px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    overflow: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 251, 251);
-    font-weight: bolder;
+.form-NuevoIngreso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -10px auto;
+  /*border: 1px solid black;*/
 }
-.chips:hover{
-    cursor: pointer;
+.content-chips-carreras {
+  border: 1px solid rgb(219, 217, 217);
 }
-.chips > .status-chips{
-    color: rgb(253, 253, 253);
+.box-chips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
-.activo{
-    font-weight: bolder;
+.chips {
+  background-color: #b80816;
+  font-size: 0.9em;
+  font-style: normal;
+  margin: 5px;
+  padding: 2px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 251, 251);
+  font-weight: bolder;
 }
-.content-text-descript{
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-    width: 60%;
-    /*border: 1px solid black;*/
+.chips:hover {
+  cursor: pointer;
 }
-.content-text-descript span{
-    margin-bottom: 4px;
+.chips > .status-chips {
+  color: rgb(253, 253, 253);
 }
-.text-descript{
-    color: gray;
+.activo {
+  font-weight: bolder;
 }
-.form-login-search{
-    margin: 75px auto 5px auto;
-    width: 60%;
-    border: 2px solid '#ff0000';
-    /*background-color: aliceblue;*/
-    padding: 20px;
+.content-text-descript {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 60%;
+  /*border: 1px solid black;*/
 }
-fieldset .form{
-    border: 2px solid '#ff0000';
+.content-text-descript span {
+  margin-bottom: 4px;
 }
-.detail-credencial{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 100px auto;
-    border: 2px solid black;    
-    padding-left: 10px;
+.text-descript {
+  color: gray;
 }
-.form-login-alumno{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.form-login-search {
+  margin: 75px auto 5px auto;
+  width: 60%;
+  border: 2px solid "#ff0000";
+  /*background-color: aliceblue;*/
+  padding: 20px;
 }
-.form-login-alumno label{
-    font-size: 1.3em;
-    color: gray;
+fieldset .form {
+  border: 2px solid "#ff0000";
 }
-.form-login-alumno label:hover{
-    color: #273481;
-    font-weight: bold;
+.detail-credencial {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 100px auto;
+  border: 2px solid black;
+  padding-left: 10px;
 }
-.form-login-alumno input{
-    width: 550px;
-    height: 25px;
-    margin-bottom: 15px;
-    font-size: 1.3em;
-    padding: 15px;
-    border-radius: 10px;
+.form-login-alumno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.btn-nuevoIngreso{
-    padding: 5px;
-    background-color: #e97a12;
-    color: aliceblue;
-    font-size: small;
-    margin: 15px;
+.form-login-alumno label {
+  font-size: 1.3em;
+  color: gray;
 }
-.btn-login{
-    width: 550px;
-    padding: 5px;
-    background-color: #273481;
-    color: aliceblue;
-    font-size: large;
+.form-login-alumno label:hover {
+  color: #273481;
+  font-weight: bold;
 }
-.btn-login:active{
-    color: black;
-    background-color: azure;
+.form-login-alumno input {
+  width: 550px;
+  height: 25px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  padding: 15px;
+  border-radius: 10px;
 }
-.match-credencial{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    /*justify-content: space-around;*/
+.btn-nuevoIngreso {
+  padding: 5px;
+  background-color: #e97a12;
+  color: aliceblue;
+  font-size: small;
+  margin: 15px;
+}
+.btn-login {
+  width: 550px;
+  padding: 5px;
+  background-color: #273481;
+  color: aliceblue;
+  font-size: large;
+}
+.btn-login:active {
+  color: black;
+  background-color: azure;
+}
+.match-credencial {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /*justify-content: space-around;*/
 }
 .match-credencial > div {
-    padding-top: 8px;
+  padding-top: 8px;
 }
-.match-credencial > div > label{
-    font-weight: bold;
-    padding-top: 10px;
-    margin-top: 8px;
+.match-credencial > div > label {
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 8px;
 }
-.values-data{
-    padding-left: 5px;
+.values-data {
+  padding-left: 5px;
 }
-.details-status{
-    display: flex;
-    flex-direction: row;
-    margin: 0px auto;
+.details-status {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
 }
-.content-notifs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 10px;
+.content-notifs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
 }
-.notif-noMatchs{
-    color: red;
-    font-size: 1.5em;
+.notif-noMatchs {
+  color: red;
+  font-size: 1.5em;
 }
-.notif-impresa{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: -10px;
+.notif-impresa {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
 }
-.notif-generada{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: -10px;
-    text-align: center;
+.notif-generada {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
+  text-align: center;
 }
-.option-modals{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+.option-modals {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
-.fieldset-table-ni{
-    width: 80%;
-    padding: 35px;
+.fieldset-table-ni {
+  width: 80%;
+  padding: 35px;
 }
-.regs-match-filtro{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    width: 100%;
+.regs-match-filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
 }
-.tableMatchs{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #000;
-    border-collapse: collapse;
+.tableMatchs {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
 }
 .tableMatchs tr td {
-    border-bottom: 1px solid #999;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 5px;
-    text-align: center;
+  border-bottom: 1px solid #999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+  text-align: center;
 }
-.tab-status-cred-alumns{
-	padding: 3px 10px;
-	font-size: smaller;
-	font-weight: bold;
-	color: #f8f6f6;	
-	border-radius: 5%;
+.tab-status-cred-alumns {
+  padding: 3px 10px;
+  font-size: smaller;
+  font-weight: bold;
+  color: #f8f6f6;
+  border-radius: 5%;
 }
-.generada{
-	background-color: #eb6f0a;
+.generada {
+  background-color: #eb6f0a;
 }
-.impresa{
-	background-color: #a80815;
+.impresa {
+  background-color: #a80815;
 }
-.entregada{
-    background-color: #51eb0a;
+.entregada {
+  background-color: #51eb0a;
 }
-.modalidad-ni{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+.modalidad-ni {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.numb-reg{
-    font-weight: bold;
+.numb-reg {
+  font-weight: bold;
 }
-.content-avisos{
-    display: flex;
+.content-avisos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0px auto;
+  padding-bottom: 35px;
+  border: 2px solid red;
+  background-color: #1b1c7031;
+  border-radius: 5px;
+}
+.content-avisos h3 {
+  color: #b80816;
+  font-size: 2em;
+}
+.box-items-aviso ul li {
+  /*border: 1px solid gray;*/
+  margin-bottom: 10px;
+}
+.count-carrer {
+  background-color: rgba(9, 59, 151, 0.623);
+  border-radius: 40%;
+  margin-left: 5px;
+  padding: 1px;
+}
+@media (min-width: 769px) {
+  .form-login-alumno input {
+    width: 370px;
+  }
+  .btn-login {
+    width: 370px;
+  }
+}
+@media (max-width: 768px) {
+  .form-NuevoIngreso > h2 {
+    font-size: 1.1em;
+  }
+  .form-login-alumno input {
+    width: 300px;
+  }
+  .btn-login {
+    width: 300px;
+  }
+  .form-login-search {
+    width: 70%;
+  }
+  .content-avisos {
+    width: 70%;
+  }
+  .detail-credencial {
+    width: 100%;
+    margin: 28px auto;
+  }
+  .regs-match-filtro {
+    width: 100%;
+    overflow-x: auto;
+  }
+  legend {
+    font-size: 0.5em;
+  }
+  .chips {
+    font-size: 0.5em;
+  }
+  .tableMatchs {
+    font-size: 0.5rem;
+  }
+  .tableMatchs tr td {
+    padding: 2px;
+  }
+  .modalidad-ni {
+    max-width: 5px;
+  }
+  .tab-status-cred-alumns {
+    padding: 0px;
+  }
+}
+@media (max-width: 385px) {
+  .form-login-alumno input {
+    font-size: 0.9em;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+  }
+  .btn-login {
+    width: 100%;
+  }
+  .form-login-alumno label {
+    font-size: small;
+  }
+  .form-login-search {
+    margin-top: 4px;
+    width: 100%;
+    padding: 0%;
+  }
+  .content-avisos {
+    width: 100%;
+  }
+  .content-text-descript {
+    width: 80%;
+    font-size: 0.7em;
+  }
+  .notif-noMatchs {
+    font-size: 1em;
+  }
+  .detail-credencial {
+    font-size: 0.7em;
+  }
+  .match-credencial {
     flex-direction: column;
-    align-items: center;
-    width: 60%;
-    margin: 0px auto;
-    padding-bottom: 35px;
-    border: 2px solid red;
-    background-color: #1b1c7031;
-    border-radius: 5px;
-}
-.content-avisos h3{
-    color: #b80816;
-    font-size: 2em;
-}
-.box-items-aviso ul li{
-    /*border: 1px solid gray;*/
-    margin-bottom: 10px;
-}
-.count-carrer{
-    background-color: rgba(9, 59, 151, 0.623);
-    border-radius: 40%;
-    margin-left: 5px;
+  }
+  .chips {
+    font-size: 0.5em;
+  }
+  .tableMatchs {
+    font-size: 0.5em;
+  }
+  .tableMatchs tr td {
     padding: 1px;
+  }
 }
-@media (min-width: 769px){
-    .form-login-alumno input{
-        width: 370px;
-    }
-    .btn-login{
-        width: 370px;
-    }
-}
-@media (max-width: 768px){
-    .form-NuevoIngreso > h2{
-        font-size: 1.1em;
-    }
-    .form-login-alumno input{
-        width: 300px;
-    }
-    .btn-login{
-        width: 300px;
-    }
-    .form-login-search{
-        width: 70%;
-    }
-    .content-avisos{
-        width: 70%;
-    }
-    .detail-credencial{
-        width: 100%;
-        margin: 28px auto;
-    }
-    .regs-match-filtro{
-        width: 100%;
-        overflow-x: auto;
-    }
-    legend {
-        font-size: .5em;
-    }
-    .chips {
-        font-size: .5em;
-    }
-    .tableMatchs{
-        font-size: .5rem;
-    }
-    .tableMatchs tr td {
-        padding: 2px;
-    }
-    .modalidad-ni{
-        max-width: 5px;
-    }
-    .tab-status-cred-alumns {
-        padding: 0px;
-    }
-}
-@media (max-width: 385px){
-    .form-login-alumno input{
-        font-size: .9em;
-        border-radius: 10px;
-        padding: 15px;
-        width: 100%;
-    }
-    .btn-login{
-        width: 100%;
-    }
-    .form-login-alumno label{
-        font-size: small;
-    }     
-    .form-login-search{
-        margin-top: 4px;
-        width: 100%;
-        padding: 0%;
-    }
-    .content-avisos{
-        width: 100%;
-    }
-    .content-text-descript{
-        width: 80%;
-        font-size: .7em;
-    }
-    .notif-noMatchs{
-        font-size: 1em;
-    }
-    .detail-credencial{
-        font-size: .7em;
-    }
-    .match-credencial{        
-        flex-direction: column;
-    }
-    .chips {
-        font-size: .5em;
-    }
-    .tableMatchs{
-        font-size: .5em;
-    }
-    .tableMatchs tr td {
-        padding: 1px;
-    }
-}
-@media (max-width: 221px){
-    .btn-login{
-        width: 150px;
-    }
-    .content-text-descript{
-        width: 100%;
-        padding: 15px;
-        margin: 5px auto;
-    }   
-    
-    .header{
-        margin-left: 13px;
-        text-align: center;
-        font-size: smaller;
-    }
+@media (max-width: 221px) {
+  .btn-login {
+    width: 150px;
+  }
+  .content-text-descript {
+    width: 100%;
+    padding: 15px;
+    margin: 5px auto;
+  }
+
+  .header {
+    margin-left: 13px;
+    text-align: center;
+    font-size: smaller;
+  }
 }

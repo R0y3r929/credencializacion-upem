@@ -30,6 +30,21 @@ export default [
 		"fecha": "2025-03-22T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "252M10008",
+		"PATERNO": "RENDON",
+		"MATERNO": "MORENO",
+		"NOMBRE": "BRENDA MARGARITA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "ADMINISTRACIÓN DE LA SALUD",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "252M10008",
+		"fecha": "2025-04-04T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "252M10007",
 		"PATERNO": "MORENO",
 		"MATERNO": "BECERRIL",
@@ -130,9 +145,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "252M06011",
-		"fecha": "2025-04-01T06:00:00.000Z"
+		"fecha": "2025-04-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M06008",
@@ -460,9 +475,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "252M01015",
-		"fecha": "2025-03-31T06:00:00.000Z"
+		"fecha": "2025-04-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M01010",
@@ -553,5 +568,20 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "252130001",
 		"fecha": "2025-03-11T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "252040001",
+		"PATERNO": "VALADEZ ",
+		"MATERNO": "BLANCA",
+		"NOMBRE": "ANGEL DE JESUS",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN DE EMPRESAS",
+		"modalidad": "SEMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "252040001",
+		"fecha": "2025-04-04T06:00:00.000Z"
 	}
 ];
