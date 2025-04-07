@@ -32,7 +32,7 @@ const Inicio = ({formNi, closeForm}) => {
         </div>
         <AnimatePresence mode="wait">
           <motion.div className='content-form'
-            initial={{ y: 10, opacity: 0 }}
+            initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 1 }}
@@ -63,7 +63,7 @@ const Inicio = ({formNi, closeForm}) => {
         ):''}
         <AnimatePresence mode="wait">
           <motion.div className='content-avisos'
-            initial={{ y: 10, opacity: 0 }}
+            initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 1 }}
