@@ -40,9 +40,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "252M10008",
-		"fecha": "2025-04-04T06:00:00.000Z"
+		"fecha": "2025-04-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M10007",
@@ -145,9 +145,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "252M06011",
-		"fecha": "2025-04-04T06:00:00.000Z"
+		"fecha": "2025-04-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M06008",
@@ -475,9 +475,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "252M01015",
-		"fecha": "2025-04-04T06:00:00.000Z"
+		"fecha": "2025-04-12T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "252M01010",
@@ -580,8 +580,8 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "252040001",
-		"fecha": "2025-04-04T06:00:00.000Z"
+		"fecha": "2025-04-21T06:00:00.000Z"
 	}
 ];

@@ -253,6 +253,7 @@ fieldset .form {
   color: #b80816;
   font-size: 2em;
 }
+
 .box-items-aviso ul li {
   /*border: 1px solid gray;*/
   margin-bottom: 10px;
@@ -263,6 +264,7 @@ fieldset .form {
   margin-left: 5px;
   padding: 1px;
 }
+
 @media (min-width: 769px) {
   .form-login-alumno input {
     width: 370px;
@@ -286,6 +288,7 @@ fieldset .form {
   }
   .content-avisos {
     width: 70%;
+    /*margin-bottom: 200px;*/
   }
   .detail-credencial {
     width: 100%;
