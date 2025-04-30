@@ -165,6 +165,21 @@ export default [
 		"fecha": "2025-03-28T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "252M06007",
+		"PATERNO": "PEREZ",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "DANIELA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "252M06007",
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "252M06006",
 		"PATERNO": "VERGARA",
 		"MATERNO": "VARELA",

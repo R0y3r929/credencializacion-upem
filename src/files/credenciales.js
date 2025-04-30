@@ -10,9 +10,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "231150025",
-		"fecha": "2025-04-26T06:00:00.000Z"
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "241270030",
+		"PATERNO": "TORRES",
+		"MATERNO": "PADILLA",
+		"NOMBRE": "ANDRES AXEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "MIXTA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "241270030",
+		"fecha": "2025-04-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "241280013",
@@ -25,9 +40,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241280013",
-		"fecha": "2025-04-26T06:00:00.000Z"
+		"fecha": "2025-04-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "241280026",
@@ -40,9 +55,69 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241280026",
-		"fecha": "2025-04-26T06:00:00.000Z"
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "231300120",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "HINOJOSA",
+		"NOMBRE": "ROBERTO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO OP",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "231300120",
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251180118",
+		"PATERNO": "QUINTERO",
+		"MATERNO": "ZUÑIGA",
+		"NOMBRE": "ARLET YAMILE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251180118",
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251270084",
+		"PATERNO": "DE LA ROSA",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "SANDRA PAOLA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251270084",
+		"fecha": "2025-04-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "252M06007",
+		"PATERNO": "PEREZ",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "DANIELA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "252M06007",
+		"fecha": "2025-04-30T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "221100005",
