@@ -1,33 +1,18 @@
 export default [
 	{
-		"MATRÍCULA": "231150025",
-		"PATERNO": "ITURBIDE",
-		"MATERNO": "SOLIMAN",
-		"NOMBRE": "JARET ITZEL",
+		"MATRÍCULA": "231140001",
+		"PATERNO": "TENORIO",
+		"MATERNO": "GARCIA",
+		"NOMBRE": "MARIA DE LOS ANGELES",
 		"NIVEL": "LICENCIATURA",
-		"carrera": "NEGOCIOS INTERNACIONALES",
+		"carrera": "CONTADURIA PUBLICA",
 		"modalidad": "SABATINA",
 		"recibo": "061",
 		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231150025",
-		"fecha": "2025-04-30T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241270030",
-		"PATERNO": "TORRES",
-		"MATERNO": "PADILLA",
-		"NOMBRE": "ANDRES AXEL",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "MIXTA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241270030",
-		"fecha": "2025-04-30T06:00:00.000Z"
+		"repociciones": 2,
+		"status": "GENERADA",
+		"folio": "231140001",
+		"fecha": "2025-05-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "241280013",
