@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "251270075",
+		"PATERNO": "LEYVA",
+		"MATERNO": "VENEGAS",
+		"NOMBRE": "ULISES ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251270075",
+		"fecha": "2025-05-05T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "231140001",
 		"PATERNO": "TENORIO",
 		"MATERNO": "GARCIA",
