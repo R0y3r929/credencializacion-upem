@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import credenciales from '../files/credenciales'
 import Notifs from './Notifs';
 import { Modal } from './Modal';
+import { motion } from "motion/react";
+
 
 const calculaVigencia=function(fecha){
     const arrayMonth=["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"];
@@ -36,45 +38,51 @@ const EtiquetaGenerada = () => (
     </>
 );
 const CardMatch = ({user}) => {
+    const variants = {
+        hidden: { opacity: 0 },
+        visible: ({delay}) => ({ opacity: 1, transition: {delay, duration: 1 } })
+    };
     return(
-        <div className='detail-credencial'>
-            <div className='match-credencial'>
+        
+        <div className='detail-credencial' >
+            <span className='tittle-Matchcredencial'>Status de Credencial</span>
+            <motion.div className='match-credencial' custom={{delay: (0 + 0) * 0.3}} initial='hidden' animate='visible' exit='hidden' variants={variants}>
                 <div>
                     <label>ALUMNO: </label>
                 </div>
                 <div className='values-data'>
                     <span>{user.NOMBRE} {user.PATERNO} {user.MATERNO}</span>
                 </div>
-            </div>
-            <div className="match-credencial">
+            </motion.div>
+            <motion.div className="match-credencial" custom={{delay: (1 + 2) * 0.3}} initial='hidden' animate='visible' exit='hidden' variants={variants}>
                 <div>
                     <label>{user.NIVEL}: </label>
                 </div>
                 <div className='values-data'>
                     <span>{user.carrera} | {user.modalidad}</span>
                 </div>
-            </div>
-            <div className="match-credencial">
+            </motion.div>
+            <motion.div className="match-credencial" custom={{delay: (2 + 3) * 0.3}} initial='hidden' animate='visible' exit='hidden' variants={variants}>
                 <div>
                     <label>Vigencia: </label>
                 </div>
                 <div className='values-data'>
                     <span>{calculaVigencia(user.vigencia)}</span>
                 </div>
-            </div>
-            <div className="match-credencial">
+            </motion.div>
+            <motion.div className="match-credencial" custom={{delay: (3 + 4) * 0.3}} initial='hidden' animate='visible' exit='hidden' variants={variants}>
                 <div>
                     <label>STATUS:</label> 
                 </div>
                 <div className='values-data'>
                     <span>{(user.status==="GENERADA")? <EtiquetaGenerada/> : user.status}</span>
                 </div>
-            </div>
-            <div className='match-credencial'>
+            </motion.div>
+            <motion.div className='match-credencial' custom={{delay: (4 + 5) * 0.3}} initial='hidden' animate='visible' exit='hidden' variants={variants}>
                 <div className='details-status'>
                     <span>{(user.status === "GENERADA")? <NotifGenerada/> : (user.status === "IMPRESA") ? <NotifImpresa/>: `${notifs.msgEntregada}`}</span>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
