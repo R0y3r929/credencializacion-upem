@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "253180001",
+		"PATERNO": "VELASCO",
+		"MATERNO": "GALICIA",
+		"NOMBRE": "ALEXIS ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "253180001",
+		"fecha": "2025-05-27T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "231050026",
 		"PATERNO": "CASTILLO",
 		"MATERNO": "OLIVARES",
@@ -27,6 +42,21 @@ export default [
 		"repociciones": 1,
 		"status": "GENERADA",
 		"folio": "241050018",
+		"fecha": "2025-05-26T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251050004",
+		"PATERNO": "SANCHEZ",
+		"MATERNO": "GALLEGOS",
+		"NOMBRE": "ESTRELLA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251050004",
 		"fecha": "2025-05-26T06:00:00.000Z"
 	},
 	{
@@ -72,51 +102,6 @@ export default [
 		"repociciones": 2,
 		"status": "IMPRESA",
 		"folio": "231180039",
-		"fecha": "2025-05-23T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "231100004",
-		"PATERNO": "FUENTES",
-		"MATERNO": "SANCHEZ",
-		"NOMBRE": "GUADALUPE JAZMIN",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "GASTRONOMIA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "231100004",
-		"fecha": "2025-05-23T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241320004",
-		"PATERNO": "HERNANDEZ",
-		"MATERNO": "RODRIGUEZ",
-		"NOMBRE": "ALAN",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ARQUITECTURA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "241320004",
-		"fecha": "2025-05-23T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251180056",
-		"PATERNO": "RUIZ",
-		"MATERNO": "FLORES",
-		"NOMBRE": "ALEJANDRA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251180056",
 		"fecha": "2025-05-23T06:00:00.000Z"
 	},
 	{
