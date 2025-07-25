@@ -1,5 +1,65 @@
 export default [
 	{
+		"MATRÍCULA": "223210001",
+		"PATERNO": "CAMARENA",
+		"MATERNO": "SOLIS",
+		"NOMBRE": "KATERIN MICHELL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 2,
+		"status": "IMPRESA",
+		"folio": "223210001",
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "231170027",
+		"PATERNO": "ANIDES",
+		"MATERNO": "ROMERO",
+		"NOMBRE": "GIOVANNA PAOLA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 2,
+		"status": "IMPRESA",
+		"folio": "231170027",
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "231210021",
+		"PATERNO": "CLAVIJO",
+		"MATERNO": "ESPEJEL",
+		"NOMBRE": "FRANCISCO JAVIER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "231210021",
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "231300054",
+		"PATERNO": "ZACATE",
+		"MATERNO": "MARTINEZ",
+		"NOMBRE": "JOSE ANTONIO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO OP",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 2,
+		"status": "IMPRESA",
+		"folio": "231300054",
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "231120021",
 		"PATERNO": "ZUÑIGA",
 		"MATERNO": "ARRIAGA",
@@ -10,9 +70,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "231120021",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "232280005",
+		"PATERNO": "ALVAREZ",
+		"MATERNO": "RODRIGUEZ",
+		"NOMBRE": "ALEXIS LEONARDO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "232280005",
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "241150020",
@@ -25,9 +100,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "241150020",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "241320001",
+		"PATERNO": "VELAZQUEZ",
+		"MATERNO": "GODINEZ",
+		"NOMBRE": "BRENDA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ARQUITECTURA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 3,
+		"status": "IMPRESA",
+		"folio": "241320001",
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "243M03008",
@@ -40,9 +130,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 2,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "243M03008",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "243M04002",
@@ -55,9 +145,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "243M04002",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251070022",
+		"PATERNO": "ILLESCAS ",
+		"MATERNO": "RAMIREZ ",
+		"NOMBRE": "ALDAIR ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO GRÁFICO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251070022",
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251120007",
@@ -70,9 +175,39 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 0,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251120007",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251180001",
+		"PATERNO": "IBARRA",
+		"MATERNO": "LOPEZ",
+		"NOMBRE": "ALICIA NAHOMI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251180001",
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251180089",
+		"PATERNO": "GUEVARA",
+		"MATERNO": "DURAN ",
+		"NOMBRE": "CELIA EVELIN ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2025",
+		"repociciones": 1,
+		"status": "IMPRESA",
+		"folio": "251180089",
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "251150024",
@@ -85,9 +220,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2025",
 		"repociciones": 1,
-		"status": "GENERADA",
+		"status": "IMPRESA",
 		"folio": "251150024",
-		"fecha": "2025-07-19T06:00:00.000Z"
+		"fecha": "2025-07-25T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "253M06016",
+		"PATERNO": "MENDOZA ",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "ARIADNE",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "CIENCIAS DE LA EDUCACIÓN",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "10 2025",
+		"repociciones": 0,
+		"status": "IMPRESA",
+		"folio": "253M06016",
+		"fecha": "2025-07-25T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "231270066",
@@ -105,21 +255,6 @@ export default [
 		"fecha": "2025-07-18T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "242M04001",
-		"PATERNO": "CRUZ",
-		"MATERNO": "PEREZ",
-		"NOMBRE": "KATIA YESICA",
-		"NIVEL": "MAESTRÍA",
-		"carrera": "MAESTRIA EN DERECHO FISCAL",
-		"modalidad": "MAESTRIA",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "242M04001",
-		"fecha": "2025-07-18T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "242M04004",
 		"PATERNO": "GARCIA",
 		"MATERNO": "GARCIA",
@@ -132,21 +267,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "242M04004",
-		"fecha": "2025-07-18T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251180055",
-		"PATERNO": "BAZAN",
-		"MATERNO": "AVILA",
-		"NOMBRE": "ALEJANDRO",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251180055",
 		"fecha": "2025-07-18T06:00:00.000Z"
 	},
 	{
@@ -253,21 +373,6 @@ export default [
 		"status": "IMPRESA",
 		"folio": "251M01002",
 		"fecha": "2025-07-11T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251300028",
-		"PATERNO": "SOUVERBIELLE",
-		"MATERNO": "SANTILLAN",
-		"NOMBRE": "YESICA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "DERECHO",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2025",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251300028",
-		"fecha": "2025-07-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "231270055",
