@@ -3,6 +3,7 @@ import Constantes from '../Constantes';
 
 const FormSolicitud = () => {
     const [response, setResponse] = useState(null);
+    const [photoUrl, setPhotoUrl] = useState('');
     const [dataSolicitud, setDataSolicitud ]= useState({
         Matricula: '',
         Nombre: '',
@@ -11,6 +12,9 @@ const FormSolicitud = () => {
         F_Solicitud: new Date().toISOString().split('T')[0],
         status: false
     });
+    const uploadPhoto = async (file) => {
+        
+    }
     const handleChange = (e) => {
         setDataSolicitud({
             ...dataSolicitud,
@@ -37,9 +41,6 @@ const FormSolicitud = () => {
 
             const res = await fetch(url, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
                 body: JSON.stringify(payload)
             });
 
@@ -88,7 +89,7 @@ const FormSolicitud = () => {
             </div>
             <button className='btn btn-login'>{(dataSolicitud.status)?'Enviando espere..':'Solicitar'}</button>
         </form>
-        {response && <p>{response}</p>}
+        {response && <p>{response.status}</p>}
     </div>
   )
 }
