@@ -139,7 +139,7 @@ const FormAlumno = () => {
   return (
     <div className='form-login-search'>
       <fieldset>
-        <legend>Ingresa tu Matricula</legend>
+        <legend>Seguimiento Credencializacion</legend>
         <form className='form-login-alumno'>
             <div>
                 <label htmlFor="matricula">Matricula:</label>
