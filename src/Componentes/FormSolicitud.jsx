@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Constantes from '../Constantes';
+import { Modal } from './Modal';
 
-const FormSolicitud = () => {
+const FormSolicitud = ({cerrar}) => {
     const [response, setResponse] = useState(null);
     const [photoUrl, setPhotoUrl] = useState('');
     const [dataSolicitud, setDataSolicitud ]= useState({
@@ -97,6 +98,9 @@ const FormSolicitud = () => {
                 F_Solicitud: new Date().toISOString().split('T')[0],
                 status: false
             });
+            setTimeout(() => {
+                setResponse(null);
+            }, 10000);
         }
     };
 
@@ -128,6 +132,15 @@ const FormSolicitud = () => {
             <button className='btn btn-login'>{(dataSolicitud.status)?'Enviando espere..':'Solicitar'}</button>
         </form>
         {response && <p>{response.status}</p>}
+        {response!==null && response.status === 'OK' && (
+            <Modal onClose={() => cerrar(false)}>
+                <div className='response-success'>
+                    <h3>Solicitud Enviada Correctamente ✅</h3>                    
+                    <p style={{ color: 'GrayText', marginTop: '35px'}}>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
+                    <p style={{ color: 'GrayText'}}>Tambien puedes revisar el status a travez de esta pagina apartir de mañana</p>
+                </div>
+            </Modal>
+        )}
     </div>
   )
 }

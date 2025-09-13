@@ -45,7 +45,7 @@ const Inicio = ({ formNi, closeForm }) => {
       </AnimatePresence>
       {modalOpen ? (
         <Modal onClose={() => setModalOpen(false)}>
-          <FormSolicitud />
+          <FormSolicitud cerrar={setModalOpen}/>
         </Modal>
       ) : null}
       {formNi ? (
