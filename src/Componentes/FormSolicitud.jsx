@@ -12,7 +12,7 @@ const FormSolicitud = () => {
         F_Solicitud: new Date().toISOString().split('T')[0],
         status: false
     });
-    const uploadPhoto = async () => {
+    const uploadPhoto = async (matricula) => {
         const fileList = document.getElementById('Foto').files;
         if (fileList.length === 0) {
             console.error("No se ha seleccionado ninguna foto.");
@@ -29,7 +29,7 @@ const FormSolicitud = () => {
             fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
             dataReq: { 
                 data: rawLog, 
-                name: photo.name, 
+                name: matricula, 
                 type: photo.type 
             }
             };
@@ -44,9 +44,9 @@ const FormSolicitud = () => {
             console.log(data);
 
             } catch (error) {
-            console.error("Error al subir foto:", error);
+                console.error("Error al subir foto:", error);
             } finally {
-            setPhotoUrl('');
+                setPhotoUrl('');
             }
         };
 
@@ -69,7 +69,7 @@ const FormSolicitud = () => {
         };
 
         setDataSolicitud(solicitud);
-        await uploadPhoto();
+        await uploadPhoto(solicitud.Matricula);
         try {
             const url = `${Constantes.RUTA_GOOGLE_DRIVE}`;
             const payload = {
