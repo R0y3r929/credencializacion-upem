@@ -12,13 +12,51 @@ const FormSolicitud = () => {
         F_Solicitud: new Date().toISOString().split('T')[0],
         status: false
     });
-    const uploadPhoto = async (file) => {
-        
-    }
+    const uploadPhoto = async () => {
+        const fileList = document.getElementById('Foto').files;
+        if (fileList.length === 0) {
+            console.error("No se ha seleccionado ninguna foto.");
+            return;
+        }
+
+        const photo = fileList[0];
+        const reader = new FileReader();
+
+        reader.onload = async function (e) {
+            const rawLog = e.target.result.split(',')[1]; // solo la parte base64
+
+            const dataSend = { 
+            fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
+            dataReq: { 
+                data: rawLog, 
+                name: photo.name, 
+                type: photo.type 
+            }
+            };
+
+            try {
+            const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
+                method: 'POST',
+                body: JSON.stringify(dataSend)
+            });
+
+            const data = await res.json();
+            console.log(data);
+
+            } catch (error) {
+            console.error("Error al subir foto:", error);
+            } finally {
+            setPhotoUrl('');
+            }
+        };
+
+        reader.readAsDataURL(photo);
+    };
+
     const handleChange = (e) => {
         setDataSolicitud({
             ...dataSolicitud,
-            [e.target.name]: e.target.value
+            [e.target.name]: (e.target.value).toUpperCase()
         });
     }
     const handleSubmit = async (e) => {
@@ -31,7 +69,7 @@ const FormSolicitud = () => {
         };
 
         setDataSolicitud(solicitud);
-        
+        await uploadPhoto();
         try {
             const url = `${Constantes.RUTA_GOOGLE_DRIVE}`;
             const payload = {

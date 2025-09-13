@@ -30,7 +30,7 @@ const Inicio = ({ formNi, closeForm }) => {
         ))}
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has iniciado Tramite y quieres cambiar fotografia <a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a></motion.span>
-          
+          <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
         </AnimatePresence>
       </div>
       <AnimatePresence mode="wait">
