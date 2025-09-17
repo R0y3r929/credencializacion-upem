@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "261030006",
+		"PATERNO": "VALENCIA ",
+		"MATERNO": "PINEDA",
+		"NOMBRE": "ALONDRA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "MERCADOTECNIA",
+		"modalidad": "SEMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261030006",
+		"fecha": "2025-09-17T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261030001",
 		"PATERNO": "BRITO",
 		"MATERNO": "SERRANO",

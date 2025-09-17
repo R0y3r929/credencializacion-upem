@@ -127,7 +127,7 @@ const FormSolicitud = ({cerrar}) => {
             </div>
             <div className='input-group'>
                 <label htmlFor="Foto_Alumno">Foto</label>
-                <input type="file" name="Foto" id="Foto" required/>
+                <input type="file" name="Foto" id="Foto" accept="image/*" required/>
             </div>
             <button className='btn btn-login'>{(dataSolicitud.status)?'Enviando espere..':'Solicitar'}</button>
         </form>
