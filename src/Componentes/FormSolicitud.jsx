@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import Constantes from '../Constantes';
 import { Modal } from './Modal';
 
-const FormSolicitud = ({cerrar}) => {
+const FormSolicitud = ({cerrar, setSendSolicitud}) => {
+    const guardaSendSolicitud = () => { 
+        localStorage.setItem('sendSolicitud', 'true');
+        setSendSolicitud(true);
+    }
     const [response, setResponse] = useState(null);
     const [photoUrl, setPhotoUrl] = useState('');
     const [dataSolicitud, setDataSolicitud ]= useState({
@@ -98,6 +102,7 @@ const FormSolicitud = ({cerrar}) => {
                 F_Solicitud: new Date().toISOString().split('T')[0],
                 status: false
             });
+            guardaSendSolicitud();
             setTimeout(() => {
                 setResponse(null);
             }, 10000);

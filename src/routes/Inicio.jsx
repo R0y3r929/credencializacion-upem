@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/Inicio.css'
 import FormAlumno from '../Componentes/FormAlumno'
 import { AnimatePresence, motion } from "motion/react";
@@ -9,6 +9,7 @@ import TitlesPage from '../Componentes/TitlesPage'
 import FormSolicitud from '../Componentes/FormSolicitud';
 
 const Inicio = ({ formNi, closeForm }) => {
+  const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
   const [selectedCarrera, setSelectedCarrera] = useState(null);
   const [filtroNi, setFiltroNi] = useState([]);
   const variants = {
@@ -16,7 +17,13 @@ const Inicio = ({ formNi, closeForm }) => {
     visible: ({ delay }) => ({ opacity: 1, transition: { delay, duration: 1 } })
   };
   const [modalOpen, setModalOpen] = useState(false);
+  const [sendSolicitud, setSendSolicitud] = useState(false);
   const pointsReview = [{ point: 'Aqui podras consultar el status de tu credencial, si esta pendiente de entrega. ¡Ten a la mano tu matricula!' }, { point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { point: 'Si eres de Nuevo ingreso, es probable que tu credencial ya haya sido entregada a Coordinacion, para mas informacion acude directamente al Area de sistemas!!' }];
+  useEffect(() => {
+    if (rescuperaSendSolicitud && rescuperaSendSolicitud === 'true') {
+      setSendSolicitud(true);
+    }
+  }, []);
   return (
     <>
       <div className='header'>
@@ -30,7 +37,11 @@ const Inicio = ({ formNi, closeForm }) => {
         ))}
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has iniciado Tramite y quieres cambiar fotografia <a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a></motion.span>
-          <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
+          {sendSolicitud ?   
+            <span style={{textAlign:'center', display:'block', marginTop:'20px', color:'GrayText'}}>Tu solicitud ha sido enviada, mantente pendiente al correo proporcionado en tu inscripcion para darle seguimiento!!</span>
+            :
+            <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
+          }
         </AnimatePresence>
       </div>
       <AnimatePresence mode="wait">
@@ -43,9 +54,9 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
-      {modalOpen ? (
+      {modalOpen && !sendSolicitud ? (
         <Modal onClose={() => setModalOpen(false)}>
-          <FormSolicitud cerrar={setModalOpen}/>
+          <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud}/>
         </Modal>
       ) : null}
       {formNi ? (
