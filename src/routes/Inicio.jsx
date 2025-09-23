@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/Inicio.css'
+import '../styles/Alert.css'
 import FormAlumno from '../Componentes/FormAlumno'
 import { AnimatePresence, motion } from "motion/react";
 import { Modal } from '../Componentes/Modal'
@@ -16,6 +17,9 @@ const Inicio = ({ formNi, closeForm }) => {
     hidden: { opacity: 0 },
     visible: ({ delay }) => ({ opacity: 1, transition: { delay, duration: 1 } })
   };
+  const cerrraMsj = (e) => {
+    e.target.parentElement.style.display = 'none';
+  }
   const [modalOpen, setModalOpen] = useState(false);
   const [sendSolicitud, setSendSolicitud] = useState(false);
   const pointsReview = [{ point: 'Aqui podras consultar el status de tu credencial, si esta pendiente de entrega. ¡Ten a la mano tu matricula!' }, { point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { point: 'Si eres de Nuevo ingreso, es probable que tu credencial ya haya sido entregada a Coordinacion, para mas informacion acude directamente al Area de sistemas!!' }];
@@ -38,7 +42,11 @@ const Inicio = ({ formNi, closeForm }) => {
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has iniciado Tramite y quieres cambiar fotografia <a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a></motion.span>
           {sendSolicitud ?   
-            <span style={{textAlign:'center', display:'block', marginTop:'20px', color:'GrayText'}}>Tu solicitud ha sido enviada, mantente pendiente al correo proporcionado en tu inscripcion para darle seguimiento!!</span>
+            (<div className="android-alert success">
+              <button className="alert-close" onClick={cerrraMsj}>&times;</button>
+              <div className="alert-title">¡Éxito!</div>
+              <div style={{color: 'gray', textAlign:'center'}}>Tu solicitud ha sido enviada, mantente pendiente al correo proporcionado en tu inscripcion para darle seguimiento!!</div>
+            </div>)
             :
             <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
           }
