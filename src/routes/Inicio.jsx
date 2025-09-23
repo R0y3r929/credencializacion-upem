@@ -98,8 +98,8 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              <li><u>El periodo de renovaciones de credenciales termino</u> mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
-              <li>El ultimo dia que tienes para recoger si aun no lo has hecho es el 15 de enero del 2025.</li>
+              <li><u>El periodo de renovaciones y credencializacion Nuevo Ingreso periodo 26/1 INICIA</u> mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>
           </div>
