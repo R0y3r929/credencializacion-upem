@@ -22,7 +22,7 @@ const Inicio = ({ formNi, closeForm }) => {
   }
   const [modalOpen, setModalOpen] = useState(false);
   const [sendSolicitud, setSendSolicitud] = useState(false);
-  const pointsReview = [{ point: 'Aqui podras consultar el status de tu credencial, si esta pendiente de entrega. ¡Ten a la mano tu matricula!' }, { point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { point: 'Si eres de Nuevo ingreso, es probable que tu credencial ya haya sido entregada a Coordinacion, para mas informacion acude directamente al Area de sistemas!!' }];
+  const pointsReview = [{ point: 'Aqui podras consultar el status de tu credencial, si esta pendiente de entrega. ¡Ten a la mano tu matricula!' }, { point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }];
   useEffect(() => {
     if (rescuperaSendSolicitud && rescuperaSendSolicitud === 'true') {
       setSendSolicitud(true);
@@ -40,7 +40,8 @@ const Inicio = ({ formNi, closeForm }) => {
           </AnimatePresence>
         ))}
         <AnimatePresence>
-          <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has iniciado Tramite y quieres cambiar fotografia <a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a></motion.span>
+          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a>. si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+          <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
           {sendSolicitud ?   
             (<div className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
@@ -98,7 +99,7 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              <li><u>El periodo de renovaciones y credencializacion Nuevo Ingreso periodo 26/1 INICIA</u> mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              <li><u>El periodo de renovaciones y credencializacion Nuevo Ingreso periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>
