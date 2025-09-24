@@ -349,6 +349,10 @@ fieldset .form {
   .cont-file-pict-form {
     flex-direction: column;
   }
+  .cont-file-pict-form img {
+    width: 280px;
+    padding-inline: 20px;
+  }
 }
 @media (max-width: 385px) {
   .form-login-alumno input {
