@@ -277,7 +277,12 @@ fieldset .form {
   color: #b80816;
   font-size: 2em;
 }
-
+.cont-file-pict-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .box-items-aviso ul li {
   /*border: 1px solid gray;*/
   margin-bottom: 10px;
@@ -341,6 +346,9 @@ fieldset .form {
   .tab-status-cred-alumns {
     padding: 0px;
   }
+  .cont-file-pict-form {
+    flex-direction: column;
+  }
 }
 @media (max-width: 385px) {
   .form-login-alumno input {
@@ -385,6 +393,9 @@ fieldset .form {
   .tableMatchs tr td {
     padding: 1px;
   }
+  .cont-file-pict-form {
+    flex-direction: column;
+  }
 }
 @media (max-width: 221px) {
   .btn-login {
@@ -400,5 +411,8 @@ fieldset .form {
     margin-left: 13px;
     text-align: center;
     font-size: smaller;
+  }
+  .cont-file-pict-form {
+    flex-direction: column;
   }
 }

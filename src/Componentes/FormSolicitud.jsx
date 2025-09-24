@@ -131,7 +131,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud}) => {
                 <label htmlFor="F_pago">Fecha Pago</label>
                 <input type="date" id='F_pago' name="F_pago" value={dataSolicitud.F_pago} required onChange={handleChange}/>
             </div>
-            <div style={{display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center'}}>
+            <div className='cont-file-pict-form'>
                 <div className='input-group'>
                     <label htmlFor="Foto_Alumno">Foto del Alumno</label>
                     <input type="file" name="Foto" id="Foto" accept="image/*" required/>
