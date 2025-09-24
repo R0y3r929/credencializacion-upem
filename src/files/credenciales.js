@@ -195,6 +195,21 @@ export default [
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261190003",
+		"PATERNO": "IGLESIAS ",
+		"MATERNO": "PERALTA ",
+		"NOMBRE": "ABIGAIL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "TERAPIA FÍSICA Y REHABILITACIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261190003",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261190029",
 		"PATERNO": "CAMACHO",
 		"MATERNO": "AGUILAR",
@@ -255,6 +270,51 @@ export default [
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261300005",
+		"PATERNO": "PEREZ",
+		"MATERNO": "ROSALES",
+		"NOMBRE": "IVVON ITZEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300005",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300008",
+		"PATERNO": "GUTIERREZ ",
+		"MATERNO": "DIAZ",
+		"NOMBRE": "DAYRA MASHA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300008",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300011",
+		"PATERNO": "ESTEBAN",
+		"MATERNO": "BAUTISTA",
+		"NOMBRE": "MERILYN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300011",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261300013",
 		"PATERNO": "HERNANDEZ",
 		"MATERNO": "HERNANDEZ",
@@ -270,6 +330,21 @@ export default [
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261300015",
+		"PATERNO": "BELTRAN",
+		"MATERNO": "ALONSO",
+		"NOMBRE": "HECTOR RAUL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300015",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261300017",
 		"PATERNO": "ZARATE",
 		"MATERNO": "GALINDO",
@@ -282,6 +357,36 @@ export default [
 		"repociciones": 0,
 		"status": "GENERADA",
 		"folio": "261300017",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300022",
+		"PATERNO": "SALAS",
+		"MATERNO": "OBLE",
+		"NOMBRE": "MIA YAMILETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300022",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300024",
+		"PATERNO": "ROMERO ",
+		"MATERNO": "CAMARENA ",
+		"NOMBRE": "CESAR YAEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300024",
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
@@ -315,6 +420,21 @@ export default [
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261300058",
+		"PATERNO": "CORTAZAR",
+		"MATERNO": "ALVAREZ",
+		"NOMBRE": "GENARO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300058",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261300060",
 		"PATERNO": "GUERRERO",
 		"MATERNO": "CORNEJO",
@@ -327,6 +447,21 @@ export default [
 		"repociciones": 0,
 		"status": "GENERADA",
 		"folio": "261300060",
+		"fecha": "2025-09-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300072",
+		"PATERNO": "ANGELES",
+		"MATERNO": "BARRIOS",
+		"NOMBRE": "ARLET ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300072",
 		"fecha": "2025-09-24T06:00:00.000Z"
 	},
 	{
