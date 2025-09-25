@@ -21,7 +21,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud}) => {
     const uploadPhoto = async (matricula) => {
         const fileList = document.getElementById('Foto').files;
         if (fileList.length === 0) {
-            console.error("No se ha seleccionado ninguna foto.");
+            alert("No se ha seleccionado ninguna foto.");
             return;
         }
 

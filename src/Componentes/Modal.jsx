@@ -7,7 +7,7 @@ export const Modal = ({onClose, children}) => {
               <div className="ventana">
                   <div id="contenido">
                     <div className="modal-header">
-                    <font color='red' onClick={()=>onClose()} id='closeModalview1' ><i class="bi bi-x-circle"></i></font>
+                    <font color='red' onClick={()=>onClose()} id='closeModalview1' ><i className="bi bi-x-circle"></i></font>
                     </div>
                     <div className="modal-content">
                       {children}
