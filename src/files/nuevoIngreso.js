@@ -15,6 +15,21 @@ export default [
 		"fecha": "2025-09-30T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261320040",
+		"PATERNO": "OSORIO",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "CARLOS ALBERTO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ARQUITECTURA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261320040",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261320033",
 		"PATERNO": "ESPEJEL",
 		"MATERNO": "BLANCAS",
@@ -28,6 +43,36 @@ export default [
 		"status": "GENERADA",
 		"folio": "261320033",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261320029",
+		"PATERNO": "ARTEAGA",
+		"MATERNO": "SOLLANO",
+		"NOMBRE": "JACOB ISRAEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ARQUITECTURA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261320029",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261320028",
+		"PATERNO": "CRUZ",
+		"MATERNO": "SANTIAGO",
+		"NOMBRE": "VALERIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ARQUITECTURA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261320028",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261320023",
@@ -148,6 +193,36 @@ export default [
 		"status": "GENERADA",
 		"folio": "261310029",
 		"fecha": "2025-09-29T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261310027",
+		"PATERNO": "MEZA",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "ABIGAIL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "007",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261310027",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261310004",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "MUÑOZ",
+		"NOMBRE": "JESSICA ITZEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261310004",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300089",
@@ -325,9 +400,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300072",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300068",
@@ -355,9 +430,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300065",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300064",
@@ -445,9 +520,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300058",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300057",
@@ -520,9 +595,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300053",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261300052",
+		"PATERNO": "GUTIERREZ",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "CHRISTOPHER JAMES",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300052",
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300050",
@@ -610,9 +700,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300044",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300042",
@@ -675,6 +765,21 @@ export default [
 		"fecha": "2025-09-29T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261300037",
+		"PATERNO": "HERNANDEZ",
+		"MATERNO": "CANO",
+		"NOMBRE": "LUNA SHERLINE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261300037",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261300036",
 		"PATERNO": "GUTIERREZ",
 		"MATERNO": "CUEVAS",
@@ -685,9 +790,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300036",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300035",
@@ -970,9 +1075,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300013",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300011",
@@ -1125,6 +1230,66 @@ export default [
 		"fecha": "2025-10-01T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261290035",
+		"PATERNO": "GONZALEZ",
+		"MATERNO": "PACHECO",
+		"NOMBRE": "JHOVANNY DARIEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261290035",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261290034",
+		"PATERNO": "ANGUIANO ",
+		"MATERNO": "ROLDAN",
+		"NOMBRE": "JESUS ANTONIO ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261290034",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261290030",
+		"PATERNO": "JIMENEZ",
+		"MATERNO": "LEON ",
+		"NOMBRE": "VALERIA GUADALUPE ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261290030",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261290017",
+		"PATERNO": "VELASCO",
+		"MATERNO": "TORRES",
+		"NOMBRE": "DIEGO ANTONIO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261290017",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261290014",
 		"PATERNO": "ALVAREZ ",
 		"MATERNO": "RAMOS",
@@ -1138,6 +1303,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261290014",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261280028",
+		"PATERNO": "VIVAR",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "ANEL ITZEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261280028",
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270087",
@@ -1155,6 +1335,21 @@ export default [
 		"fecha": "2025-10-01T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261270034",
+		"PATERNO": "HERNANDEZ",
+		"MATERNO": "GARCIA",
+		"NOMBRE": "DULCE DANIELA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261270034",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261270033",
 		"PATERNO": "HERNANDEZ ",
 		"MATERNO": "RAMIREZ",
@@ -1168,6 +1363,51 @@ export default [
 		"status": "GENERADA",
 		"folio": "261270033",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261270024",
+		"PATERNO": "VENADO",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "ABIGAIL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261270024",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261270012",
+		"PATERNO": "GONZALEZ",
+		"MATERNO": "ESCOBEDO",
+		"NOMBRE": "NAOMI ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261270012",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261260013",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "CHAVARO",
+		"NOMBRE": "OMAR EMMANUEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOPEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261260013",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261260012",
@@ -1198,6 +1438,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261260008",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261260004",
+		"PATERNO": "MORALES",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "PAMELA ANAHI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOPEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261260004",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261220008",
@@ -1305,6 +1560,21 @@ export default [
 		"fecha": "2025-09-30T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261210012",
+		"PATERNO": "HERRERA",
+		"MATERNO": "COLON",
+		"NOMBRE": "JUAN CARLOS",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261210012",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261210011",
 		"PATERNO": "SANCHEZ",
 		"MATERNO": "LOBATO",
@@ -1380,6 +1650,21 @@ export default [
 		"fecha": "2025-09-26T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261210005",
+		"PATERNO": "GIL ",
+		"MATERNO": "ARAUS ",
+		"NOMBRE": "LIZBETH FABIOLA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261210005",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261210004",
 		"PATERNO": "DEL ANGEL",
 		"MATERNO": "LOPEZ",
@@ -1425,6 +1710,36 @@ export default [
 		"fecha": "2025-09-29T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261210001",
+		"PATERNO": "REAL",
+		"MATERNO": "SAMANO",
+		"NOMBRE": "ARUBI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CRIMINOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261210001",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261200026",
+		"PATERNO": "ROMERO",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "CRISTOPHER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "INGENIERÍA INDUSTRIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261200026",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261200015",
 		"PATERNO": "MIRANDA",
 		"MATERNO": "FERNANDEZ",
@@ -1438,6 +1753,36 @@ export default [
 		"status": "GENERADA",
 		"folio": "261200015",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261200014",
+		"PATERNO": "SANCHEZ ",
+		"MATERNO": "GUTIERREZ",
+		"NOMBRE": "VALERIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "INGENIERÍA INDUSTRIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261200014",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261200013",
+		"PATERNO": "GUTIERREZ",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "KAROL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "INGENIERÍA INDUSTRIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261200013",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261190034",
@@ -1575,6 +1920,36 @@ export default [
 		"fecha": "2025-10-01T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180158",
+		"PATERNO": "RUIZ",
+		"MATERNO": "FLORES",
+		"NOMBRE": "ALEJANDRA  ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180158",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180157",
+		"PATERNO": "HERNADEZ",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "JOANNA LINETTE ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180157",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180150",
 		"PATERNO": "NAVA",
 		"MATERNO": "ARIAS",
@@ -1588,6 +1963,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "261180150",
 		"fecha": "2025-09-26T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180147",
+		"PATERNO": "CARRILLO",
+		"MATERNO": "DELGADILLO",
+		"NOMBRE": "FERNANDA GRISEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180147",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180146",
@@ -1620,6 +2010,36 @@ export default [
 		"fecha": "2025-09-29T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180141",
+		"PATERNO": "VIVAR",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "CARLA MELINA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180141",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180140",
+		"PATERNO": "HUERTA",
+		"MATERNO": "MENDOZA",
+		"NOMBRE": "KEVIN EMILIO ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180140",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180137",
 		"PATERNO": "ARIZMENDI",
 		"MATERNO": "MALDONADO",
@@ -1633,6 +2053,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261180137",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180136",
+		"PATERNO": "FRAGOSO ",
+		"MATERNO": "CARREÑO ",
+		"NOMBRE": "MALILLANY",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180136",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180133",
@@ -1663,6 +2098,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261180130",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180123",
+		"PATERNO": "BARRIOS",
+		"MATERNO": "NAVA",
+		"NOMBRE": "ARIADNA MONSERRAT",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180123",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180122",
@@ -1740,6 +2190,21 @@ export default [
 		"fecha": "2025-09-26T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180114",
+		"PATERNO": "MIRELES",
+		"MATERNO": "LANDEROS",
+		"NOMBRE": "DAYANA ALEXANDRA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180114",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180112",
 		"PATERNO": "HERNANDEZ",
 		"MATERNO": "HERNANDEZ",
@@ -1750,9 +2215,39 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180112",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180110",
+		"PATERNO": "REYES",
+		"MATERNO": "RAMIREZ",
+		"NOMBRE": "GABRIELA MICHELL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180110",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180108",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "DIAZ",
+		"NOMBRE": "ALEXA DANIELA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180108",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180106",
@@ -1860,6 +2355,51 @@ export default [
 		"fecha": "2025-09-30T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180088",
+		"PATERNO": "RUIZ",
+		"MATERNO": "FLORES",
+		"NOMBRE": "ZURY AMELLALY",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180088",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180086",
+		"PATERNO": "MARTINEZ",
+		"MATERNO": "ZARAGOZA",
+		"NOMBRE": "DANIELA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180086",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180085",
+		"PATERNO": "CORTES",
+		"MATERNO": "MARIN",
+		"NOMBRE": "ESMERALDA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180085",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180084",
 		"PATERNO": "VAZQUEZ",
 		"MATERNO": "SANCHEZ ",
@@ -1890,6 +2430,51 @@ export default [
 		"fecha": "2025-09-30T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180082",
+		"PATERNO": "GALAN",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "JIMENA ODETTE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180082",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180075",
+		"PATERNO": "VARGAS ",
+		"MATERNO": "CRUZ ",
+		"NOMBRE": "SURI ALEXIA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180075",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180072",
+		"PATERNO": "RAMIREZ",
+		"MATERNO": "VAZQUEZ",
+		"NOMBRE": "LOURDES JAZMIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180072",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180071",
 		"PATERNO": "DOMINGUEZ ",
 		"MATERNO": "PAREDES ",
@@ -1900,9 +2485,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180071",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180070",
@@ -1960,9 +2545,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180067",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180066",
@@ -1993,6 +2578,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261180065",
 		"fecha": "2025-09-29T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180063",
+		"PATERNO": "RODRIGUEZ",
+		"MATERNO": "LOPEZ",
+		"NOMBRE": "ALEXA FERNANDA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180063",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180060",
@@ -2085,6 +2685,21 @@ export default [
 		"fecha": "2025-09-29T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261180017",
+		"PATERNO": "GUZMAN",
+		"MATERNO": "LOZADA",
+		"NOMBRE": "BRENDA LISSET",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180017",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261180009",
 		"PATERNO": "ACOSTA",
 		"MATERNO": "ROBLES",
@@ -2130,6 +2745,21 @@ export default [
 		"fecha": "2025-10-01T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261170033",
+		"PATERNO": "DE LA CRUZ",
+		"MATERNO": "RESENDIZ",
+		"NOMBRE": "SARA CITLALI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261170033",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261170031",
 		"PATERNO": "HERNANDEZ",
 		"MATERNO": "ESPEJEL",
@@ -2143,6 +2773,36 @@ export default [
 		"status": "GENERADA",
 		"folio": "261170031",
 		"fecha": "2025-09-29T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261170027",
+		"PATERNO": "CHAVEZ",
+		"MATERNO": "LOPEZ",
+		"NOMBRE": "JOSEFINA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261170027",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261170026",
+		"PATERNO": "GARCIA",
+		"MATERNO": "REYES",
+		"NOMBRE": "NOHEMI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261170026",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261170025",
@@ -2203,6 +2863,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261170022",
 		"fecha": "2025-09-29T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261170019",
+		"PATERNO": "GONZALEZ",
+		"MATERNO": "LEON",
+		"NOMBRE": "ITZEL BERENICE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261170019",
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261170018",
@@ -2295,6 +2970,51 @@ export default [
 		"fecha": "2025-09-27T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261150009",
+		"PATERNO": "OTERO",
+		"MATERNO": "SANCHEZ",
+		"NOMBRE": "JAZMIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NEGOCIOS INTERNACIONALES",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261150009",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110066",
+		"PATERNO": "TRINIDAD",
+		"MATERNO": "ROSAS",
+		"NOMBRE": "FRANCISCO MIGUEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110066",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110065",
+		"PATERNO": "MIRANDA  ",
+		"MATERNO": "SOLANO ",
+		"NOMBRE": "ALONDRA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110065",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261110064",
 		"PATERNO": "GUTIERREZ",
 		"MATERNO": "ESPINOSA ",
@@ -2308,6 +3028,66 @@ export default [
 		"status": "GENERADA",
 		"folio": "261110064",
 		"fecha": "2025-09-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110063",
+		"PATERNO": "ROJAS ",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "DIEGO YANMARIK",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110063",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110062",
+		"PATERNO": "CONDE",
+		"MATERNO": "CORTEZ",
+		"NOMBRE": "SANDRA ITZEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110062",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110060",
+		"PATERNO": "VALLEJO",
+		"MATERNO": "CARPINTEYRO",
+		"NOMBRE": "MARIA TERESA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110060",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110058",
+		"PATERNO": "AGUILAR",
+		"MATERNO": "CRUZ",
+		"NOMBRE": "VALERIA MICHELLE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110058",
+		"fecha": "2025-10-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110056",
@@ -2338,6 +3118,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261110055",
 		"fecha": "2025-09-29T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110054",
+		"PATERNO": "NOPALTITLA",
+		"MATERNO": "VAZQUEZ",
+		"NOMBRE": "VALERI MARIANA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110054",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110053",
@@ -2410,9 +3205,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261110046",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110045",
@@ -2428,6 +3223,21 @@ export default [
 		"status": "GENERADA",
 		"folio": "261110045",
 		"fecha": "2025-09-30T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261110044",
+		"PATERNO": "SILVA",
+		"MATERNO": "SANTIAGO",
+		"NOMBRE": "MILDRET VALERIA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110044",
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110043",
@@ -2550,6 +3360,21 @@ export default [
 		"fecha": "2025-09-26T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261110035",
+		"PATERNO": "CUADRA",
+		"MATERNO": "RIVERO",
+		"NOMBRE": "LUZ EVELIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110035",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261110032",
 		"PATERNO": "ANAYA ",
 		"MATERNO": "PINEDA ",
@@ -2565,6 +3390,21 @@ export default [
 		"fecha": "2025-10-01T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261110030",
+		"PATERNO": "MENDOZA",
+		"MATERNO": "ORDOÑEZ",
+		"NOMBRE": "ARMANDO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110030",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261110028",
 		"PATERNO": "HIDALGO ",
 		"MATERNO": "OLIVARES",
@@ -2575,9 +3415,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261110028",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-02T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110025",
@@ -2755,9 +3595,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261110011",
-		"fecha": "2025-09-26T06:00:00.000Z"
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110009",
@@ -2848,6 +3688,201 @@ export default [
 		"status": "GENERADA",
 		"folio": "261110002",
 		"fecha": "2025-09-26T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100043",
+		"PATERNO": "DURAN ",
+		"MATERNO": "MORALES",
+		"NOMBRE": "ESTEFANIA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100043",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100038",
+		"PATERNO": "PEREZ",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "ALEXANDER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100038",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100033",
+		"PATERNO": "ARENAS",
+		"MATERNO": "GOMEZ",
+		"NOMBRE": "MIGUEL ANGEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100033",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100028",
+		"PATERNO": "GONZALEZ",
+		"MATERNO": "AGUILAR",
+		"NOMBRE": "QUINATZIN AYMIRIC",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100028",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100024",
+		"PATERNO": "RAMIREZ",
+		"MATERNO": "GARCIA",
+		"NOMBRE": "JESUS ANTONIO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100024",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100022",
+		"PATERNO": "TELLEZ",
+		"MATERNO": "CORTES",
+		"NOMBRE": "TLANEZY ATZIN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100022",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100018",
+		"PATERNO": "MOTA",
+		"MATERNO": "RODRIGUEZ",
+		"NOMBRE": "DANTE YAMIL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100018",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100017",
+		"PATERNO": "MARTINEZ ",
+		"MATERNO": "NICOLAS ",
+		"NOMBRE": "ERNESTO ALONSO ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100017",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100016",
+		"PATERNO": "GALLEGOS",
+		"MATERNO": "ACOSTA",
+		"NOMBRE": "ALEXANDER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100016",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100015",
+		"PATERNO": "ZACARIAS",
+		"MATERNO": "RAMOS",
+		"NOMBRE": "OSCAR KALID",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100015",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100010",
+		"PATERNO": "DE LA CRUZ",
+		"MATERNO": "MEDINA",
+		"NOMBRE": "YOLITZY YARETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100010",
+		"fecha": "2025-10-03T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100003",
+		"PATERNO": "BAÑOS",
+		"MATERNO": "REYNA",
+		"NOMBRE": "MELANIE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100003",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261100001",
+		"PATERNO": "ALBA ",
+		"MATERNO": "BLANCAS ",
+		"NOMBRE": "SALVADOR ARTURO ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261100001",
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261090009",
@@ -2983,6 +4018,81 @@ export default [
 		"status": "GENERADA",
 		"folio": "261050024",
 		"fecha": "2025-10-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261050017",
+		"PATERNO": "GONZALEZ",
+		"MATERNO": "TRUJANO",
+		"NOMBRE": "RODRIGO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261050017",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261050009",
+		"PATERNO": "SANCHEZ",
+		"MATERNO": "RUIZ",
+		"NOMBRE": "NATALIA ABIGAIL GABRIELA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261050009",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261050008",
+		"PATERNO": "PEREZ",
+		"MATERNO": "DURAN",
+		"NOMBRE": "ARMANDO OSVALDO",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261050008",
+		"fecha": "2025-10-06T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261050003",
+		"PATERNO": "HERNANDEZ ",
+		"MATERNO": "RAMOS ",
+		"NOMBRE": "JASHIEL ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261050003",
+		"fecha": "2025-10-02T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261050002",
+		"PATERNO": "MONTOYA ",
+		"MATERNO": "OLMOS ",
+		"NOMBRE": "DANNA YOSHIMI ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "CONTADURÍA PÚBLICA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261050002",
+		"fecha": "2025-10-06T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261030008",
