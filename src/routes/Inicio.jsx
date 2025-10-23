@@ -8,11 +8,20 @@ import ChipsCarreras from '../Componentes/ChipsCarreras'
 import TableNi from '../Componentes/TableNi'
 import TitlesPage from '../Componentes/TitlesPage'
 import FormSolicitud from '../Componentes/FormSolicitud';
+import useSolicitante from '../Componentes/Hooks/useSolicitante';
+import Timelineprocess from '../Componentes/Timelineprocess';
 
 const Inicio = ({ formNi, closeForm }) => {
   const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
+  const recoveryUser = localStorage.getItem('solicitante');
   const [selectedCarrera, setSelectedCarrera] = useState(null);
+  const msjStatus=[
+    {'Por procesar':'Tu credencial esta por procesarse!!..'}, 
+    {'GENERADA':'Tu credencial ha sido generada, Mantente pendiente pronto aparecera como: "IMPRESA"'},
+    {'IMPRESA':'Tu credencial ha sido impresa, Ya puedes recogerla en el Area de Sistemas!! (Recuerda llevar copia de tu recibo de pago)'},
+    {'ENTREGADA': 'Tu credencial ya ha sido entregada!!, si necesitas una reposicion acude al area de Sistemas con tu recibo de pago.'}];
   const [filtroNi, setFiltroNi] = useState([]);
+  const { user, setUser, matchedUser } = useSolicitante();
   const variants = {
     hidden: { opacity: 0 },
     visible: ({ delay }) => ({ opacity: 1, transition: { delay, duration: 1 } })
@@ -26,6 +35,7 @@ const Inicio = ({ formNi, closeForm }) => {
   useEffect(() => {
     if (rescuperaSendSolicitud && rescuperaSendSolicitud === 'true') {
       setSendSolicitud(true);
+      recoveryUser && setUser(JSON.parse(recoveryUser));
     }
   }, []);
   return (
@@ -46,10 +56,40 @@ const Inicio = ({ formNi, closeForm }) => {
             (<div className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
               <div className="alert-title">¡Éxito!</div>
-              <div style={{color: 'gray', textAlign:'center'}}>Tu solicitud ha sido enviada, mantente pendiente al correo proporcionado en tu inscripcion para darle seguimiento!!</div>
+              <div style={{color: 'gray', textAlign:'center'}}>
+                Tu solicitud ha sido enviada, mantente pendiente al correo proporcionado en tu inscripcion para darle seguimiento!!
+                { user &&
+                  <ul>
+                    <li>Te registraste con los siguientes Datos:</li>
+                    <li>Matricula: {user.matricula}</li>
+                    <li>Nombre: {user.nombre}</li>
+                    <li>Carrera: {user.carrera}</li>
+                  </ul>
+                }
+              </div>
             </div>)
             :
             <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
+          }
+          {user && sendSolicitud && (
+            <Timelineprocess user={user} />
+          )}
+          {matchedUser && sendSolicitud &&
+            <div className='info-matched'>
+              <div className="alert-title-succes">¡Tu registro ya se proceso!</div>
+              <div style={{color: 'gray', textAlign:'center'}}>
+                {
+                  msjStatus.map((msj)=>(
+                    Object.keys(msj).map((key)=>{
+                      if(key===user.status){
+                        return(<p key={key}>{msj[key]}</p>)
+                      }
+                      return null;
+                    })
+                  ))
+                }                
+              </div>
+            </div>
           }
         </AnimatePresence>
       </div>
@@ -65,7 +105,7 @@ const Inicio = ({ formNi, closeForm }) => {
       </AnimatePresence>
       {modalOpen && !sendSolicitud ? (
         <Modal onClose={() => setModalOpen(false)}>
-          <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud}/>
+          <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser}/>
         </Modal>
       ) : null}
       {formNi ? (

@@ -3,10 +3,13 @@ import Constantes from '../Constantes';
 import { Modal } from './Modal';
 import instruct_pict from '/instruc_pict_alumno.png';
 
-const FormSolicitud = ({cerrar, setSendSolicitud}) => {
+const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
     const guardaSendSolicitud = () => { 
         localStorage.setItem('sendSolicitud', 'true');
         setSendSolicitud(true);
+    }
+    const guardaUser = (userData) => {
+        localStorage.setItem('solicitante', JSON.stringify(userData));
     }
     const [response, setResponse] = useState(null);
     const [photoUrl, setPhotoUrl] = useState('');
@@ -75,6 +78,11 @@ const FormSolicitud = ({cerrar, setSendSolicitud}) => {
         };
 
         setDataSolicitud(solicitud);
+        setUser({
+            matricula: solicitud.Matricula,
+            nombre: solicitud.Nombre,
+            carrera: solicitud.Carrera
+        })
         await uploadPhoto(solicitud.Matricula);
         try {
             const url = `${Constantes.RUTA_GOOGLE_DRIVE}`;
@@ -95,6 +103,12 @@ const FormSolicitud = ({cerrar, setSendSolicitud}) => {
         } catch (error) {
             console.error("Error al enviar datos:", error);
         } finally {
+            guardaUser({
+                matricula: solicitud.Matricula,
+                nombre: solicitud.Nombre,
+                carrera: solicitud.Carrera,
+                status: 'Por procesar',
+            });
             setDataSolicitud({
                 Matricula: '',
                 Nombre: '',

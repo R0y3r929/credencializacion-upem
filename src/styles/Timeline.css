@@ -1,0 +1,57 @@
+/* TimelineEstado.css */
+.timeline-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-left: 55px;
+  position: relative;
+}
+
+.estado {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+.circulo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.etiqueta {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.linea {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  right: -50%;
+  height: 4px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.completado .circulo {
+  background-color: #4caf50;
+}
+
+.actual .circulo {
+  background-color: #f32121d8;
+}
+
+.pendiente .circulo {
+  background-color: #5e5c5de8;
+}

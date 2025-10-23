@@ -12,11 +12,20 @@
   line-height: 1.5;
   transition: all 0.3s ease;
 }
-
+.info-matched {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
 .android-alert.success {
   border-left: 6px solid #4caf50;
 }
-
+.alert-title-succes {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4caf50;
+  text-align: center;
+}
 .android-alert.error {
   border-left: 6px solid #f44336;
 }
@@ -39,4 +48,19 @@
   font-size: 18px;
   color: #888;
   cursor: pointer;
+}
+.android-alert ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  margin-left: auto;
+}
+.android-alert ul li {
+  margin-bottom: 3px;
+  text-align: left;
+}
+.android-alert ul li:first-child {
+  /*Estilo de sin decoraciones */
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
 }
