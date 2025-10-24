@@ -41,7 +41,7 @@ const Inicio = ({ formNi, closeForm }) => {
   return (
     <>
       <div className='header'>
-        <TitlesPage>Bienvenido Alumn@</TitlesPage>
+        <TitlesPage>Bienvenido {user.nombre !== '' ? `${user.nombre}`: 'Alumn@'}</TitlesPage>
       </div>
       <div className='content-text-descript'>
         {pointsReview.map((item, index) => (
