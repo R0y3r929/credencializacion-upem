@@ -120,6 +120,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
             guardaSendSolicitud();
             setTimeout(() => {
                 setResponse(null);
+                cerrar(false);
             }, 10000);
         }
     };
