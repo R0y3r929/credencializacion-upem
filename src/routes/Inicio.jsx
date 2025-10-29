@@ -69,7 +69,7 @@ const Inicio = ({ formNi, closeForm }) => {
               </div>
             </div>)
             :
-            <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR AQUI (SOLO NUEVO INGRESO)`}</button>
+            <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{margin: '15px auto' }}>{`SOLICITAR CREDENCIAL AQUI!!`}</button>
           }
           {user && sendSolicitud && (
             <Timelineprocess user={user} />
