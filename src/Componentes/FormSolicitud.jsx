@@ -8,6 +8,11 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
         localStorage.setItem('sendSolicitud', 'true');
         setSendSolicitud(true);
     }
+    const validaNotNewIngreso = (matricula) => {
+        const prefix = matricula.substring(0, 3);
+        console.log('Prefix de matrícula:', prefix);
+        return prefix !== '261'; // true si NO es nuevo ingreso
+    };
     const guardaUser = (userData) => {
         localStorage.setItem('solicitante', JSON.stringify(userData));
     }
@@ -66,7 +71,20 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
         setDataSolicitud({
             ...dataSolicitud,
             [e.target.name]: (e.target.value).toUpperCase()
-        });
+        }); 
+        if (e.target.name === 'Matricula') {                      
+            if (e.target.value.length === 9) {
+                const isNotNewIngreso = validaNotNewIngreso(e.target.value);
+                if (!isNotNewIngreso) { // Es nuevo ingreso
+                    alert("El periodo de credencializacion para Nuevo Ingreso 26/1 termino!!.");
+                    setDataSolicitud({
+                        ...dataSolicitud,
+                        [e.target.name]: ''
+                    });
+                    cerrar(false);
+                }
+            }                        
+        }
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
