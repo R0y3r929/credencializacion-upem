@@ -115,9 +115,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261320046",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261320044",
@@ -460,9 +460,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261320011",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261320007",
@@ -475,9 +475,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261320007",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261320004",
@@ -540,6 +540,21 @@ export default [
 		"fecha": "2025-10-20T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261310039",
+		"PATERNO": "ESCOBAR",
+		"MATERNO": "HERNANDEZ",
+		"NOMBRE": "DIEGO OMAR ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261310039",
+		"fecha": "2025-11-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261310035",
 		"PATERNO": "PIZAÑA",
 		"MATERNO": "CABALLERO",
@@ -568,6 +583,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "261310034",
 		"fecha": "2025-10-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261310033",
+		"PATERNO": "HERNANDEZ",
+		"MATERNO": "MEZA",
+		"NOMBRE": "LANDON JOAHAN",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261310033",
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261310032",
@@ -640,9 +670,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261310026",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261310024",
@@ -775,9 +805,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261310014",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261310013",
@@ -880,9 +910,24 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261310006",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261310005",
+		"PATERNO": "RODRIGUEZ",
+		"MATERNO": "ROMERO ",
+		"NOMBRE": "MARIANA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DERECHO",
+		"modalidad": "SABATINA",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261310005",
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261310004",
@@ -1000,9 +1045,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300092",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300091",
@@ -1660,9 +1705,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300041",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300040",
@@ -1795,9 +1840,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300032",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300030",
@@ -2335,9 +2380,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261290027",
-		"fecha": "2025-10-17T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261290024",
@@ -2620,9 +2665,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280025",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280024",
@@ -2665,9 +2710,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280022",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280021",
@@ -2695,9 +2740,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280020",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280019",
@@ -2725,9 +2770,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280018",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280017",
@@ -2770,9 +2815,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280015",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280014",
@@ -2800,9 +2845,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280013",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280012",
@@ -2875,9 +2920,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261280008",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261280007",
@@ -3070,9 +3115,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261270081",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270079",
@@ -3100,9 +3145,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261270078",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270077",
@@ -3159,10 +3204,10 @@ export default [
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "061",
 		"vigencia": "09 2026",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "261270070",
-		"fecha": "2025-10-22T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270069",
@@ -3270,6 +3315,21 @@ export default [
 		"fecha": "2025-10-30T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261270062",
+		"PATERNO": "HERNANDEZ",
+		"MATERNO": "OBLE",
+		"NOMBRE": "VALERIA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261270062",
+		"fecha": "2025-11-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261270061",
 		"PATERNO": "PILON ",
 		"MATERNO": "ROJAS ",
@@ -3280,9 +3340,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261270061",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270060",
@@ -3355,9 +3415,9 @@ export default [
 		"recibo": "007",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261270056",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270055",
@@ -3400,9 +3460,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261270053",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261270052",
@@ -4435,9 +4495,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261220005",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261220004",
@@ -4510,9 +4570,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261210021",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261210020",
@@ -5338,6 +5398,21 @@ export default [
 		"status": "IMPRESA",
 		"folio": "261180153",
 		"fecha": "2025-10-17T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261180152",
+		"PATERNO": "LOPEZ",
+		"MATERNO": "ESPINOSA",
+		"NOMBRE": "DIANA PAMELA ",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261180152",
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180150",
@@ -6775,9 +6850,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180036",
-		"fecha": "2025-10-14T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180035",
@@ -6790,9 +6865,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180035",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180034",
@@ -6895,9 +6970,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180018",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180017",
@@ -7500,6 +7575,21 @@ export default [
 		"fecha": "2025-10-24T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261170008",
+		"PATERNO": "CORONA",
+		"MATERNO": "BARRANCO",
+		"NOMBRE": "JORGE LUIS",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "NUTRICIÓN",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261170008",
+		"fecha": "2025-11-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261170007",
 		"PATERNO": "MENDEZ ",
 		"MATERNO": "JUAREZ ",
@@ -7630,9 +7720,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261160012",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261160011",
@@ -7660,9 +7750,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261160010",
-		"fecha": "2025-10-18T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261160009",
@@ -7735,9 +7825,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261160004",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261160003",
@@ -7750,9 +7840,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261160003",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261160002",
@@ -7765,9 +7855,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261160002",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261160001",
@@ -7960,9 +8050,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261150008",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261150007",
@@ -7975,9 +8065,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261150007",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261150006",
@@ -8035,9 +8125,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261150002",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261150001",
@@ -8065,9 +8155,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140022",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140021",
@@ -8080,9 +8170,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140021",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140020",
@@ -8095,9 +8185,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140020",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140019",
@@ -8155,9 +8245,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140016",
-		"fecha": "2025-10-18T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140015",
@@ -8215,9 +8305,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140012",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140011",
@@ -8260,9 +8350,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140009",
-		"fecha": "2025-10-18T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140008",
@@ -8305,9 +8395,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140006",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140005",
@@ -8335,9 +8425,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261140004",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-01T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261140003",
@@ -8505,6 +8595,21 @@ export default [
 		"fecha": "2025-10-25T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "261110071",
+		"PATERNO": "RAMOS",
+		"MATERNO": "CARRASCO",
+		"NOMBRE": "YARETZI IZEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261110071",
+		"fecha": "2025-11-03T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "261110070",
 		"PATERNO": "VAZQUEZ",
 		"MATERNO": "ORTEGA",
@@ -8515,9 +8620,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261110070",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110069",
@@ -8815,9 +8920,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261110049",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261110048",
@@ -9550,9 +9655,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261100041",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261100040",
@@ -10270,9 +10375,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261070021",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-03T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261070020",
