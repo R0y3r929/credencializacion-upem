@@ -41,7 +41,7 @@ const Inicio = ({ formNi, closeForm }) => {
   return (
     <>
       <div className='header'>
-        <TitlesPage>Bienvenido {user.nombre !== '' ? `${user.nombre}`: 'Alumn@'}</TitlesPage>
+        <TitlesPage>Bienvenido Alumn@</TitlesPage>
       </div>
       <div className='content-text-descript'>
         {pointsReview.map((item, index) => (
@@ -51,7 +51,7 @@ const Inicio = ({ formNi, closeForm }) => {
         ))}
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a>. si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
-          <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
+          {/*<motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>*/}
           {sendSolicitud ?   
             (<div className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
@@ -139,7 +139,7 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              <li><u>El periodo de renovaciones y credencializacion Nuevo Ingreso periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              <li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>
