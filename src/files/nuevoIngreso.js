@@ -85,9 +85,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261320052",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261320049",
@@ -1675,9 +1675,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261300043",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261300042",
@@ -5680,9 +5680,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180135",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180134",
@@ -5785,9 +5785,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180127",
-		"fecha": "2025-10-24T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180126",
@@ -5815,9 +5815,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261180125",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261180124",
@@ -9640,9 +9640,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261100045",
-		"fecha": "2025-10-31T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261100044",
@@ -9684,10 +9684,10 @@ export default [
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "061",
 		"vigencia": "09 2026",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "261100042",
-		"fecha": "2025-10-28T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261100041",
@@ -9789,10 +9789,10 @@ export default [
 		"modalidad": "CUATRIMESTRAL",
 		"recibo": "061",
 		"vigencia": "09 2026",
-		"repociciones": 0,
-		"status": "ENTREGADA",
+		"repociciones": 1,
+		"status": "GENERADA",
 		"folio": "261100035",
-		"fecha": "2025-10-28T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261100033",
@@ -10075,9 +10075,9 @@ export default [
 		"recibo": "061",
 		"vigencia": "09 2026",
 		"repociciones": 0,
-		"status": "IMPRESA",
+		"status": "ENTREGADA",
 		"folio": "261100012",
-		"fecha": "2025-10-13T06:00:00.000Z"
+		"fecha": "2025-11-05T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261100011",
@@ -10573,6 +10573,21 @@ export default [
 		"status": "ENTREGADA",
 		"folio": "261070011",
 		"fecha": "2025-10-22T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261070009",
+		"PATERNO": "BOJORGES",
+		"MATERNO": "FLORES",
+		"NOMBRE": "ANTONIO ABDI",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO GRÁFICO",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261070009",
+		"fecha": "2025-11-04T06:00:00.000Z"
 	},
 	{
 		"MATRÍCULA": "261070008",
