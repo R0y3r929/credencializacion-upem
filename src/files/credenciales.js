@@ -30,6 +30,36 @@ export default [
 		"fecha": "2025-11-11T06:00:00.000Z"
 	},
 	{
+		"MATRÍCULA": "241220010",
+		"PATERNO": "VELAZQUEZ",
+		"MATERNO": "REYES",
+		"NOMBRE": "FLOR MARITZA",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "DISEÑO DE MODAS",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 4,
+		"status": "GENERADA",
+		"folio": "241220010",
+		"fecha": "2025-11-11T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251100003",
+		"PATERNO": "LORENZO",
+		"MATERNO": "LUCAS",
+		"NOMBRE": "ANGEL JAVIER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251100003",
+		"fecha": "2025-11-11T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "251230004",
 		"PATERNO": "ESPINOZA",
 		"MATERNO": "COLIN",
@@ -42,6 +72,21 @@ export default [
 		"repociciones": 1,
 		"status": "GENERADA",
 		"folio": "251230004",
+		"fecha": "2025-11-11T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251270060",
+		"PATERNO": "ZAMUDIO",
+		"MATERNO": "RAMOS",
+		"NOMBRE": "CRISTOFER",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251270060",
 		"fecha": "2025-11-11T06:00:00.000Z"
 	},
 	{
