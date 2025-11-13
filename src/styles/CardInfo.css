@@ -1,0 +1,30 @@
+.card-info {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(243, 242, 242);
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 300ms;
+}
+.card-info:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.card-info img {
+  width: 24px;
+  height: 24px;
+  margin: 15px 0px 0px;
+}
+.icon {
+  font-size: medium;
+  margin-right: 4px;
+  color: #333;
+}
+.title-info {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+.description-info {
+  font-size: 0.9em;
+  color: #666;
+}

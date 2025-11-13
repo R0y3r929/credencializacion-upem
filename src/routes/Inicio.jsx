@@ -10,6 +10,7 @@ import TitlesPage from '../Componentes/TitlesPage'
 import FormSolicitud from '../Componentes/FormSolicitud';
 import useSolicitante from '../Componentes/Hooks/useSolicitante';
 import Timelineprocess from '../Componentes/Timelineprocess';
+import CardInfo from '../Componentes/CardInfo';
 
 const Inicio = ({ formNi, closeForm }) => {
   const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
@@ -31,7 +32,8 @@ const Inicio = ({ formNi, closeForm }) => {
   }
   const [modalOpen, setModalOpen] = useState(false);
   const [sendSolicitud, setSendSolicitud] = useState(false);
-  const pointsReview = [{ point: 'Aqui podras consultar el status de tu credencial, si esta pendiente de entrega. ¡Ten a la mano tu matricula!' }, { point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }];
+  const pointsReview = [{title: 'Actualización diaria', point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, {title: 'Tramite Pendiente', point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, {title: 'Renovación', point: 'Para renovar tu credencial con nueva fotografía, completa el formulario.' }];
+  const iconsPoints = ['time', 'Alert', 'reload'];
   useEffect(() => {
     if (rescuperaSendSolicitud && rescuperaSendSolicitud === 'true') {
       setSendSolicitud(true);
@@ -44,13 +46,18 @@ const Inicio = ({ formNi, closeForm }) => {
         <TitlesPage>Bienvenido Alumn@</TitlesPage>
       </div>
       <div className='content-text-descript'>
-        {pointsReview.map((item, index) => (
+        {/*pointsReview.map((item, index) => (
           <AnimatePresence>
             <motion.span className='text-descript' custom={{ delay: (index + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants} layoutId={index}>🔸{item.point}</motion.span>
           </AnimatePresence>
-        ))}
+        ))*/}
+        <div className='content-cardInfo'>
+          {pointsReview.map((item, index) => (
+            <CardInfo key={index} icon={iconsPoints[index]} title={item.title} descript={item.point} />
+          ))}
+        </div>
         <AnimatePresence>
-          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a>. si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el el boton abajo,<br/> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
           {/*<motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>*/}
           {sendSolicitud ?   
             (<div className="android-alert success">
