@@ -57,7 +57,7 @@ const Inicio = ({ formNi, closeForm }) => {
           ))}
         </div>
         <AnimatePresence>
-          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el el boton abajo,<br/> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br/> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
           {/*<motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>*/}
           {sendSolicitud ?   
             (<div className="android-alert success">
