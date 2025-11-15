@@ -142,10 +142,11 @@ fieldset .form {
 }
 .btn-login {
   width: 550px;
-  padding: 5px;
+  padding: 0.75rem;
   background-color: #273481;
   color: aliceblue;
   font-size: large;
+  border-radius: 0.5rem;
 }
 .btn-login:active {
   color: black;
