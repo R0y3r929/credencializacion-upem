@@ -46,11 +46,6 @@ const Inicio = ({ formNi, closeForm }) => {
         <TitlesPage>Bienvenido Alumn@</TitlesPage>
       </div>
       <div className='content-text-descript'>
-        {/*pointsReview.map((item, index) => (
-          <AnimatePresence>
-            <motion.span className='text-descript' custom={{ delay: (index + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants} layoutId={index}>🔸{item.point}</motion.span>
-          </AnimatePresence>
-        ))*/}
         <div className='content-cardInfo'>
           {pointsReview.map((item, index) => (
             <CardInfo key={index} icon={iconsPoints[index]} title={item.title} descript={item.point} />
