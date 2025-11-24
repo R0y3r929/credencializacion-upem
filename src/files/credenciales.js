@@ -1,5 +1,20 @@
 export default [
 	{
+		"MATRÍCULA": "241180023",
+		"PATERNO": "MERAZ",
+		"MATERNO": "CLEMENTE",
+		"NOMBRE": "MARIA GUADALUPE",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ODONTOLOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 2,
+		"status": "GENERADA",
+		"folio": "241180023",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
 		"MATRÍCULA": "241180103",
 		"PATERNO": "HERRERA",
 		"MATERNO": "DELGADILLO",
@@ -27,6 +42,66 @@ export default [
 		"repociciones": 1,
 		"status": "GENERADA",
 		"folio": "251050003",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251100017",
+		"PATERNO": "IBAÑEZ",
+		"MATERNO": "ROMERO",
+		"NOMBRE": "GABRIEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "GASTRONOMIA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251100017",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251260005",
+		"PATERNO": "MIRANDA",
+		"MATERNO": "AGUILERA",
+		"NOMBRE": "CITLALI MABEL",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PSICOPEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251260005",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251270019",
+		"PATERNO": "CARPINTEYRO",
+		"MATERNO": "GONZALEZ",
+		"NOMBRE": "KAREN LIZBETH",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "PEDAGOGÍA",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251270019",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "251290051",
+		"PATERNO": "LOZANO",
+		"MATERNO": "LOPEZ",
+		"NOMBRE": "ROXANA MONSERRAT",
+		"NIVEL": "LICENCIATURA",
+		"carrera": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+		"modalidad": "CUATRIMESTRAL",
+		"recibo": "061",
+		"vigencia": "09 2026",
+		"repociciones": 1,
+		"status": "GENERADA",
+		"folio": "251290051",
 		"fecha": "2025-11-24T06:00:00.000Z"
 	},
 	{
@@ -563,7 +638,7 @@ export default [
 		"carrera": "ADMINISTRACIÓN DE NEGOCIOS",
 		"modalidad": "MAESTRÍA",
 		"recibo": "007",
-		"vigencia": "0 2026",
+		"vigencia": "02 2026",
 		"repociciones": 0,
 		"status": "GENERADA",
 		"folio": "261M03051",
@@ -657,6 +732,21 @@ export default [
 		"repociciones": 0,
 		"status": "GENERADA",
 		"folio": "261M05027",
+		"fecha": "2025-11-24T06:00:00.000Z"
+	},
+	{
+		"MATRÍCULA": "261M05031",
+		"PATERNO": "ESPADAS ",
+		"MATERNO": "MARTINEZ",
+		"NOMBRE": "VANESSA",
+		"NIVEL": "MAESTRÍA",
+		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
+		"modalidad": "MAESTRÍA",
+		"recibo": "007",
+		"vigencia": "02 2026",
+		"repociciones": 0,
+		"status": "GENERADA",
+		"folio": "261M05031",
 		"fecha": "2025-11-24T06:00:00.000Z"
 	},
 	{
@@ -1650,21 +1740,6 @@ export default [
 		"fecha": "2025-11-22T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "221180035",
-		"PATERNO": "MONDRAGON",
-		"MATERNO": "MARTINEZ",
-		"NOMBRE": "OSCAR AARON",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "221180035",
-		"fecha": "2025-11-21T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "231070025",
 		"PATERNO": "BORGONIO",
 		"MATERNO": "DEL ANGEL",
@@ -2022,21 +2097,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251280015",
-		"fecha": "2025-11-21T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251270113",
-		"PATERNO": "DURAN ",
-		"MATERNO": "ACOSTA ",
-		"NOMBRE": "LETICIA MAGALY ",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 2,
-		"status": "IMPRESA",
-		"folio": "251270113",
 		"fecha": "2025-11-21T06:00:00.000Z"
 	},
 	{
@@ -2610,21 +2670,6 @@ export default [
 		"fecha": "2025-11-14T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "251180072",
-		"PATERNO": "MORALES",
-		"MATERNO": "REYES",
-		"NOMBRE": "JIREH",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251180072",
-		"fecha": "2025-11-14T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "251270015",
 		"PATERNO": "GONZALEZ",
 		"MATERNO": "PINEDA",
@@ -2637,21 +2682,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251270015",
-		"fecha": "2025-11-14T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251270036",
-		"PATERNO": "LOPEZ",
-		"MATERNO": "LOPEZ",
-		"NOMBRE": "MELISSA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 2,
-		"status": "IMPRESA",
-		"folio": "251270036",
 		"fecha": "2025-11-14T06:00:00.000Z"
 	},
 	{
@@ -2730,21 +2760,6 @@ export default [
 		"fecha": "2025-11-14T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "251M05003",
-		"PATERNO": "GALVAN",
-		"MATERNO": "PINEDA",
-		"NOMBRE": "OLIVIA ADILENE",
-		"NIVEL": "MAESTRÍA",
-		"carrera": "PSICOLOGÍA ORGANIZACIONAL",
-		"modalidad": "MAESTRÍA",
-		"recibo": "061",
-		"vigencia": "02 2026",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251M05003",
-		"fecha": "2025-11-14T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "251M05008",
 		"PATERNO": "MARTINEZ",
 		"MATERNO": "PAJARO",
@@ -2772,21 +2787,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251120014",
-		"fecha": "2025-11-14T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "261170001",
-		"PATERNO": "FLORES ",
-		"MATERNO": "SIFUENTES",
-		"NOMBRE": "PAOLA ",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "NUTRICIÓN",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 0,
-		"status": "IMPRESA",
-		"folio": "261170001",
 		"fecha": "2025-11-14T06:00:00.000Z"
 	},
 	{
@@ -2925,21 +2925,6 @@ export default [
 		"fecha": "2025-11-07T06:00:00.000Z"
 	},
 	{
-		"MATRÍCULA": "241270066",
-		"PATERNO": "VELASCO",
-		"MATERNO": "PEREZ",
-		"NOMBRE": "JESUS YEDAN",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "PEDAGOGÍA",
-		"modalidad": "MIXTA",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 2,
-		"status": "IMPRESA",
-		"folio": "241270066",
-		"fecha": "2025-11-07T06:00:00.000Z"
-	},
-	{
 		"MATRÍCULA": "241270068",
 		"PATERNO": "GONZALEZ",
 		"MATERNO": "PEREZ",
@@ -3042,21 +3027,6 @@ export default [
 		"repociciones": 1,
 		"status": "IMPRESA",
 		"folio": "251140017",
-		"fecha": "2025-11-07T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "251180013",
-		"PATERNO": "DIAZ",
-		"MATERNO": "HERNANDEZ",
-		"NOMBRE": "LORENA",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 1,
-		"status": "IMPRESA",
-		"folio": "251180013",
 		"fecha": "2025-11-07T06:00:00.000Z"
 	},
 	{
@@ -3282,21 +3252,6 @@ export default [
 		"repociciones": 2,
 		"status": "IMPRESA",
 		"folio": "231270005",
-		"fecha": "2025-10-31T06:00:00.000Z"
-	},
-	{
-		"MATRÍCULA": "241180031",
-		"PATERNO": "CANO",
-		"MATERNO": "PEREZ",
-		"NOMBRE": "DANA VIVIAN",
-		"NIVEL": "LICENCIATURA",
-		"carrera": "ODONTOLOGÍA",
-		"modalidad": "CUATRIMESTRAL",
-		"recibo": "061",
-		"vigencia": "09 2026",
-		"repociciones": 3,
-		"status": "IMPRESA",
-		"folio": "241180031",
 		"fecha": "2025-10-31T06:00:00.000Z"
 	},
 	{
