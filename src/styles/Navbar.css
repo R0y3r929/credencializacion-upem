@@ -10,6 +10,10 @@ ul,
 li {
   text-decoration: none;
 }
+input {
+  background-color: #ffffffff;
+  color: #000000;
+}
 .navbar {
   display: flex;
   margin-top: -10px;
@@ -74,4 +78,87 @@ li {
   .logotipo {
     font-size: 1em;
   }
+}
+
+/* Modern Switch Styles */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #0ed6f1;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Sun and Moon icons inside the slider */
+.slider .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+
+.slider .sun {
+  left: 6px;
+  opacity: 1;
+}
+
+.slider .moon {
+  right: 3px;
+  opacity: 0;
+}
+
+input:checked + .slider {
+  background-color: #4c0561;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input:checked + .slider .sun {
+  opacity: 0;
+}
+
+input:checked + .slider .moon {
+  opacity: 1;
+}
+
+/* Hover effect */
+.slider:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
