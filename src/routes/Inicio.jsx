@@ -71,7 +71,8 @@ const Inicio = ({ formNi, closeForm }) => {
               </div>
             </div>)
             :
-            <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }}>{`SOLICITAR CREDENCIAL AQUI!!`}</button>
+            /*<button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }} disabled>{`SOLICITAR CREDENCIAL AQUI!!`}</button>*/
+            <span style={{textAlign:'center', marginTop:'2rem', fontSize: '1.3rem'}}>“El ciclo 26/1 de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!” </span>
           }
           {user && sendSolicitud && (
             <Timelineprocess user={user} />
@@ -105,11 +106,11 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
-      {modalOpen && !sendSolicitud ? (
+      {/*modalOpen && !sendSolicitud ? (
         <Modal onClose={() => setModalOpen(false)}>
           <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser} />
         </Modal>
-      ) : null}
+      ) : null*/}
       {formNi ? (
         <Modal onClose={closeForm}>
           <div className='form-NuevoIngreso'>
@@ -141,7 +142,8 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              <li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              {/*<li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>*/}
+              <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo 26/1 TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>
