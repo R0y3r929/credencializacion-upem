@@ -139,16 +139,26 @@ const FormAlumno = () => {
     return (
         <div className='form-login-search'>
             <fieldset>
-                <legend>Seguimiento Credencializacion</legend>
+                <legend>🔍 Seguimiento Credencialización</legend>
                 <form className='form-login-alumno'>
                     <div>
-                        <label htmlFor="matricula">Matricula:</label>
+                        <label htmlFor="matricula">📚 Matrícula:</label>
                     </div>
                     <div>
-                        <input type="search" onChange={onChange} placeholder='Matricula' id='matricula' name='matricula' value={inputs.matricula} style={{ backgroundColor: '#ffffffff', color: '#000000' }} />
+                        <input 
+                            type="search" 
+                            onChange={onChange} 
+                            placeholder='Ej: 123456789' 
+                            id='matricula' 
+                            name='matricula' 
+                            value={inputs.matricula}
+                            maxLength={9}
+                        />
                     </div>
                     <div>
-                        <button onClick={getAccess} className='btn-login'>Buscar</button>
+                        <button onClick={getAccess} className='btn-login' type='button'>
+                            🔎 Buscar
+                        </button>
                     </div>
                 </form>
             </fieldset>

@@ -144,12 +144,13 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
     };
 
   return (
-    <div style={{margin: 0, padding:'auto', textAlign:'center'}}>
-      <h2>Solicitud de Credencializacion</h2>
-      <legend>Datos Solicitante</legend>
+    <div className='form-solicitud-container'>
+      <div className='form-solicitud-wrapper'>
+        <h2>Solicitud de Credencialización</h2>
+        <legend>Datos Solicitante</legend>
         <form onSubmit={handleSubmit} className='form-login-alumno' id='formulario-alumno'>
             <div className='input-group'>
-                <label>{`Matricula (deben ser 9 digitos)`}</label>
+                <label>{`Matrícula (deben ser 9 dígitos)`}</label>
                 <input type="text" id='Matricula' name="Matricula" value={dataSolicitud.Matricula} required maxLength={9} minLength={9} onChange={handleChange}/>                    
             </div>
             <div className='input-group'>
@@ -167,7 +168,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
             <div className='cont-file-pict-form'>
                 <div className='input-group'>
                     <label htmlFor="Foto_Alumno">Foto del Alumno</label>
-                    <input type="file" name="Foto" id="Foto" accept="image/*" required/>
+                    <input type="file" name="Foto" id="Foto" accept="image/*" required style={{height: 'auto'}}/>
                 </div>
                 <div className='input-group'>                    
                     <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{border:'1px solid red'}}/>                
@@ -181,10 +182,11 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
                 <div className='response-success'>
                     <h3>Solicitud Enviada Correctamente ✅</h3>                    
                     <p style={{ color: 'GrayText', marginTop: '35px'}}>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
-                    <p style={{ color: 'GrayText'}}>Tambien puedes revisar el status a travez de esta pagina apartir de mañana</p>
+                    <p style={{ color: 'GrayText'}}>También puedes revisar el status a través de esta página a partir de mañana</p>
                 </div>
             </Modal>
         )}
+      </div>
     </div>
   )
 }

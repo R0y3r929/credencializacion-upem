@@ -13,6 +13,12 @@ import Timelineprocess from '../Componentes/Timelineprocess';
 import CardInfo from '../Componentes/CardInfo';
 
 const Inicio = ({ formNi, closeForm }) => {
+  // Configuración de rango de fechas para habilitar funciones
+  const FECHA_INICIO = new Date('2026-01-26'); // Cambiar a tu fecha de inicio
+  const FECHA_FIN = new Date('2026-02-15'); // Cambiar a tu fecha de fin
+  const hoy = new Date();
+  const funcionesActivas = hoy >= FECHA_INICIO && hoy <= FECHA_FIN;
+
   const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
   const recoveryUser = localStorage.getItem('solicitante');
   const [selectedCarrera, setSelectedCarrera] = useState(null);
@@ -53,7 +59,7 @@ const Inicio = ({ formNi, closeForm }) => {
         </div>
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
-          {/*<motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>*/}
+          {funcionesActivas && <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>}
           {sendSolicitud ?
             (<div className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
@@ -71,8 +77,11 @@ const Inicio = ({ formNi, closeForm }) => {
               </div>
             </div>)
             :
-            /*<button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }} disabled>{`SOLICITAR CREDENCIAL AQUI!!`}</button>*/
-            <span style={{textAlign:'center', marginTop:'2rem', fontSize: '1.3rem'}}>“El ciclo 26/1 de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!” </span>
+            funcionesActivas ? (
+              <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }}>{`SOLICITAR CREDENCIAL AQUI!!`}</button>
+            ) : (
+              <span style={{textAlign:'center', marginTop:'2rem', fontSize: '1.3rem'}}>"El ciclo 26/1 de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!" </span>
+            )
           }
           {user && sendSolicitud && (
             <Timelineprocess user={user} />
@@ -106,11 +115,11 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
-      {/*modalOpen && !sendSolicitud ? (
+      {modalOpen && !sendSolicitud ? (
         <Modal onClose={() => setModalOpen(false)}>
           <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser} />
         </Modal>
-      ) : null*/}
+      ) : null}
       {formNi ? (
         <Modal onClose={closeForm}>
           <div className='form-NuevoIngreso'>
@@ -142,8 +151,8 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              {/*<li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>*/}
-              <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo 26/1 TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>
+              {funcionesActivas && <li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo 26/1 TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>

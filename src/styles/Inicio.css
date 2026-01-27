@@ -84,14 +84,32 @@ h1 {
   align-self: center;
 }
 .form-login-search {
-  margin: 5px auto 5px auto;
+  margin: 5px auto 25px auto;
   width: 60%;
-  border: 2px solid "#ff0000";
-  /*background-color: aliceblue;*/
-  padding: 20px;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(39, 52, 129, 0.15);
 }
+
+.form-login-search fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-login-search legend {
+  color: #273481;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+
 fieldset .form {
-  border: 2px solid "#ff0000";
+  border: none;
 }
 .detail-credencial {
   display: flex;
@@ -105,11 +123,13 @@ fieldset .form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
 .input-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  width: 100%;
 }
 .form-login-alumno .input-group input {
   width: 100%;
@@ -118,20 +138,61 @@ fieldset .form {
   padding: 15px;
 }
 .form-login-alumno label {
-  font-size: 1.3em;
-  color: gray;
+  font-size: 1.1em;
+  color: #273481;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 .form-login-alumno label:hover {
-  color: #273481;
-  font-weight: bold;
+  color: #1a2148;
+  font-weight: 700;
+  transition: color 0.3s ease;
 }
 .form-login-alumno input {
-  width: 550px;
-  height: 25px;
-  margin-bottom: 15px;
-  font-size: 1.3em;
-  padding: 15px;
+  width: 100%;
+  max-width: 550px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 1.1em;
+  margin: 0;
+  border: 2px solid #e0e0e0;
   border-radius: 10px;
+  background-color: white;
+  color: #333;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-login-alumno input:focus {
+  outline: none;
+  border-color: #273481;
+  box-shadow: 0 0 0 4px rgba(39, 52, 129, 0.1);
+  background-color: #f0f4ff;
+}
+
+.form-login-alumno input::placeholder {
+  color: #999;
+}
+
+/* Estilos para input date - icono de calendario */
+.form-login-alumno input[type="date"] {
+  color-scheme: light;
+}
+
+.form-login-alumno input[type="date"]::before {
+  content: "";
+}
+
+/* Para navegadores que soportan ::-webkit-calendar-picker-indicator */
+.form-login-alumno input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0) brightness(0);
+  cursor: pointer;
+}
+
+/* Para Firefox */
+.form-login-alumno input[type="date"]::-moz-calendar-picker-indicator {
+  filter: invert(0) brightness(0);
+  cursor: pointer;
 }
 .btn-nuevoIngreso {
   padding: 5px;
@@ -141,16 +202,72 @@ fieldset .form {
   margin: 15px;
 }
 .btn-login {
-  width: 550px;
-  padding: 0.75rem;
+  width: 100%;
+  max-width: 550px;
+  padding: 12px 30px;
   background-color: #273481;
   color: aliceblue;
-  font-size: large;
-  border-radius: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: 2px solid #273481;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 15px rgba(39, 52, 129, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
 }
+
+.btn-login::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.6s ease,
+    height 0.6s ease;
+}
+
+.btn-login:hover {
+  background-color: #1a2148;
+  border-color: #1a2148;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(39, 52, 129, 0.35);
+}
+
 .btn-login:active {
-  color: black;
-  background-color: azure;
+  animation: pressButton 0.6s ease;
+  transform: translateY(0);
+}
+
+.btn-login:active::before {
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes pressButton {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(0.96) translateY(2px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+.btn-login:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
 }
 .match-credencial {
   display: flex;
@@ -280,6 +397,42 @@ fieldset .form {
   color: #b80816;
   font-size: 2em;
 }
+
+.form-solicitud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #f0f4ff 100%);
+}
+
+.form-solicitud-wrapper {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(39, 52, 129, 0.15);
+  width: 100%;
+  max-width: 700px;
+}
+
+.form-solicitud-wrapper h2 {
+  color: #273481;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form-solicitud-wrapper legend {
+  display: block;
+  text-align: center;
+  color: #273481;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
 .cont-file-pict-form {
   display: flex;
   flex-direction: row;
