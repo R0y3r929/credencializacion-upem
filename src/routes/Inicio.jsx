@@ -11,6 +11,7 @@ import FormSolicitud from '../Componentes/FormSolicitud';
 import useSolicitante from '../Componentes/Hooks/useSolicitante';
 import Timelineprocess from '../Componentes/Timelineprocess';
 import CardInfo from '../Componentes/CardInfo';
+import { li } from 'motion/react-client';
 
 const Inicio = ({ formNi, closeForm }) => {
   // Configuración de rango de fechas para habilitar funciones
@@ -59,7 +60,12 @@ const Inicio = ({ formNi, closeForm }) => {
         </div>
         <AnimatePresence>
           <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
-          {funcionesActivas && <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial, puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>}
+          {funcionesActivas && (
+            <>
+              <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
+              <motion.span className="text-descript" custom={{ delay: (5 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
+            </>
+          )}
           {sendSolicitud ?
             (<div className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
@@ -151,7 +157,8 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              {funcionesActivas && <li><u>El periodo de RENOVACIONES periodo 26/1 INICIA!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              {funcionesActivas && <li><b><u>El periodo de NUEVO INGRESO periodo 26/2 INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              {funcionesActivas && <li>Si eres de Nuevo Ingreso, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
               {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo 26/1 TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
               <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
