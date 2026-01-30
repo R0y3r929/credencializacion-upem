@@ -11,7 +11,7 @@ import FormSolicitud from '../Componentes/FormSolicitud';
 import useSolicitante from '../Componentes/Hooks/useSolicitante';
 import Timelineprocess from '../Componentes/Timelineprocess';
 import CardInfo from '../Componentes/CardInfo';
-import { li } from 'motion/react-client';
+
 
 const Inicio = ({ formNi, closeForm }) => {
   // Configuración de rango de fechas para habilitar funciones
