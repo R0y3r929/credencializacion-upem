@@ -3,8 +3,8 @@ import Constantes from '../Constantes';
 import { Modal } from './Modal';
 import instruct_pict from '/instruc_pict_alumno.png';
 
-const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
-    const guardaSendSolicitud = () => { 
+const FormSolicitud = ({ cerrar, setSendSolicitud, setUser }) => {
+    const guardaSendSolicitud = () => {
         localStorage.setItem('sendSolicitud', 'true');
         setSendSolicitud(true);
     }
@@ -18,7 +18,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
     }
     const [response, setResponse] = useState(null);
     const [photoUrl, setPhotoUrl] = useState('');
-    const [dataSolicitud, setDataSolicitud ]= useState({
+    const [dataSolicitud, setDataSolicitud] = useState({
         Matricula: '',
         Nombre: '',
         Carrera: '',
@@ -39,23 +39,23 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
         reader.onload = async function (e) {
             const rawLog = e.target.result.split(',')[1]; // solo la parte base64
 
-            const dataSend = { 
-            fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
-            dataReq: { 
-                data: rawLog, 
-                name: matricula, 
-                type: photo.type 
-            }
+            const dataSend = {
+                fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
+                dataReq: {
+                    data: rawLog,
+                    name: matricula,
+                    type: photo.type
+                }
             };
 
             try {
-            const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
-                method: 'POST',
-                body: JSON.stringify(dataSend)
-            });
+                const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
+                    method: 'POST',
+                    body: JSON.stringify(dataSend)
+                });
 
-            const data = await res.json();
-            console.log(data);
+                const data = await res.json();
+                console.log(data);
 
             } catch (error) {
                 console.error("Error al subir foto:", error);
@@ -71,8 +71,8 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
         setDataSolicitud({
             ...dataSolicitud,
             [e.target.name]: (e.target.value).toUpperCase()
-        }); 
-        if (e.target.name === 'Matricula') {                      
+        });
+        /*if (e.target.name === 'Matricula') {                      
             if (e.target.value.length === 9) {
                 const isNotNewIngreso = validaNotNewIngreso(e.target.value);
                 if (!isNotNewIngreso) { // Es nuevo ingreso
@@ -84,7 +84,7 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
                     cerrar(false);
                 }
             }                        
-        }
+        }*/
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -143,52 +143,52 @@ const FormSolicitud = ({cerrar, setSendSolicitud, setUser}) => {
         }
     };
 
-  return (
-    <div className='form-solicitud-container'>
-      <div className='form-solicitud-wrapper'>
-        <h2>Solicitud de Credencialización</h2>
-        <legend>Datos Solicitante</legend>
-        <form onSubmit={handleSubmit} className='form-login-alumno' id='formulario-alumno'>
-            <div className='input-group'>
-                <label>{`Matrícula (deben ser 9 dígitos)`}</label>
-                <input type="text" id='Matricula' name="Matricula" value={dataSolicitud.Matricula} required maxLength={9} minLength={9} onChange={handleChange}/>                    
+    return (
+        <div className='form-solicitud-container'>
+            <div className='form-solicitud-wrapper'>
+                <h2>Solicitud de Credencialización</h2>
+                <legend>Datos Solicitante</legend>
+                <form onSubmit={handleSubmit} className='form-login-alumno' id='formulario-alumno'>
+                    <div className='input-group'>
+                        <label>{`Matrícula (deben ser 9 dígitos)`}</label>
+                        <input type="text" id='Matricula' name="Matricula" value={dataSolicitud.Matricula} required maxLength={9} minLength={9} onChange={handleChange} />
+                    </div>
+                    <div className='input-group'>
+                        <label htmlFor="nombre">Nombre Completo:</label>
+                        <input type="text" id="Nombre" name="Nombre" value={dataSolicitud.Nombre} required onChange={handleChange} />
+                    </div>
+                    <div className='input-group'>
+                        <label htmlFor="">Carrera</label>
+                        <input type="text" id='Carrera' name="Carrera" value={dataSolicitud.Carrera} required onChange={handleChange} />
+                    </div>
+                    <div className='input-group'>
+                        <label htmlFor="F_pago">Fecha Pago</label>
+                        <input type="date" id='F_pago' name="F_pago" value={dataSolicitud.F_pago} required onChange={handleChange} />
+                    </div>
+                    <div className='cont-file-pict-form'>
+                        <div className='input-group'>
+                            <label htmlFor="Foto_Alumno">Foto del Alumno</label>
+                            <input type="file" name="Foto" id="Foto" accept="image/*" required style={{ height: 'auto' }} />
+                        </div>
+                        <div className='input-group'>
+                            <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{ border: '1px solid red' }} />
+                        </div>
+                    </div>
+                    <button className='btn btn-login'>{(dataSolicitud.status) ? 'Enviando espere..' : 'Solicitar'}</button>
+                </form>
+                {response && <p>{response.status}</p>}
+                {response !== null && response.status === 'OK' && (
+                    <Modal onClose={() => cerrar(false)}>
+                        <div className='response-success'>
+                            <h3>Solicitud Enviada Correctamente ✅</h3>
+                            <p style={{ color: 'GrayText', marginTop: '35px' }}>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
+                            <p style={{ color: 'GrayText' }}>También puedes revisar el status a través de esta página a partir de mañana</p>
+                        </div>
+                    </Modal>
+                )}
             </div>
-            <div className='input-group'>
-                <label htmlFor="nombre">Nombre Completo:</label>
-                <input type="text" id="Nombre" name="Nombre" value={dataSolicitud.Nombre} required onChange={handleChange}/>
-            </div>
-            <div className='input-group'>
-                <label htmlFor="">Carrera</label>
-                <input type="text" id='Carrera' name="Carrera" value={dataSolicitud.Carrera} required onChange={handleChange}/>
-            </div>
-            <div className='input-group'>
-                <label htmlFor="F_pago">Fecha Pago</label>
-                <input type="date" id='F_pago' name="F_pago" value={dataSolicitud.F_pago} required onChange={handleChange}/>
-            </div>
-            <div className='cont-file-pict-form'>
-                <div className='input-group'>
-                    <label htmlFor="Foto_Alumno">Foto del Alumno</label>
-                    <input type="file" name="Foto" id="Foto" accept="image/*" required style={{height: 'auto'}}/>
-                </div>
-                <div className='input-group'>                    
-                    <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{border:'1px solid red'}}/>                
-                </div>                
-            </div>
-            <button className='btn btn-login'>{(dataSolicitud.status)?'Enviando espere..':'Solicitar'}</button>
-        </form>
-        {response && <p>{response.status}</p>}
-        {response!==null && response.status === 'OK' && (
-            <Modal onClose={() => cerrar(false)}>
-                <div className='response-success'>
-                    <h3>Solicitud Enviada Correctamente ✅</h3>                    
-                    <p style={{ color: 'GrayText', marginTop: '35px'}}>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
-                    <p style={{ color: 'GrayText'}}>También puedes revisar el status a través de esta página a partir de mañana</p>
-                </div>
-            </Modal>
-        )}
-      </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default FormSolicitud
