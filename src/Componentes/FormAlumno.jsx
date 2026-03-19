@@ -118,9 +118,16 @@ const FormAlumno = () => {
             const resp = await peticion.json()
 
             if (resp.status !== 500) {
-                setUser(resp[0])
-                setIsLogin(true)
-                setMsj('')
+                if (resp.length > 0) {
+                    setUser(resp[0])
+                    setIsLogin(true)
+                    setMsj('')
+                } else {
+                    alert(`🔸El alumno ${matricula} no existe o no ah tramitado, Contacte con Sistemas`);
+                    setUser('')
+                    setIsLogin(false)
+                    setMsj(`¡¡No existe trámite de credencialización para: ${matricula} o ya realizó el trámite y está entregada. Para más información, contacta a sistemas.!!`);
+                }
             } else {
                 alert(`🔸El alumno ${matricula} no existe o no ah tramitado, Contacte con Sistemas`);
                 setUser('')
