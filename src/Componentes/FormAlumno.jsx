@@ -3,7 +3,7 @@ import credenciales from '../files/credenciales'
 import Notifs from './Notifs';
 import { Modal } from './Modal';
 import { motion } from "motion/react";
-
+import Constantes from '../Constantes';
 
 const calculaVigencia = function (fecha) {
     const arrayMonth = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"];
@@ -111,12 +111,24 @@ const FormAlumno = () => {
             })
         }
     }
-    const fetchDataAlumn = (matricula) => {
+    const fetchDataAlumn = async (matricula) => {
         if (matricula != '' && matricula.length === 9) {
-            /*const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
+            const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
             const peticion = await fetch(url)
-            const resp = await peticion.json()*/
-            const foundUser = alumnos.find(credencial => credencial.MATRÍCULA === matricula);
+            const resp = await peticion.json()
+
+            if (resp.status !== 500) {
+                setUser(resp[0])
+                setIsLogin(true)
+                setMsj('')
+            } else {
+                alert(`🔸El alumno ${matricula} no existe o no ah tramitado, Contacte con Sistemas`);
+                setUser('')
+                setIsLogin(false)
+                setMsj(`¡¡No existe trámite de credencialización para: ${matricula} o ya realizó el trámite y está entregada. Para más información, contacta a sistemas.!!`);
+            }
+            /*const foundUser = alumnos.find(credencial => credencial.MATRÍCULA === matricula);
+            console.log(foundUser);
             if (foundUser) {
                 setUser(foundUser)
                 setIsLogin(true)
@@ -126,7 +138,7 @@ const FormAlumno = () => {
                 setUser('')
                 setIsLogin(false)
                 setMsj(`¡¡No existe trámite de credencialización para: ${matricula} o ya realizó el trámite y está entregada. Para más información, contacta a sistemas.!!`);
-            }
+            }*/
         } else {
             alert(`🚫 Proporciona alguna matricula valida (9 digitos) para poder buscar!!`)
         }
@@ -145,12 +157,12 @@ const FormAlumno = () => {
                         <label htmlFor="matricula">📚 Matrícula:</label>
                     </div>
                     <div>
-                        <input 
-                            type="search" 
-                            onChange={onChange} 
-                            placeholder='Ej: 123456789' 
-                            id='matricula' 
-                            name='matricula' 
+                        <input
+                            type="search"
+                            onChange={onChange}
+                            placeholder='Ej: 123456789'
+                            id='matricula'
+                            name='matricula'
                             value={inputs.matricula}
                             maxLength={9}
                         />
