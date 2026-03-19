@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import credenciales from '../../files/credenciales'
+import Constantes from '../../Constantes';
 
 const useSolicitante = () => {
     const [user, setUser] = useState({ matricula: '', nombre: '', carrera: '', status: '' });
