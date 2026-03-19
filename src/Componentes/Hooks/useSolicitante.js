@@ -29,8 +29,8 @@ const useSolicitante = () => {
             if (resp.length > 0) {
                 console.log('solicitante encontrado', resp[0])
                 setUser({
-                    matricula: resp[0].matricula,
-                    nombre: resp[0].nombre + ' ' + resp[0].paterno + ' ' + resp[0].materno,
+                    matricula: resp[0].folio,
+                    nombre: resp[0].NOMBRE + ' ' + resp[0].PATERNO + ' ' + resp[0].MATERNO,
                     carrera: resp[0].carrera,
                     status: resp[0].status,
                 })
