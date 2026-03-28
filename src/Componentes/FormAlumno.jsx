@@ -5,6 +5,7 @@ import { Modal } from './Modal';
 import { motion } from "motion/react";
 import Constantes from '../Constantes';
 import '../styles/FormAlumno.css';
+import useSolicitante from './Hooks/useSolicitante';
 
 const calculaVigencia = function (fecha) {
     const arrayMonth = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"];
@@ -22,7 +23,7 @@ const notifs = {
     msgEntregada: `✅ Esta credencial ya se Entrego!!`
 };
 
-const CardMatch = ({ user, onClose }) => {
+const CardMatch = ({ user, setMatchedUser, guardaSendSolicitud, guardaUser, onClose }) => {
     const variants = {
         hidden: { opacity: 0, y: 10 },
         visible: ({ delay }) => ({ opacity: 1, y: 0, transition: { delay, duration: 0.6, ease: "easeOut" } })
@@ -30,6 +31,18 @@ const CardMatch = ({ user, onClose }) => {
 
     const isGenerada = user.status === "GENERADA";
     const statusClass = isGenerada ? 'generada' : (user.status === "IMPRESA" || user.status === "ENTREGADA") ? 'impresa' : '';
+
+    const darSeguimiento = () => {
+        guardaUser({
+            matricula: user.folio,
+            nombre: user.NOMBRE + " " + user.PATERNO + " " + user.MATERNO,
+            carrera: user.carrera,
+            status: user.status,
+        })
+        setMatchedUser(true)
+        guardaSendSolicitud()
+        onClose()
+    }
 
     return (
         <div className='resultado-card-elegant'>
@@ -67,9 +80,11 @@ const CardMatch = ({ user, onClose }) => {
                     <span>{notifs.msgEntregada}</span>
                 )}
             </motion.div>
-            
             <motion.div custom={{ delay: 0.5 }} initial='hidden' animate='visible' variants={variants}>
-                <button className='close-btn-elegant' onClick={onClose}>Cerrar Detalle</button>
+                <button className='close-btn-elegant seguimiento' onClick={darSeguimiento}>Dar seguimiento a Credencial</button>
+            </motion.div>
+            <motion.div custom={{ delay: 0.5 }} initial='hidden' animate='visible' variants={variants}>
+                <button className='close-btn-elegant close' onClick={onClose}>Cerrar Detalle</button>
             </motion.div>
         </div>
     )
@@ -79,7 +94,8 @@ const FormAlumno = () => {
     const initialForm = { matricula: '' }
     const [inputs, setInputs] = useState(initialForm)
     const [isLogin, setIsLogin] = useState(false);
-    const [user, setUser] = useState('')
+    const { user, setUser, setMatchedUser, guardaUser, guardaSendSolicitud } = useSolicitante();
+    //const [user, setUser] = useState('')
     const [msj, setMsj] = useState('')
 
     const cerrarModal = () => {
@@ -159,16 +175,16 @@ const FormAlumno = () => {
                         />
                     </div>
                     <div>
-                        <button className='btn-elegant-search' type='submit'>
+                        <button className='btn-elegant search' type='submit'>
                             Buscar Trámite
                         </button>
                     </div>
                 </form>
             </div>
-            
+
             {isLogin ? (
                 <Modal onClose={cerrarModal}>
-                    <CardMatch user={user} onClose={cerrarModal} />
+                    <CardMatch user={user} setMatchedUser={setMatchedUser} guardaSendSolicitud={guardaSendSolicitud} guardaUser={guardaUser} onClose={cerrarModal} />
                 </Modal>
             ) : (msj !== '') ? (<Notifs msj={msj} />) : null}
         </div>

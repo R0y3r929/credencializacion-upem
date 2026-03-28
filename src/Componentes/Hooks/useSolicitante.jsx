@@ -1,25 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, createContext, useContext } from 'react';
 import credenciales from '../../files/credenciales'
 import Constantes from '../../Constantes';
 
-const useSolicitante = () => {
+const SolicitanteContext = createContext();
+
+export const SolicitanteProvider = ({ children }) => {
     const [user, setUser] = useState({ matricula: '', nombre: '', carrera: '', status: '' });
     const [matchedUser, setMatchedUser] = useState(false);
-    /*const buscarSolicitante = (matricula) => {
-        const solicitanteEncontrado = credenciales.find((alumno) => alumno.MATRÍCULA === matricula);
-        if (solicitanteEncontrado) {
-            console.log('Solicitante encontrado:', solicitanteEncontrado);
-            setUser(
-                {
-                    matricula: solicitanteEncontrado.MATRÍCULA,
-                    nombre: solicitanteEncontrado.NOMBRE+' '+solicitanteEncontrado. PATERNO+' '+solicitanteEncontrado.MATERNO,
-                    carrera: solicitanteEncontrado.carrera,
-                    status: solicitanteEncontrado.status,
-                }
-            );
-            setMatchedUser(true);
-        } 
-    };*/
+    const [sendSolicitud, setSendSolicitud] = useState(false);
+
     const buscarSolicitante = async (matricula) => {
         const url = `${Constantes.RUTA_API_GLOBAL}/api/credenciales/getCredencialAlumn/${matricula}`;
         const peticion = await fetch(url)
@@ -42,11 +31,31 @@ const useSolicitante = () => {
         buscarSolicitante(user.matricula);
     }, [user.status]);
 
-    return {
-        user,
-        setUser,
-        matchedUser,
+    const guardaUser = (datosUsuario) => {
+        setUser(datosUsuario);
+        localStorage.setItem('solicitante', JSON.stringify(datosUsuario));
     };
+
+    const guardaSendSolicitud = () => {
+        localStorage.setItem('sendSolicitud', 'true');
+        setSendSolicitud(true);
+    }
+
+    return (
+        <SolicitanteContext.Provider value={{
+            user,
+            setUser,
+            matchedUser,
+            setMatchedUser,
+            guardaUser,
+            guardaSendSolicitud,
+            setSendSolicitud,
+            sendSolicitud
+        }}>
+            {children}
+        </SolicitanteContext.Provider>
+    );
 };
 
+const useSolicitante = () => useContext(SolicitanteContext);
 export default useSolicitante;

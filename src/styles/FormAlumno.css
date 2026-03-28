@@ -1,10 +1,10 @@
 .form-alumno-container {
-    min-height: 60vh;
+    /*min-height: 60vh;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     background: #ffffffe5;
 }
 
@@ -102,13 +102,11 @@ body.dark-mode .input-elegant:focus {
     border-color: #646cff;
     box-shadow: 0 0 0 4px rgba(100, 108, 255, 0.25);
 }
-
-.btn-elegant-search {
+.btn-elegant{
     width: 100%;
     padding: 1rem;
     border: none;
     border-radius: 9999px;
-    background: linear-gradient(135deg, #273481, #646cff);
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
@@ -120,6 +118,15 @@ body.dark-mode .input-elegant:focus {
     align-items: center;
     gap: 0.5rem;
     letter-spacing: 0.02em;
+}
+.search {    
+    background: linear-gradient(135deg, #273481, #646cff);
+}
+.seguimiento {
+    background: linear-gradient(90deg, #2934ae 0%, #0f85fa 65%, #0fe7fa 100%);;
+}
+.close{
+    background: linear-gradient(90deg, #c30941 0%, #fa0fb8 65%, #fa0f3a 100%);
 }
 
 .btn-elegant-search:hover {
@@ -279,8 +286,7 @@ body.dark-mode .notif-box-elegant {
     margin-top: 1.5rem;
     padding: 0.875rem;
     border: 1px solid rgba(39, 52, 129, 0.3);
-    background: rgba(255, 255, 255, 0.5);
-    color: #213547;
+    color: #fbfbfc;
     font-weight: 600;
     font-size: 1rem;
     border-radius: 9999px;

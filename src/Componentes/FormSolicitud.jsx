@@ -2,20 +2,17 @@ import React, { useState } from 'react'
 import Constantes from '../Constantes';
 import { Modal } from './Modal';
 import instruct_pict from '/instruc_pict_alumno.png';
+import useSolicitante from './Hooks/useSolicitante';
 
-const FormSolicitud = ({ cerrar, setSendSolicitud, setUser }) => {
-    const guardaSendSolicitud = () => {
-        localStorage.setItem('sendSolicitud', 'true');
-        setSendSolicitud(true);
-    }
+const FormSolicitud = ({ cerrar, setUser }) => {
+    const { guardaUser, guardaSendSolicitud } = useSolicitante();
+
     const validaNotNewIngreso = (matricula) => {
         const prefix = matricula.substring(0, 3);
         console.log('Prefix de matrícula:', prefix);
         return prefix !== '261'; // true si NO es nuevo ingreso
     };
-    const guardaUser = (userData) => {
-        localStorage.setItem('solicitante', JSON.stringify(userData));
-    }
+
     const [response, setResponse] = useState(null);
     const [photoUrl, setPhotoUrl] = useState('');
     const [dataSolicitud, setDataSolicitud] = useState({

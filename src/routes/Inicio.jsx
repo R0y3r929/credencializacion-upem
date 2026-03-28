@@ -26,10 +26,10 @@ const Inicio = ({ formNi, closeForm }) => {
   const msjStatus = [
     { 'Por procesar': 'Tu credencial esta por procesarse!!..' },
     { 'GENERADA': 'Tu credencial ha sido generada, Mantente pendiente pronto aparecera como: "IMPRESA"' },
-    { 'IMPRESA': 'Tu credencial ha sido impresa, Ya puedes recogerla en el Area de Sistemas!! (Recuerda llevar copia de tu recibo de pago)' },
+    { 'IMPRESA': <>Tu credencial ha sido impresa, Ya puedes recogerla en el Area de Sistemas!! <b>(Recuerda llevar copia de tu recibo de pago)</b></> },
     { 'ENTREGADA': 'Tu credencial ya ha sido entregada!!, si necesitas una reposicion acude al area de Sistemas con tu recibo de pago.' }];
   const [filtroNi, setFiltroNi] = useState([]);
-  const { user, setUser, matchedUser } = useSolicitante();
+  const { user, setUser, matchedUser, sendSolicitud, setSendSolicitud } = useSolicitante();
   const variants = {
     hidden: { opacity: 0 },
     visible: ({ delay }) => ({ opacity: 1, transition: { delay, duration: 1 } })
@@ -38,7 +38,7 @@ const Inicio = ({ formNi, closeForm }) => {
     e.target.parentElement.style.display = 'none';
   }
   const [modalOpen, setModalOpen] = useState(false);
-  const [sendSolicitud, setSendSolicitud] = useState(false);
+
   const pointsReview = [{ title: 'Actualización diaria', point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { title: 'Tramite Pendiente', point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { title: 'Renovación', point: 'Para renovar tu credencial con nueva fotografía, completa el formulario.' }];
   const iconsPoints = ['time', 'Alert', 'reload'];
   useEffect(() => {
