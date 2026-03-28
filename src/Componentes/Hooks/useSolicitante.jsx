@@ -1,5 +1,4 @@
 import { useEffect, useState, createContext, useContext } from 'react';
-import credenciales from '../../files/credenciales'
 import Constantes from '../../Constantes';
 
 const SolicitanteContext = createContext();

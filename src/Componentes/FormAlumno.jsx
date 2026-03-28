@@ -42,6 +42,14 @@ const CardMatch = ({ user, setMatchedUser, guardaSendSolicitud, guardaUser, onCl
         setMatchedUser(true)
         guardaSendSolicitud()
         onClose()
+        
+        // Timeout para esperar a que React renderice el cambio
+        setTimeout(() => {
+            const el = document.getElementById('alert-success-box');
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }, 150);
     }
 
     return (

@@ -67,7 +67,7 @@ const Inicio = ({ formNi, closeForm }) => {
             </>
           )}
           {sendSolicitud ?
-            (<div className="android-alert success">
+            (<div id="alert-success-box" className="android-alert success">
               <button className="alert-close" onClick={cerrraMsj}>&times;</button>
               <div className="alert-title">¡Éxito!</div>
               <div style={{ color: 'gray', textAlign: 'center' }}>
