@@ -19,6 +19,7 @@ const Inicio = ({ formNi, closeForm }) => {
   const FECHA_FIN = new Date('2026-03-31'); // Cambiar a tu fecha de fin
   const hoy = new Date();
   const funcionesActivas = hoy >= FECHA_INICIO && hoy <= FECHA_FIN;
+  const ciclo = '26/2';
 
   const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
   const recoveryUser = localStorage.getItem('solicitante');
@@ -59,9 +60,9 @@ const Inicio = ({ formNi, closeForm }) => {
           ))}
         </div>
         <AnimatePresence>
-          <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
           {funcionesActivas && (
             <>
+              <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
               <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
               <motion.span className="text-descript" custom={{ delay: (5 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
             </>
@@ -86,7 +87,7 @@ const Inicio = ({ formNi, closeForm }) => {
             funcionesActivas ? (
               <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }}>{`SOLICITAR CREDENCIAL AQUI!!`}</button>
             ) : (
-              <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>"El ciclo 26/2 de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!" </span>
+              <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>{`"El ciclo ${ciclo} de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!"`} </span>
             )
           }
           {user && sendSolicitud && (
@@ -157,11 +158,11 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              {funcionesActivas && <li><b><u>El periodo de NUEVO INGRESO periodo 26/2 INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              {funcionesActivas && <li><b><u>El periodo de NUEVO INGRESO periodo {ciclo} INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               {funcionesActivas && <li>Si eres de Nuevo Ingreso, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
-              {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo 26/1 TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
-              <li>Si ya tramitaste tienes 10 dias apartir de que aparece impresa para poder recoger.</li>
-              <li>En caso de que tu tramite sea una <u>reposicion</u> sera necesario, acudas directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
+              {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo {ciclo} TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              <li>Si ya tramitaste tienes 10 dias apartir de que aparece <b>"IMPRESA"</b> o de haber recibido el correo de <b>"Tu credencial esta lista para recoger"</b> para poder recoger.</li>
+              <li>En caso de que tu tramite sea una <b>"reposicion"</b>, deberas acudir directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>
             </ul>
           </div>
         </motion.div>
