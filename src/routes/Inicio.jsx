@@ -108,6 +108,9 @@ const Inicio = ({ formNi, closeForm }) => {
                   ))
                 }
               </div>
+              <div className="info-matched" style={{ display: 'flex', justifyContent: 'center' }}>
+                <button onClick={() => { setSendSolicitud(false); setUser({}); localStorage.removeItem('user'); localStorage.removeItem('sendSolicitud') }} className='btn-login' style={{ margin: '15px auto' }}>Dejar de dar Seguimiento a mi credencial</button>
+              </div>
             </div>
           }
         </AnimatePresence>
