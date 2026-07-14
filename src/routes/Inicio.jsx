@@ -15,8 +15,8 @@ import CardInfo from '../Componentes/CardInfo';
 
 const Inicio = ({ formNi, closeForm }) => {
   // Configuración de rango de fechas para habilitar funciones
-  const FECHA_INICIO = new Date('2026-03-14'); // Cambiar a tu fecha de inicio
-  const FECHA_FIN = new Date('2026-03-31'); // Cambiar a tu fecha de fin
+  const FECHA_INICIO = new Date('2026-07-17'); // Cambiar a tu fecha de inicio
+  const FECHA_FIN = new Date('2026-07-31'); // Cambiar a tu fecha de fin
   const hoy = new Date();
   const funcionesActivas = hoy >= FECHA_INICIO && hoy <= FECHA_FIN;
   const ciclo = '26/2';
