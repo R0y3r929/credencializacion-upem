@@ -10,7 +10,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
     const validaNotNewIngreso = (matricula) => {
         const prefix = matricula.substring(0, 3);
         console.log('Prefix de matrícula:', prefix);
-        return prefix !== '261'; // true si NO es nuevo ingreso
+        return prefix !== '271'; // true si NO es nuevo ingreso
     };
 
     const [response, setResponse] = useState(null);

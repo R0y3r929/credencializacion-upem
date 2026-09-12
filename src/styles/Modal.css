@@ -32,11 +32,11 @@
 .ventana{
 	/*position:absolute;*/
 	width: 80%;
-	height: 50%;
+	height: 90%;
 	overflow-y: scroll;
 	background-color: #FFF;
 	border:solid #666 5px;
-	top:30%;
+	top:40%;
 	left:50%;
 	padding: 2rem;
 }

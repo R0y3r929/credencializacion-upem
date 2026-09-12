@@ -15,11 +15,11 @@ import CardInfo from '../Componentes/CardInfo';
 
 const Inicio = ({ formNi, closeForm }) => {
   // Configuración de rango de fechas para habilitar funciones
-  const FECHA_INICIO = new Date('2026-07-17'); // Cambiar a tu fecha de inicio
-  const FECHA_FIN = new Date('2026-07-31'); // Cambiar a tu fecha de fin
+  const FECHA_INICIO = new Date('2026-08-08'); // Cambiar a tu fecha de inicio
+  const FECHA_FIN = new Date('2026-10-26'); // Cambiar a tu fecha de fin
   const hoy = new Date();
   const funcionesActivas = hoy >= FECHA_INICIO && hoy <= FECHA_FIN;
-  const ciclo = '26/2';
+  const ciclo = '27/1';
 
   const rescuperaSendSolicitud = localStorage.getItem('sendSolicitud');
   const recoveryUser = localStorage.getItem('solicitante');
@@ -62,9 +62,15 @@ const Inicio = ({ formNi, closeForm }) => {
         <AnimatePresence>
           {funcionesActivas && (
             <>
-              <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> Si no quieres cambiar de foto acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
-              <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
-              <motion.span className="text-descript" custom={{ delay: (5 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸puedes solicitarlo <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
+              <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <legend>Renovaciones</legend>
+                <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> 🔸<u>Si no quieres cambiar de foto</u> acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+              </fieldset>
+              <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <legend>Nuevo Ingreso</legend>
+                <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
+                <motion.span className="text-descript" custom={{ delay: (5 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Puedes realizar el tramite <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
+              </fieldset>
             </>
           )}
           {sendSolicitud ?
@@ -114,7 +120,7 @@ const Inicio = ({ formNi, closeForm }) => {
             </div>
           }
         </AnimatePresence>
-      </div>
+      </div >
       <AnimatePresence mode="wait">
         <motion.div className='content-form'
           initial={{ y: 20, opacity: 0 }}
@@ -125,32 +131,36 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
-      {modalOpen && !sendSolicitud ? (
-        <Modal onClose={() => setModalOpen(false)}>
-          <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser} />
-        </Modal>
-      ) : null}
-      {formNi ? (
-        <Modal onClose={closeForm}>
-          <div className='form-NuevoIngreso'>
-            <h2>Credenciales Nuevo Ingreso</h2>
-            <div className='content-chips-carreras'>
-              <ChipsCarreras selectedCarrera={selectedCarrera} setSelectedCarrera={setSelectedCarrera} setFiltroNi={setFiltroNi} />
+      {
+        modalOpen && !sendSolicitud ? (
+          <Modal onClose={() => setModalOpen(false)}>
+            <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser} />
+          </Modal>
+        ) : null
+      }
+      {
+        formNi ? (
+          <Modal onClose={closeForm}>
+            <div className='form-NuevoIngreso'>
+              <h2>Credenciales Nuevo Ingreso</h2>
+              <div className='content-chips-carreras'>
+                <ChipsCarreras selectedCarrera={selectedCarrera} setSelectedCarrera={setSelectedCarrera} setFiltroNi={setFiltroNi} />
+              </div>
+              <div className="regs-match-filtro">
+                {
+                  (selectedCarrera != null) ? (
+                    <fieldset className='fieldset-table-ni'>
+                      <legend>Mostrando: {filtroNi.length} credenciales tramitadas de "{selectedCarrera}"</legend>
+                      <TableNi alumnos={filtroNi} />
+                    </fieldset>
+                  )
+                    : ''
+                }
+              </div>
             </div>
-            <div className="regs-match-filtro">
-              {
-                (selectedCarrera != null) ? (
-                  <fieldset className='fieldset-table-ni'>
-                    <legend>Mostrando: {filtroNi.length} credenciales tramitadas de "{selectedCarrera}"</legend>
-                    <TableNi alumnos={filtroNi} />
-                  </fieldset>
-                )
-                  : ''
-              }
-            </div>
-          </div>
-        </Modal>
-      ) : ''}
+          </Modal>
+        ) : ''
+      }
       <AnimatePresence mode="wait">
         <motion.div className='content-avisos'
           initial={{ y: 30, opacity: 0 }}
@@ -161,7 +171,7 @@ const Inicio = ({ formNi, closeForm }) => {
           <h3>AVISOS</h3>
           <div className="box-items-aviso">
             <ul>
-              {funcionesActivas && <li><b><u>El periodo de NUEVO INGRESO periodo {ciclo} INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
+              {funcionesActivas && <li><b><u>El periodo de CREDENCIALIZACION NUEVO INGRESO y RENOVACIONES ciclo: {ciclo} INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               {funcionesActivas && <li>Si eres de Nuevo Ingreso, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
               {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo {ciclo} TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece <b>"IMPRESA"</b> o de haber recibido el correo de <b>"Tu credencial esta lista para recoger"</b> para poder recoger.</li>
