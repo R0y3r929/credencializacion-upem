@@ -69,19 +69,20 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             ...dataSolicitud,
             [e.target.name]: (e.target.value).toUpperCase()
         });
-        /*if (e.target.name === 'Matricula') {                      
+        if (e.target.name === 'Matricula') {
             if (e.target.value.length === 9) {
                 const isNotNewIngreso = validaNotNewIngreso(e.target.value);
-                if (!isNotNewIngreso) { // Es nuevo ingreso
-                    alert("El periodo de credencializacion para Nuevo Ingreso 26/1 termino!!.");
+                console.log('Es nuevo ingreso:', !isNotNewIngreso);
+                if (isNotNewIngreso) { // (!isNotNewIngreso) - Valida Renovaciones, NO es nuevo ingreso || (isNotNewIngreso) - Valida Nuevo Ingreso No es Renovacion
+                    alert("La matricula ingresada  no corresponde a un alumno de nuevo ingreso. Actualmente solo se aceptan solicitudes de nuevos ingresos, permanece atento al calendario de Renovaciones.");
                     setDataSolicitud({
                         ...dataSolicitud,
                         [e.target.name]: ''
                     });
                     cerrar(false);
                 }
-            }                        
-        }*/
+            }
+        }
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
