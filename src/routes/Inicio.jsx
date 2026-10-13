@@ -64,7 +64,7 @@ const Inicio = ({ formNi, closeForm }) => {
             <>
               <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <legend>Renovaciones</legend>
-                <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u><a href="https://forms.gle/4z7WfsjcSU67oCxM7">pulsa aqui</a> o pulsa el boton abajo,<br /> 🔸<u>Si no quieres cambiar de foto</u> acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+                <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u>, llena el formulario en las fechas correspondientes!!<br /> 🔸<u>Si no quieres cambiar de foto</u> acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
               </fieldset>
               <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <legend>Nuevo Ingreso</legend>
@@ -172,7 +172,8 @@ const Inicio = ({ formNi, closeForm }) => {
           <div className="box-items-aviso">
             <ul>
               {funcionesActivas && <li><b><u>El periodo de CREDENCIALIZACION NUEVO INGRESO y RENOVACIONES ciclo: {ciclo} INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
-              {funcionesActivas && <li>Si eres de Nuevo Ingreso, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
+              {funcionesActivas && <li>Si eres de <u>Nuevo Ingreso</u>, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
+              {funcionesActivas && <li>Si eres de <u>Renovación</u> y quieres cambiar tu foto, espera las fechas correspondientes <b>(25/10/2026 al 30/11/2026).</b></li>}
               {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo {ciclo} TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece <b>"IMPRESA"</b> o de haber recibido el correo de <b>"Tu credencial esta lista para recoger"</b> para poder recoger.</li>
               <li>En caso de que tu tramite sea una <b>"reposicion"</b>, deberas acudir directamente al area de Sistemas en Plantel A, con la copia de tu recibo de pago en caso de haber pagado con algun otro concepto, original si solo pagaste credencial!!</li>

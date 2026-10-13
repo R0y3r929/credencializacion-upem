@@ -172,6 +172,9 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                             <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{ border: '1px solid red' }} />
                         </div>
                     </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', backgroundColor: '#cac9c9', paddingTop: '5px', borderRadius: '5px' }}>
+                        <span style={{ color: 'red', fontSize: '12px', fontWeight: 'bold' }}>**NOTA: Trata de que la foto sea cuadrada (formato 1:1 en la configuracion de tu camara), ademas de estar bien iluminada.</span>
+                    </div>
                     <button className='btn btn-login'>{(dataSolicitud.status) ? 'Enviando espere..' : 'Solicitar'}</button>
                 </form>
                 {response && <p>{response.status}</p>}
