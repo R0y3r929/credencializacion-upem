@@ -43,40 +43,50 @@ const FormSolicitud = ({ cerrar, setUser }) => {
         const fileList = document.getElementById('Foto').files;
         if (fileList.length === 0) {
             alert("No se ha seleccionado ninguna foto.");
-            return;
+            return false;
         }
 
         const photo = fileList[0];
         const reader = new FileReader();
 
-        reader.onload = async function (e) {
-            const rawLog = e.target.result.split(',')[1]; // solo la parte base64
+        return new Promise((resolve) => {
+            reader.onload = async (e) => {
+                const rawLog = e.target.result.split(',')[1]; // solo la parte base64
 
-            const dataSend = {
-                fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
-                dataReq: {
-                    data: rawLog,
-                    name: matricula,
-                    type: photo.type
+                const dataSend = {
+                    fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
+                    dataReq: {
+                        data: rawLog,
+                        name: matricula,
+                        type: photo.type
+                    }
+                };
+
+                try {
+                    const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
+                        method: 'POST',
+                        body: JSON.stringify(dataSend)
+                    });
+
+                    const data = await res.json();
+                    console.log(data);
+                    resolve(data?.success === true);
+                } catch (error) {
+                    console.error("Error al subir foto:", error);
+                    resolve(false);
+                } finally {
+                    setPhotoUrl('');
                 }
             };
 
-            try {
-                const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
-                    method: 'POST',
-                    body: JSON.stringify(dataSend)
-                });
-
-                const data = await res.json();
-                console.log(data);
-            } catch (error) {
-                console.error("Error al subir foto:", error);
-            } finally {
+            reader.onerror = () => {
+                console.error("Error al leer la foto.");
                 setPhotoUrl('');
-            }
-        };
+                resolve(false);
+            };
 
-        reader.readAsDataURL(photo);
+            reader.readAsDataURL(photo);
+        });
     };
 
     const handleChange = (e) => {
@@ -114,7 +124,13 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             nombre: solicitud.Nombre,
             carrera: solicitud.Carrera
         })
-        await uploadPhoto(solicitud.Matricula);
+        const photoUploaded = await uploadPhoto(solicitud.Matricula);
+        /*if (!photoUploaded) {
+            setDataSolicitud({ ...solicitud, status: false });
+            alert("No se pudo confirmar la subida de la foto. La solicitud no fue enviada.");
+            return;
+        }*/
+
         try {
             const url = `${Constantes.RUTA_GOOGLE_DRIVE}`;
             const payload = {
