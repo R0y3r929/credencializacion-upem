@@ -42,11 +42,14 @@ const FormSolicitud = ({ cerrar, setUser }) => {
     const uploadPhoto = async (matricula) => {
         const fileList = document.getElementById('Foto').files;
         if (fileList.length === 0) {
-            alert("No se ha seleccionado ninguna foto.");
             return false;
         }
 
         const photo = fileList[0];
+        if (photo.size > 10 * 1024 * 1024) {
+            return 'too-large';
+        }
+
         const reader = new FileReader();
 
         return new Promise((resolve) => {
@@ -124,12 +127,12 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             nombre: solicitud.Nombre,
             carrera: solicitud.Carrera
         })
-        const photoUploaded = await uploadPhoto(solicitud.Matricula);
-        /*if (!photoUploaded) {
+        const photoUploadResult = await uploadPhoto(solicitud.Matricula);
+        if (photoUploadResult === 'too-large') {
             setDataSolicitud({ ...solicitud, status: false });
-            alert("No se pudo confirmar la subida de la foto. La solicitud no fue enviada.");
+            alert("La foto no puede pesar más de 10 MB. Selecciona una imagen más pequeña.");
             return;
-        }*/
+        }
 
         try {
             const url = `${Constantes.RUTA_GOOGLE_DRIVE}`;
