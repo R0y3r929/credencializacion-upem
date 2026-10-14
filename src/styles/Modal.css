@@ -25,6 +25,29 @@
 .modal-content{
 	margin-bottom: 2rem;
 }
+.response-success{
+	width: min(100%, 48rem);
+	min-height: 60vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+}
+.response-success h3,
+.response-success p,
+.response-success span{
+	margin: 0;
+}
+.response-success p{
+	color: #666;
+}
+.response-success span{
+	color: #666;
+	font-style: italic;
+}
 .modal-footer{
 	display: flex;
 	justify-content: center;

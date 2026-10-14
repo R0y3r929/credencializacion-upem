@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Constantes from '../Constantes';
 import { Modal } from './Modal';
 import instruct_pict from '/instruc_pict_alumno.png';
@@ -14,6 +14,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
     };
 
     const [response, setResponse] = useState(null);
+    const [secondsRemaining, setSecondsRemaining] = useState(10);
     const [photoUrl, setPhotoUrl] = useState('');
     const [dataSolicitud, setDataSolicitud] = useState({
         Matricula: '',
@@ -23,6 +24,21 @@ const FormSolicitud = ({ cerrar, setUser }) => {
         F_Solicitud: new Date().toISOString().split('T')[0],
         status: false
     });
+
+    useEffect(() => {
+        if (response?.status !== 'OK') return;
+
+        setSecondsRemaining(10);
+        const countdown = setInterval(() => {
+            setSecondsRemaining((seconds) => Math.max(seconds - 1, 0));
+        }, 1000);
+        const closeModal = setTimeout(() => cerrar(false), 10000);
+
+        return () => {
+            clearInterval(countdown);
+            clearTimeout(closeModal);
+        };
+    }, [response, cerrar]);
     const uploadPhoto = async (matricula) => {
         const fileList = document.getElementById('Foto').files;
         if (fileList.length === 0) {
@@ -53,7 +69,6 @@ const FormSolicitud = ({ cerrar, setUser }) => {
 
                 const data = await res.json();
                 console.log(data);
-
             } catch (error) {
                 console.error("Error al subir foto:", error);
             } finally {
@@ -134,10 +149,6 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                 status: false
             });
             guardaSendSolicitud();
-            setTimeout(() => {
-                setResponse(null);
-                cerrar(false);
-            }, 10000);
         }
     };
 
@@ -182,8 +193,9 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                     <Modal onClose={() => cerrar(false)}>
                         <div className='response-success'>
                             <h3>Solicitud Enviada Correctamente ✅</h3>
-                            <p style={{ color: 'GrayText', marginTop: '35px' }}>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
-                            <p style={{ color: 'GrayText' }}>También puedes revisar el status a través de esta página a partir de mañana</p>
+                            <p>Tu solicitud ha sido enviada con éxito. Nos pondremos en contacto contigo pronto.</p>
+                            <p>También puedes revisar el status a través de esta página a partir de mañana</p>
+                            <span>Este mensaje se cerrará automáticamente en {secondsRemaining} segundos.</span>
                         </div>
                     </Modal>
                 )}

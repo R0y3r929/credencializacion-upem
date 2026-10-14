@@ -132,7 +132,7 @@ const Inicio = ({ formNi, closeForm }) => {
         </motion.div>
       </AnimatePresence>
       {
-        modalOpen && !sendSolicitud ? (
+        modalOpen ? (
           <Modal onClose={() => setModalOpen(false)}>
             <FormSolicitud cerrar={setModalOpen} setSendSolicitud={setSendSolicitud} setUser={setUser} />
           </Modal>
