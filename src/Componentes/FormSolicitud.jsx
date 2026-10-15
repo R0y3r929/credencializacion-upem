@@ -50,6 +50,16 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             return 'too-large';
         }
 
+        // --- Limpieza y formateo seguro del nombre del archivo ---
+        const extension = photo.name.split('.').pop() || 'jpg';
+        let nombreLimpio = String(matricula).trim()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-zA-Z0-9_-]/g, "_");
+
+        const finalFileName = `${nombreLimpio}_${Date.now()}.${extension}`;
+        // --------------------------------------------------------
+
         const reader = new FileReader();
 
         return new Promise((resolve) => {
@@ -57,10 +67,10 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                 const rawLog = e.target.result.split(',')[1]; // solo la parte base64
 
                 const dataSend = {
-                    fname: "uploadFilesToGoogleDrive", // 👈 EXACTO como en tu switch
+                    fname: "uploadFilesToGoogleDrive",
                     dataReq: {
                         data: rawLog,
-                        name: matricula,
+                        name: finalFileName, // Usamos el nombre limpio y seguro
                         type: photo.type
                     }
                 };
@@ -68,12 +78,23 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                 try {
                     const res = await fetch(Constantes.RUTA_UPLOAD_PHOTO, {
                         method: 'POST',
+                        headers: {
+                            'Content-Type': 'text/plain;charset=utf-8', // Vital para evitar conflictos de CORS en Google
+                        },
                         body: JSON.stringify(dataSend)
                     });
 
-                    const data = await res.json();
-                    console.log(data);
-                    resolve(data?.success === true);
+                    let data;
+                    try {
+                        data = await res.json();
+                        console.log("respuesta AppsScript:", data);
+                    } catch (parseError) {
+                        console.error("No se pudo leer la respuesta de Apps Script:", parseError);
+                        resolve(false);
+                        return;
+                    }
+
+                    resolve(data?.status === 'ok' && data?.success === true);
                 } catch (error) {
                     console.error("Error al subir foto:", error);
                     resolve(false);
@@ -127,10 +148,15 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             nombre: solicitud.Nombre,
             carrera: solicitud.Carrera
         })
-        const photoUploadResult = await uploadPhoto(solicitud.Matricula);
+        const photoUploadResult = await uploadPhoto(`${solicitud.Matricula}_${solicitud.Nombre.replace(/\s+/g, '_')}`);
         if (photoUploadResult === 'too-large') {
             setDataSolicitud({ ...solicitud, status: false });
             alert("La foto no puede pesar más de 10 MB. Selecciona una imagen más pequeña.");
+            return;
+        }
+        if (photoUploadResult !== true) {
+            setDataSolicitud({ ...solicitud, status: false });
+            alert("No se confirmó la subida de la foto. La solicitud no fue enviada.");
             return;
         }
 
@@ -205,7 +231,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', backgroundColor: '#cac9c9', paddingTop: '5px', borderRadius: '5px' }}>
                         <span style={{ color: 'red', fontSize: '12px', fontWeight: 'bold' }}>**NOTA: Trata de que la foto sea cuadrada (formato 1:1 en la configuracion de tu camara), ademas de estar bien iluminada.</span>
                     </div>
-                    <button className='btn btn-login'>{(dataSolicitud.status) ? 'Enviando espere..' : 'Solicitar'}</button>
+                    <button className='btn btn-login' disabled={(dataSolicitud.status)}> {(dataSolicitud.status) ? 'Enviando espere..' : 'Solicitar'}</button>
                 </form>
                 {response && <p>{response.status}</p>}
                 {response !== null && response.status === 'OK' && (
