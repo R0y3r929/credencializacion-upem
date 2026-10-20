@@ -97,7 +97,10 @@ const Inicio = ({ formNi, closeForm }) => {
             )
           }
           {user && sendSolicitud && (
-            <Timelineprocess user={user} />
+            <>
+              <Timelineprocess user={user} />
+              <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>{`"Recuerda que el status de tu credencial se actualiza diariamente, si no cambia de "Por procesar" en 48hrs es probable que haya sido rechazada."`} </span>
+            </>
           )}
           {matchedUser && sendSolicitud &&
             <div className='info-matched'>
