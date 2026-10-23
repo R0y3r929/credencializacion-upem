@@ -42,6 +42,7 @@ const Inicio = ({ formNi, closeForm }) => {
 
   const pointsReview = [{ title: 'Actualización diaria', point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { title: 'Tramite Pendiente', point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { title: 'Renovación', point: 'Para renovar tu credencial con nueva fotografía, completa el formulario.' }];
   const iconsPoints = ['time', 'Alert', 'reload'];
+  const [avisoOpen, setAvisoOpen] = useState(true);
   useEffect(() => {
     if (rescuperaSendSolicitud && rescuperaSendSolicitud === 'true') {
       setSendSolicitud(true);
@@ -134,6 +135,28 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
+      {avisoOpen && (
+        <Modal onClose={() => setAvisoOpen(false)}>
+          <div className="aviso-credencializacion">
+            <h2>Aviso importante</h2>
+            <p>
+              La entrega de credenciales programada para hoy, 23 de octubre de 2026,
+              se pospone por razones ajenas a la institución. Mantente pendiente
+              de los próximos avisos para conocer la nueva fecha.
+            </p>
+            <p>
+              Si eres alumno de nuevo ingreso y aún no has realizado tu trámite,
+              todavía puedes hacerlo hasta el 25 de octubre de 2026.
+            </p>
+            <p>
+              🔸NOTA: Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
+            </p>
+            <button className="btn-login" onClick={() => setAvisoOpen(false)}>
+              Entendido
+            </button>
+          </div>
+        </Modal>
+      )}
       {
         modalOpen ? (
           <Modal onClose={() => setModalOpen(false)}>
