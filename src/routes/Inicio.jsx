@@ -93,7 +93,7 @@ const Inicio = ({ formNi, closeForm }) => {
             </div>)
             :
             funcionesActivas ? (
-              <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }}>{`SOLICITAR CREDENCIAL AQUI!!`}</button>
+              <button onClick={() => { setModalOpen(true) }} className='btn-login' style={{ margin: '15px auto' }}>{`SOLICITAR RENOVACION AQUI!!`}</button>
             ) : (
               <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>{`"El ciclo ${ciclo} de credencialización ya terminó. ¡Gracias por mandar tu solicitud a tiempo!"`} </span>
             )
