@@ -66,12 +66,13 @@ const Inicio = ({ formNi, closeForm }) => {
               <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <legend>Renovaciones</legend>
                 <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u>, llena el formulario en las fechas correspondientes!!<br /> 🔸<u>Si no quieres cambiar de foto</u> acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
+                <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
               </fieldset>
-              <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              {/*<fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <legend>Nuevo Ingreso</legend>
                 <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si eres de <u>Nuevo Ingreso</u> y aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
                 <motion.span className="text-descript" custom={{ delay: (5 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Puedes realizar el tramite <b>una sola vez</b> dando click en el boton que aparece abajo.</motion.span>
-              </fieldset>
+              </fieldset>*/}
             </>
           )}
           {sendSolicitud ?
@@ -135,28 +136,30 @@ const Inicio = ({ formNi, closeForm }) => {
           <FormAlumno />
         </motion.div>
       </AnimatePresence>
-      {avisoOpen && (
-        <Modal onClose={() => setAvisoOpen(false)}>
-          <div className="aviso-credencializacion">
-            <h2>Aviso importante</h2>
-            <p>
-              La entrega de credenciales programada para hoy, 23 de octubre de 2026,
-              se pospone por razones ajenas a la institución. Mantente pendiente
-              de los próximos avisos para conocer la nueva fecha.
-            </p>
-            <p>
-              Si eres alumno de nuevo ingreso y aún no has realizado tu trámite,
-              todavía puedes hacerlo hasta el 25 de octubre de 2026.
-            </p>
-            <p>
-              🔸NOTA: Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
-            </p>
-            <button className="btn-login" onClick={() => setAvisoOpen(false)}>
-              Entendido
-            </button>
-          </div>
-        </Modal>
-      )}
+      {
+        avisoOpen && (
+          <Modal onClose={() => setAvisoOpen(false)}>
+            <div className="aviso-credencializacion">
+              <h2>Aviso importante</h2>
+              <p>
+                La entrega de credenciales programada para hoy, 23 de octubre de 2026,
+                se pospone por razones ajenas a la institución. Mantente pendiente
+                de los próximos avisos para conocer la nueva fecha.
+              </p>
+              <p>
+                Si eres alumno de nuevo ingreso y aún no has realizado tu trámite,
+                todavía puedes hacerlo hasta el 25 de octubre de 2026.
+              </p>
+              <p>
+                🔸NOTA: Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
+              </p>
+              <button className="btn-login" onClick={() => setAvisoOpen(false)}>
+                Entendido
+              </button>
+            </div>
+          </Modal>
+        )
+      }
       {
         modalOpen ? (
           <Modal onClose={() => setModalOpen(false)}>
