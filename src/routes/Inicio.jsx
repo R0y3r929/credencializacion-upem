@@ -201,7 +201,7 @@ const Inicio = ({ formNi, closeForm }) => {
           <div className="box-items-aviso">
             <ul>
               {funcionesActivas && <li><b><u>El periodo de CREDENCIALIZACION NUEVO INGRESO y RENOVACIONES ciclo: {ciclo} INICIA!!</u></b>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
-              {funcionesActivas && <li>Si eres de <u>Nuevo Ingreso</u>, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>}
+              {/*funcionesActivas && <li>Si eres de <u>Nuevo Ingreso</u>, tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para tramitar tu credencial.</li>*/}
               {funcionesActivas && <li>Si eres de <u>Renovación</u> y quieres cambiar tu foto, espera las fechas correspondientes <b>(25/10/2026 al 30/11/2026).</b></li>}
               {!funcionesActivas && <li><u>El periodo de RENOVACIONES | NUEVO INGRESO ciclo {ciclo} TERMINO!!</u>, Mantente pendiente si ya tramitaste y estas pendiente de entrega.</li>}
               <li>Si ya tramitaste tienes 10 dias apartir de que aparece <b>"IMPRESA"</b> o de haber recibido el correo de <b>"Tu credencial esta lista para recoger"</b> para poder recoger.</li>
