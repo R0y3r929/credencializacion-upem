@@ -122,8 +122,8 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             if (e.target.value.length === 9) {
                 const isNotNewIngreso = validaNotNewIngreso(e.target.value);
                 console.log('Es nuevo ingreso:', !isNotNewIngreso);
-                if (isNotNewIngreso) { // (!isNotNewIngreso) - Valida Renovaciones, NO es nuevo ingreso || (isNotNewIngreso) - Valida Nuevo Ingreso No es Renovacion
-                    alert("La matricula ingresada  no corresponde a un alumno de nuevo ingreso. Actualmente solo se aceptan solicitudes de nuevos ingresos, permanece atento al calendario de Renovaciones.");
+                if (!isNotNewIngreso) { // (!isNotNewIngreso) - Valida Renovaciones, NO es nuevo ingreso || (isNotNewIngreso) - Valida Nuevo Ingreso No es Renovacion
+                    alert("La matricula ingresada  no corresponde a un alumno de RENOVACION. Actualmente solo se aceptan solicitudes de RENOVACION.");
                     setDataSolicitud({
                         ...dataSolicitud,
                         [e.target.name]: ''
