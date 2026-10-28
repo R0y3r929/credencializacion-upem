@@ -255,7 +255,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                         <div className='input-group'>
                             <label>Foto del Alumno</label>
                             <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 }}>
+                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0, color: 'white', backgroundColor: '#007bff' }}>
                                     Subir del álbum
                                     <input
                                         type='file'
@@ -267,7 +267,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                                         style={{ display: 'none' }}
                                     />
                                 </label>
-                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 }}>
+                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 color: 'white', backgroundColor: '#007bff' }}>
                                     Abrir cámara
                                     <input
                                         type='file'
