@@ -267,7 +267,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                                         style={{ display: 'none' }}
                                     />
                                 </label>
-                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 color: 'white', backgroundColor: '#007bff' }}>
+                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0, color: 'white', backgroundColor: '#007bff' }}>
                                     Abrir cámara
                                     <input
                                         type='file'
