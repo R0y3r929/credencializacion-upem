@@ -222,7 +222,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                     <div className='cont-file-pict-form'>
                         <div className='input-group'>
                             <label htmlFor="Foto_Alumno">Foto del Alumno</label>
-                            <input type="file" name="Foto" id="Foto" accept="image/*" required style={{ height: 'auto' }} />
+                            <input type="file" name="Foto" id="Foto" accept="image/*" capture="environment" required style={{ height: 'auto' }} />
                         </div>
                         <div className='input-group'>
                             <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{ border: '1px solid red' }} />
