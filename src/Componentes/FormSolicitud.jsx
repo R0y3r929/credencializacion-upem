@@ -16,6 +16,7 @@ const FormSolicitud = ({ cerrar, setUser }) => {
     const [response, setResponse] = useState(null);
     const [secondsRemaining, setSecondsRemaining] = useState(10);
     const [photoUrl, setPhotoUrl] = useState('');
+    const [photoFile, setPhotoFile] = useState(null);
     const [dataSolicitud, setDataSolicitud] = useState({
         Matricula: '',
         Nombre: '',
@@ -40,12 +41,11 @@ const FormSolicitud = ({ cerrar, setUser }) => {
         };
     }, [response, cerrar]);
     const uploadPhoto = async (matricula) => {
-        const fileList = document.getElementById('Foto').files;
-        if (fileList.length === 0) {
+        if (!photoFile) {
             return false;
         }
 
-        const photo = fileList[0];
+        const photo = photoFile;
         if (photo.size > 10 * 1024 * 1024) {
             return 'too-large';
         }
@@ -142,6 +142,11 @@ const FormSolicitud = ({ cerrar, setUser }) => {
             status: true
         };
 
+        if (!photoFile) {
+            alert("Selecciona una foto del álbum o toma una con la cámara.");
+            return;
+        }
+
         setDataSolicitud(solicitud);
         setUser({
             matricula: solicitud.Matricula,
@@ -197,6 +202,33 @@ const FormSolicitud = ({ cerrar, setUser }) => {
         }
     };
 
+    const handlePhotoChange = (e) => {
+        const photo = e.target.files?.[0] || null;
+
+        if (!photo) {
+            setPhotoFile(null);
+            setPhotoUrl('');
+            return;
+        }
+
+        if (photo.size > 10 * 1024 * 1024) {
+            alert("La foto no puede pesar más de 10 MB. Selecciona una imagen más pequeña.");
+            e.target.value = '';
+            setPhotoFile(null);
+            setPhotoUrl('');
+            return;
+        }
+
+        setPhotoFile(photo);
+        setPhotoUrl(URL.createObjectURL(photo));
+    };
+
+    useEffect(() => {
+        return () => {
+            if (photoUrl) URL.revokeObjectURL(photoUrl);
+        };
+    }, [photoUrl]);
+
     return (
         <div className='form-solicitud-container'>
             <div className='form-solicitud-wrapper'>
@@ -221,8 +253,41 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                     </div>
                     <div className='cont-file-pict-form'>
                         <div className='input-group'>
-                            <label htmlFor="Foto_Alumno">Foto del Alumno</label>
-                            <input type="file" name="Foto" id="Foto" accept="image/*" capture="environment" required style={{ height: 'auto' }} />
+                            <label>Foto del Alumno</label>
+                            <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 }}>
+                                    Subir del álbum
+                                    <input
+                                        type='file'
+                                        name='FotoAlbum'
+                                        id='FotoAlbum'
+                                        accept='image/*'
+                                        required={!photoFile}
+                                        onChange={handlePhotoChange}
+                                        style={{ display: 'none' }}
+                                    />
+                                </label>
+                                <label className='btn btn-login' style={{ cursor: 'pointer', margin: 0 }}>
+                                    Abrir cámara
+                                    <input
+                                        type='file'
+                                        name='FotoCamara'
+                                        id='FotoCamara'
+                                        accept='image/*'
+                                        capture='environment'
+                                        required={!photoFile}
+                                        onChange={handlePhotoChange}
+                                        style={{ display: 'none' }}
+                                    />
+                                </label>
+                            </div>
+                            {photoUrl && (
+                                <img
+                                    src={photoUrl}
+                                    alt='Vista previa de la foto seleccionada'
+                                    style={{ width: '180px', height: '180px', objectFit: 'cover', marginTop: '10px', borderRadius: '5px', border: '1px solid #999' }}
+                                />
+                            )}
                         </div>
                         <div className='input-group'>
                             <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{ border: '1px solid red' }} />
