@@ -26,8 +26,8 @@ const Inicio = ({ formNi, closeForm }) => {
   const [selectedCarrera, setSelectedCarrera] = useState(null);
   const msjStatus = [
     { 'Por procesar': 'Tu credencial esta por procesarse!!..' },
-    { 'GENERADA': 'Tu credencial ha sido generada, Mantente pendiente pronto aparecera como: "IMPRESA"' },
-    { 'IMPRESA': <>Tu credencial ha sido impresa, Ya puedes recogerla en el Area de Sistemas!! <b>(Recuerda llevar copia de tu recibo de pago)</b></> },
+    { 'GENERADA': 'Tu solicitud ha sido procesada y generada, Mantente pendiente pronto aparecera como: "IMPRESA"' },
+    { 'IMPRESA': <>Tu credencial ha sido impresa, Ya puedes recogerla en el Area de Sistemas!! <b>(Recuerda llevar copia de tu recibo de pago y pluma para firmar)</b></> },
     { 'ENTREGADA': 'Tu credencial ya ha sido entregada!!, si necesitas una reposicion acude al area de Sistemas con tu recibo de pago.' }];
   const [filtroNi, setFiltroNi] = useState([]);
   const { user, setUser, matchedUser, sendSolicitud, setSendSolicitud } = useSolicitante();
@@ -101,12 +101,16 @@ const Inicio = ({ formNi, closeForm }) => {
           {user && sendSolicitud && (
             <>
               <Timelineprocess user={user} />
-              <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>{`"Recuerda que el status de tu credencial se actualiza diariamente, si no cambia de "Por procesar" en 48hrs es probable que haya sido rechazada."`} </span>
+              {user.status === 'Por procesar' && (
+                <span style={{ textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem' }}>{`Recuerda que el status de tu credencial se actualiza diariamente, si no cambia de "Por procesar" en 48hrs es probable que haya sido rechazada."`} </span>
+              )}
             </>
           )}
           {matchedUser && sendSolicitud &&
             <div className='info-matched'>
-              <div className="alert-title-succes">¡Tu registro ya se proceso!</div>
+              {user.status === 'Por procesar' && (
+                <div className="alert-title-succes">¡Tu registro se envio correctamente y esta pendiente de ser procesada en Sistemas..!</div>
+              )}
               <div style={{ color: 'gray', textAlign: 'center' }}>
                 {
                   msjStatus.map((msj) => (

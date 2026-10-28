@@ -310,3 +310,19 @@ body.dark-mode .close-btn-elegant:hover {
     color: #fff;
     border-color: #fff;
 }
+
+@media (max-width: 768px) {
+    .form-alumno-container {
+        padding-top: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .form-login-search-elegant {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .search-title {
+        margin-bottom: 1rem;
+    }
+}
