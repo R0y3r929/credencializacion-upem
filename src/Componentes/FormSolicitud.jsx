@@ -285,11 +285,11 @@ const FormSolicitud = ({ cerrar, setUser }) => {
                                 <img
                                     src={photoUrl}
                                     alt='Vista previa de la foto seleccionada'
-                                    style={{ width: '180px', height: '180px', objectFit: 'cover', marginTop: '10px', borderRadius: '5px', border: '1px solid #999' }}
+                                    style={{ width: '180px', height: '180px', objectFit: 'cover', margin: '10px auto', borderRadius: '5px', border: '1px solid #999' }}
                                 />
                             )}
                         </div>
-                        <div className='input-group'>
+                        <div className='input-group photo-instructions' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', paddingTop: '5px', borderRadius: '5px' }}>
                             <img src={instruct_pict} alt="indicaciones de foto alumnos" style={{ border: '1px solid red' }} />
                         </div>
                     </div>

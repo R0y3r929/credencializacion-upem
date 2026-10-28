@@ -463,6 +463,9 @@ fieldset .form {
   .btn-login {
     width: 370px;
   }
+  .photo-instructions {
+    padding-right: 55px;
+  }
 }
 @media (max-width: 768px) {
   .form-NuevoIngreso > h2 {
