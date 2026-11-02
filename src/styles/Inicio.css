@@ -588,3 +588,27 @@ fieldset .form {
     flex-direction: column;
   }
 }
+
+.busqueda-table-ni {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.busqueda-table-ni label {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.busqueda-table-ni input {
+  flex: 1;
+  min-width: 180px;
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.sin-resultados-ni {
+  padding: 16px !important;
+  color: #666;
+  font-style: italic;
+}

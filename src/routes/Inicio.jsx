@@ -185,7 +185,7 @@ const Inicio = ({ formNi, closeForm }) => {
                   (selectedCarrera != null) ? (
                     <fieldset className='fieldset-table-ni'>
                       <legend>Mostrando: {filtroNi.length} credenciales tramitadas de "{selectedCarrera}"</legend>
-                      <TableNi alumnos={filtroNi} />
+                      <TableNi alumnos={filtroNi} selectedCarrera={selectedCarrera} />
                     </fieldset>
                   )
                     : ''
