@@ -49,21 +49,19 @@ h1 {
   font-size: 0.9em;
   font-style: normal;
   margin: 5px;
-  padding: 2px;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+  padding-inline:8px;
+  padding-block: 3px;
+  border-radius: 35px;
   overflow: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 251, 251);
-  font-weight: bolder;
 }
 .chips:hover {
   cursor: pointer;
 }
 .chips > .status-chips {
   color: rgb(253, 253, 253);
+  font-weight: bolder;
 }
 .activo {
   font-weight: bolder;
@@ -344,7 +342,7 @@ fieldset .form {
   width: 100%;
 }
 .tableMatchs {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
   width: 100%;
   border: 1px solid #000;
@@ -362,17 +360,19 @@ fieldset .form {
   padding: 3px 10px;
   font-size: smaller;
   font-weight: bold;
-  color: #f8f6f6;
-  border-radius: 5%;
+  color: #faf8f8;
+  border-radius: 35px;
 }
 .generada {
   background-color: #eb6f0a;
 }
 .impresa {
-  background-color: #a80815;
+  /*background-color: #0b30d6;*/
+  background-color: #37a007;
 }
 .entregada {
-  background-color: #51eb0a;
+  /*background-color: #37a007;*/
+  background-color: #092cc9;
 }
 .modalidad-ni {
   overflow: hidden;
