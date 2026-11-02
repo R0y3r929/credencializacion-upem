@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/Inicio.css'
 import '../styles/Alert.css'
 import FormAlumno from '../Componentes/FormAlumno'
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, color, motion } from "motion/react";
 import { Modal } from '../Componentes/Modal'
 import ChipsCarreras from '../Componentes/ChipsCarreras'
 import TableNi from '../Componentes/TableNi'
@@ -146,22 +146,23 @@ const Inicio = ({ formNi, closeForm }) => {
             <div className="aviso-credencializacion">
               <h2>Aviso importante</h2>
               <p>
-                La entrega de credenciales programada para hoy, 23 de octubre de 2026,
-                se pospone por razones ajenas a la institución. Mantente pendiente
-                de los próximos avisos para conocer la nueva fecha.
+                La entrega de credenciales, se pospone por razones ajenas a la institución. Mantente pendiente
+                de los próximos avisos para saber cuando se reanude.
               </p>
               <p>
-                Si eres alumno de nuevo ingreso y aún no has realizado tu trámite,
-                todavía puedes hacerlo hasta el 25 de octubre de 2026.
+                Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de octubre de 2026</b>.
               </p>
               <p>
-                🔸NOTA: Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
+                🔸<text style={{ color: 'red' }} > NOTA: </text> Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
+              </p>
+              <p style={{ color: 'gray', fontStyle: 'italic', fontSize: '0.9rem' }}>
+                **Si tienes algun problema con el tramite de tu credencial acude directamente al área de Sistemas para que te puedan ayudar, no olvides llevar tu recibo de pago de credencial.
               </p>
               <button className="btn-login" onClick={() => setAvisoOpen(false)}>
                 Entendido
               </button>
             </div>
-          </Modal>
+          </Modal >
         )
       }
       {

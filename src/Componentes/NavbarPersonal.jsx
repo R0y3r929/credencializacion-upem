@@ -35,7 +35,7 @@ const NavbarPersonal = ({ modal, setModal }) => {
 
                 </div>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <button className='btn-nuevoIngreso' onClick={verFormNuevoIngreso}>Soy de Nuevo Ingreso</button>
+                    <button className='btn-nuevoIngreso' onClick={verFormNuevoIngreso}>Soy de Nuevo Ingreso 27/1</button>
                     <div className="theme-switch-wrapper ms-3">
                         <label className="theme-switch" htmlFor="checkbox">
                             <input type="checkbox" id="checkbox" checked={theme === 'dark'} onChange={toggleTheme} />
