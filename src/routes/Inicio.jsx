@@ -150,7 +150,7 @@ const Inicio = ({ formNi, closeForm }) => {
                 de los próximos avisos para saber cuando se reanude.
               </p>
               <p>
-                Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de octubre de 2026</b>.
+                Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de Noviembre de 2026</b>.
               </p>
               <p>
                 🔸<text style={{ color: 'red' }} > NOTA: </text> Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
