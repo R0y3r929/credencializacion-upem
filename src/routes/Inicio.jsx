@@ -145,14 +145,14 @@ const Inicio = ({ formNi, closeForm }) => {
           <Modal onClose={() => setAvisoOpen(false)}>
             <div className="aviso-credencializacion">
               <h2>Aviso importante</h2>
-              <p>
-                <b>¡¡La entrega de credenciales, se reanuda!!</b><br />
+              <p style={{ lineHeight: '1.5rem', backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}>
+                <text style={{ color: 'green', fontWeight: 'bold', fontSize: '1.2rem' }}>¡¡La entrega de credenciales, se reanuda!!</text><br />
                 🔸Consulta el estatus de tu credencial en la sección de "Seguimiento de Credencial" y acude a recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
               </p>
-              <p>
+              <p style={{ lineHeight: '1.5rem', backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}>
                 Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de Noviembre de 2026</b>.
               </p>
-              <p style={{ color: 'gray', fontStyle: 'italic', fontSize: '0.9rem' }}>
+              <p style={{ color: 'black', fontStyle: 'italic', fontSize: '0.9rem', backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}>
                 **Si tienes algun problema con el tramite de tu credencial acude directamente al área de Sistemas para que te puedan ayudar, no olvides llevar tu recibo de pago de credencial.
               </p>
               <button className="btn-login" onClick={() => setAvisoOpen(false)}>
