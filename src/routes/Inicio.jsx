@@ -40,7 +40,7 @@ const Inicio = ({ formNi, closeForm }) => {
   }
   const [modalOpen, setModalOpen] = useState(false);
 
-  const pointsReview = [{ title: 'Actualización diaria', point: 'El status de las credenciales se actualiza todos los dias a las 18:00 hrs (revisa diariamente)' }, { title: 'Tramite Pendiente', point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { title: 'Renovación', point: 'Para renovar tu credencial con nueva fotografía, completa el formulario.' }];
+  const pointsReview = [{ title: 'Actualización diaria', point: 'El status de las credenciales se actualiza todos los dias (revisa diariamente)' }, { title: 'Tramite Pendiente', point: 'En caso de no haber iniciado tramite no podras darle seguimiento a tu status' }, { title: 'Renovación', point: 'Para renovar tu credencial con nueva fotografía, completa el formulario.' }];
   const iconsPoints = ['time', 'Alert', 'reload'];
   const [avisoOpen, setAvisoOpen] = useState(true);
   useEffect(() => {
@@ -63,7 +63,7 @@ const Inicio = ({ formNi, closeForm }) => {
         <AnimatePresence>
           {funcionesActivas && (
             <>
-              <fieldset style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <fieldset className="renovaciones-fieldset" style={{ marginTop: '1rem', padding: '1rem', borderRadius: '10px', border: '1px solid #ccc', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <legend>Renovaciones</legend>
                 <motion.span className="text-descript" custom={{ delay: (3 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si vas a <u>Renovar tu credencial y quieres cambiar fotografia </u>, llena el formulario en las fechas correspondientes!!<br /> 🔸<u>Si no quieres cambiar de foto</u> acude directamente a Sistemas con copia de tu recibo para tramitar!!</motion.span>
                 <motion.span className="text-descript" custom={{ delay: (4 + 1) * 0.3 }} initial='hidden' animate='visible' exit='hidden' variants={variants}>🔸Si aun no has tramitado tu credencial tienes hasta el <b>{FECHA_FIN.toLocaleDateString()}</b> para solicitarla!!</motion.span>
