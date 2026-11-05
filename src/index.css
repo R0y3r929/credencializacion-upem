@@ -24,11 +24,15 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+}
+
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  display: block;
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--text-color);
