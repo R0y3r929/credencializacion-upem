@@ -146,14 +146,11 @@ const Inicio = ({ formNi, closeForm }) => {
             <div className="aviso-credencializacion">
               <h2>Aviso importante</h2>
               <p>
-                La entrega de credenciales, se pospone por razones ajenas a la institución. Mantente pendiente
-                de los próximos avisos para saber cuando se reanude.
+                <b>¡¡La entrega de credenciales, se reanuda!!</b><br />
+                🔸Consulta el estatus de tu credencial en la sección de "Seguimiento de Credencial" y acude a recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
               </p>
               <p>
                 Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de Noviembre de 2026</b>.
-              </p>
-              <p>
-                🔸<text style={{ color: 'red' }} > NOTA: </text> Si tu credencial fue programada para entrega el 16 de octubre de 2026 o anterior, puedes recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
               </p>
               <p style={{ color: 'gray', fontStyle: 'italic', fontSize: '0.9rem' }}>
                 **Si tienes algun problema con el tramite de tu credencial acude directamente al área de Sistemas para que te puedan ayudar, no olvides llevar tu recibo de pago de credencial.
