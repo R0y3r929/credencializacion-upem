@@ -150,7 +150,7 @@ const Inicio = ({ formNi, closeForm }) => {
                 🔸Consulta el estatus de tu credencial en la sección de "Seguimiento de Credencial" y acude a recogerla en el área de Sistemas, no olvides llevar tu recibo de pago de credencial y pluma para firmar.
               </p>
               <p style={{ lineHeight: '1.5rem', backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}>
-                Si eres <b>Renovación</b> y aun no haz realizado tu trámite, todavía puedes hacerlo hasta el <b>30 de Noviembre de 2026</b>.
+                🔸los dias <b>10 y 11 de Noviembre no habra servicio</b> en el Area de Sistemas.
               </p>
               <p style={{ color: 'black', fontStyle: 'italic', fontSize: '0.9rem', backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}>
                 **Si tienes algun problema con el tramite de tu credencial acude directamente al área de Sistemas para que te puedan ayudar, no olvides llevar tu recibo de pago de credencial.
