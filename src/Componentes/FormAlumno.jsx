@@ -42,7 +42,7 @@ const CardMatch = ({ user, setMatchedUser, guardaSendSolicitud, guardaUser, onCl
         setMatchedUser(true)
         guardaSendSolicitud()
         onClose()
-        
+
         // Timeout para esperar a que React renderice el cambio
         setTimeout(() => {
             const el = document.getElementById('alert-success-box');
@@ -68,7 +68,7 @@ const CardMatch = ({ user, setMatchedUser, guardaSendSolicitud, guardaUser, onCl
                 <motion.div className="info-row" custom={{ delay: 0.3 }} initial='hidden' animate='visible' variants={variants}>
                     <span className="info-label">Status de Trámite</span>
                     <div className={`status-badge ${statusClass}`}>
-                        {user.status === "GENERADA" ? "EN TRAMITE" : user.status}
+                        {user.status === "GENERADA" ? "(EN TRAMITE) | PENDIENTE DE IMPRESIÓN" : user.status}
                     </div>
                 </motion.div>
             </div>
